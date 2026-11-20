@@ -54,6 +54,9 @@ class Scene:
     def __init__(self, sc, start, end):
         self.start, self.end = start, end
         img = Image.open(sc['bild']).convert('RGB')
+        if sc.get('helligkeit', 1.0) != 1.0:   # z. B. 0.7 für sehr helle Zeichnungen
+            img = ImageEnhance.Brightness(img).enhance(sc['helligkeit'])
+            img = ImageEnhance.Color(img).enhance(0.6)
         self.img = img
         iw, ih = img.size
         # größter 4:5-Ausschnitt
@@ -112,18 +115,18 @@ def main(cfg_path):
                     cfg['skript'], cfg['woerter'], ass], check=True)
     if cfg.get('hook'):
         with open(ass, 'r+', encoding='utf-8') as f:
-            txt = f.read().replace('[Events]', '[Events]', 1)
-            txt = txt.replace('Style: Gelb,', 'Style: Hook,Inter ExtraBold,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,18,0,8,90,90,110,1\nStyle: Gelb,', 1)
+            txt = f.read()
+            txt = txt.replace('Style: Gelb,', 'Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1\nStyle: Gelb,', 1)
             txt += f'Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{{\\fad(150,300)}}{cfg["hook"].upper()}\n'
             f.seek(0); f.write(txt); f.truncate()
 
-    vf = (f"noise=alls=7:allf=t,vignette=PI/4.5,"
+    vf = (f"noise=alls=5:allf=t,vignette=PI/4.5,"
           f"fade=t=in:st=0:d=0.4,fade=t=out:st={total - 0.8:.2f}:d=0.8,"
           f"ass={ass},format=yuv420p")
     ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y',
                            '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                            '-i', cfg['audio'], '-vf', vf,
-                           '-c:v', 'libx264', '-preset', 'medium', '-crf', '19', '-profile:v', 'high',
+                           '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-maxrate', '6M', '-bufsize', '12M', '-profile:v', 'high',
                            '-c:a', 'aac', '-b:a', '192k', '-af', 'apad', '-shortest',
                            '-movflags', '+faststart', cfg['ausgabe']], stdin=subprocess.PIPE)
     mask = feather_mask()
