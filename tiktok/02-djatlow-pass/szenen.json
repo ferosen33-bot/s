@@ -1,0 +1,25 @@
+{
+  "skript": "skript.md",
+  "audio": "audio/take1.mp3",
+  "woerter": "audio/take1_words.json",
+  "hook": "Sie flohen ohne Schuhe in den Schnee. Warum?",
+  "ausgabe": "djatlow_pass_tiktok.mp4",
+  "szenen": [
+    {"ab": "Februar 1959.",          "bild": "bilder/01_zelt_2.png",      "von": [0.50, 0.55, 1.00], "nach": [0.42, 0.45, 1.25]},
+    {"ab": "In dieser Nacht",        "bild": "bilder/02_schnitt_4.png",   "von": [0.50, 0.45, 1.20], "nach": [0.50, 0.40, 1.00]},
+    {"ab": "Und rennen hinaus",      "bild": "bilder/03_flucht_3.png",    "von": [0.50, 0.40, 1.00], "nach": [0.45, 0.55, 1.20]},
+    {"ab": "Wochen später",          "bild": "bilder/04_suchtrupp_2.png", "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.60, 1.20]},
+    {"ab": "Spuren führen",          "bild": "bilder/05_spuren_3.png",    "von": [0.50, 0.70, 1.25], "nach": [0.50, 0.40, 1.00]},
+    {"ab": "Unter einer Zeder",      "bild": "bilder/06_zeder_2.png",     "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.70, 1.25]},
+    {"ab": "Doch die letzten",       "bild": "bilder/07_schlucht_4.png",  "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.60, 1.20]},
+    {"ab": "Schädelbrüche.",         "bild": "bilder/08_roentgen_2.png",  "von": [0.50, 0.50, 1.00], "nach": [0.55, 0.25, 1.40]},
+    {"ab": "Und an einigen",         "bild": "bilder/09_geiger_2.png",    "von": [0.45, 0.50, 1.00], "nach": [0.35, 0.50, 1.30]},
+    {"ab": "Die sowjetischen Ermittler", "bild": "bilder/10_akte_2.png",  "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.65, 1.25]},
+    {"ab": "Eine Lawine?",           "bild": "bilder/11_lichter_2.png",   "von": [0.50, 0.60, 1.00], "nach": [0.55, 0.30, 1.25]},
+    {"ab": "2020 erklärt",           "bild": "bilder/12_lawine_1.png",    "von": [0.50, 0.40, 1.15], "nach": [0.50, 0.60, 1.00]},
+    {"ab": "Warum laufen",           "bild": "bilder/03_flucht_4.png",    "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.25]},
+    {"ab": "Und dann ist da",        "bild": "bilder/13_zeitung_3.png",   "von": [0.50, 0.55, 1.00], "nach": [0.50, 0.25, 1.40]},
+    {"ab": "Der Berg heißt",         "bild": "bilder/14_berg_2.png",      "von": [0.50, 0.60, 1.20], "nach": [0.50, 0.40, 1.00]},
+    {"ab": "Was glaubst",            "bild": "bilder/01_zelt_4.png",      "von": [0.50, 0.50, 1.00], "nach": [0.40, 0.50, 1.35]}
+  ]
+}

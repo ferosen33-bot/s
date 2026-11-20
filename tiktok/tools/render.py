@@ -17,7 +17,8 @@ szenen.json:
   ]
 }
 cx/cy = Bildmittelpunkt des Ausschnitts (0..1), zoom = 1 heißt größter
-4:5-Ausschnitt, der ins Bild passt; größer = näher heran.
+Ausschnitt, der ins Bild passt (9:16 bei Hochformat-Bildern, sonst 4:5); größer = näher heran.
+Optional pro Szene: "helligkeit": 0.7 dunkelt sehr helle Bilder ab.
 """
 import json, subprocess, sys, os
 from PIL import Image, ImageFilter, ImageEnhance, ImageDraw
@@ -59,11 +60,14 @@ class Scene:
             img = ImageEnhance.Color(img).enhance(0.6)
         self.img = img
         iw, ih = img.size
-        # größter 4:5-Ausschnitt
-        if iw / ih > FG_W / FG_H:
-            self.bw, self.bh = ih * FG_W / FG_H, ih
+        # Hochformat-Bilder (9:16) füllen das ganze Video, alle anderen kommen
+        # in ein 4:5-Fenster vor einen unscharfen Hintergrund.
+        self.full = iw / ih < 0.7
+        self.out_w, self.out_h = (W, H) if self.full else (FG_W, FG_H)
+        if iw / ih > self.out_w / self.out_h:
+            self.bw, self.bh = ih * self.out_w / self.out_h, ih
         else:
-            self.bw, self.bh = iw, iw * FG_H / FG_W
+            self.bw, self.bh = iw, iw * self.out_h / self.out_w
         self.a, self.b = sc['von'], sc['nach']
         # Hintergrund: Bild füllend, stark unscharf, abgedunkelt
         s = max(W / iw, H / ih)
@@ -82,6 +86,8 @@ class Scene:
         return (x0, y0, x0 + w, y0 + h)
 
     def frame(self, t, mask):
+        if self.full:
+            return self.img.resize((W, H), Image.LANCZOS, box=self.box(t))
         fg = self.img.resize((FG_W, FG_H), Image.LANCZOS, box=self.box(t))
         out = self.bg.copy()
         out.paste(fg, (0, FG_Y), mask)
