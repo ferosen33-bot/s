@@ -11,7 +11,8 @@ def script_words(md):
     body = md.split('## Sprechertext', 1)[1].split('\n---', 1)[0]
     body = '\n'.join(l for l in body.splitlines()[1:] if not l.startswith('#'))
     body = re.sub(r'\[[^\]]*\]', ' ', body)
-    return body.split()
+    # reine Satzzeichen-Token („…“, „—“) nicht als eigenen Untertitel zeigen
+    return [w for w in body.split() if re.search(r'\w', w)]
 
 norm = lambda w: re.sub(r'[^\wäöüß]', '', w.lower())
 
@@ -40,7 +41,8 @@ def chunks(sw, times, max_words=3, max_chars=18):
     for idx, w in enumerate(sw):
         cur.append(idx)
         text = ' '.join(sw[k] for k in cur)
-        end_punct = re.search(r'[.,:;?!…—“"]$', w)
+        # Ordnungszahlen wie „15.“ oder „26.“ sind kein Satzende
+        end_punct = re.search(r'[.,:;?!…—“"]$', w) and not re.fullmatch(r'\d+\.', w)
         if end_punct or len(cur) >= max_words or len(text) >= max_chars:
             out.append(cur); cur = []
     if cur: out.append(cur)

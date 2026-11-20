@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
+Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.45,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN GANZER RAUM.
+Dialogue: 0,0:00:01.84,0:00:03.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WÄNDE AUS BERNSTEIN,
+Dialogue: 0,0:00:03.36,0:00:04.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GOLD UND SPIEGELN.
+Dialogue: 0,0:00:04.74,0:00:05.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER SECHS TONNEN
+Dialogue: 0,0:00:05.98,0:00:06.71,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BERNSTEIN.
+Dialogue: 0,0:00:07.04,0:00:07.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MAN NENNT IHN:
+Dialogue: 0,0:00:07.70,0:00:09.67,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS ACHTE WELTWUNDER.
+Dialogue: 0,0:00:10.44,0:00:11.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND 1945 …
+Dialogue: 0,0:00:11.80,0:00:14.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERSCHWINDET ER SPURLOS.
+Dialogue: 0,0:00:14.86,0:00:15.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS BERNSTEINZIMMER
+Dialogue: 0,0:00:15.82,0:00:16.84,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENTSTEHT ANFANG DES
+Dialogue: 0,0:00:16.84,0:00:17.35,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}18.
+Dialogue: 0,0:00:17.42,0:00:18.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JAHRHUNDERTS IN PREUSSEN.
+Dialogue: 0,0:00:19.22,0:00:20.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}1716 VERSCHENKT DER
+Dialogue: 0,0:00:20.86,0:00:21.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PREUSSISCHE KÖNIG ES
+Dialogue: 0,0:00:21.98,0:00:22.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AN DEN RUSSISCHEN
+Dialogue: 0,0:00:22.70,0:00:23.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZAREN PETER DEN
+Dialogue: 0,0:00:23.68,0:00:24.25,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GROSSEN.
+Dialogue: 0,0:00:24.64,0:00:25.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPÄTER FUNKELT ES
+Dialogue: 0,0:00:25.66,0:00:26.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IM KATHARINENPALAST
+Dialogue: 0,0:00:26.68,0:00:27.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BEI SANKT PETERSBURG.
+Dialogue: 0,0:00:27.48,0:00:29.26,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DANN KOMMT DER
+Dialogue: 0,0:00:29.26,0:00:30.47,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZWEITE WELTKRIEG.
+Dialogue: 0,0:00:30.90,0:00:33.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}1941 ERREICHEN DEUTSCHE
+Dialogue: 0,0:00:33.12,0:00:34.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TRUPPEN DEN PALAST.
+Dialogue: 0,0:00:34.64,0:00:35.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN NUR 36
+Dialogue: 0,0:00:35.56,0:00:36.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STUNDEN BAUEN SIE
+Dialogue: 0,0:00:36.56,0:00:37.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS ZIMMER AB.
+Dialogue: 0,0:00:37.76,0:00:38.95,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PLATTE FÜR PLATTE.
+Dialogue: 0,0:00:39.20,0:00:40.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KISTE FÜR KISTE.
+Dialogue: 0,0:00:40.86,0:00:41.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE KISTEN GEHEN
+Dialogue: 0,0:00:41.56,0:00:42.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NACH KÖNIGSBERG.
+Dialogue: 0,0:00:42.82,0:00:43.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DORT WIRD DAS
+Dialogue: 0,0:00:43.44,0:00:44.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BERNSTEINZIMMER IM
+Dialogue: 0,0:00:44.32,0:00:45.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHLOSS AUSGESTELLT.
+Dialogue: 0,0:00:46.18,0:00:47.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}1944 FALLEN BOMBEN
+Dialogue: 0,0:00:47.96,0:00:48.95,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF KÖNIGSBERG.
+Dialogue: 0,0:00:49.76,0:00:51.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}1945 EROBERT DIE
+Dialogue: 0,0:00:51.46,0:00:52.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ROTE ARMEE DIE
+Dialogue: 0,0:00:52.18,0:00:52.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STADT.
+Dialogue: 0,0:00:52.92,0:00:54.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS SCHLOSS BRENNT.
+Dialogue: 0,0:00:54.04,0:00:55.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DAS BERNSTEINZIMMER?
+Dialogue: 0,0:00:55.52,0:00:56.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IST WEG.
+Dialogue: 0,0:00:56.96,0:00:57.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERBRANNT?
+Dialogue: 0,0:00:57.50,0:00:59.06,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ODER VORHER HEIMLICH
+Dialogue: 0,0:00:59.06,0:00:59.79,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WEGGEBRACHT?
+Dialogue: 0,0:01:00.04,0:01:00.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN EINEN BUNKER?
+Dialogue: 0,0:01:01.18,0:01:01.97,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN BERGWERK?
+Dialogue: 0,0:01:02.22,0:01:02.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF EIN SCHIFF,
+Dialogue: 0,0:01:02.92,0:01:03.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS IN DER
+Dialogue: 0,0:01:03.20,0:01:04.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OSTSEE VERSANK?
+Dialogue: 0,0:01:04.52,0:01:05.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SEIT JAHRZEHNTEN SUCHEN
+Dialogue: 0,0:01:05.66,0:01:06.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHATZJÄGER,
+Dialogue: 0,0:01:06.68,0:01:08.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GEHEIMDIENSTE UND HISTORIKER.
+Dialogue: 0,0:01:08.70,0:01:09.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN TUNNELN,
+Dialogue: 0,0:01:09.60,0:01:10.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SEEN UND WRACKS.
+Dialogue: 0,0:01:10.98,0:01:11.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GEFUNDEN HABEN SIE:
+Dialogue: 0,0:01:11.92,0:01:12.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHTS.
+Dialogue: 0,0:01:13.44,0:01:14.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS 1997.
+Dialogue: 0,0:01:16.10,0:01:16.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN BREMEN WILL
+Dialogue: 0,0:01:16.88,0:01:17.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JEMAND EIN KLEINES
+Dialogue: 0,0:01:17.66,0:01:18.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MOSAIK VERKAUFEN.
+Dialogue: 0,0:01:19.12,0:01:19.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE POLIZEI GREIFT
+Dialogue: 0,0:01:19.98,0:01:20.24,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU.
+Dialogue: 0,0:01:20.24,0:01:21.45,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND TATSÄCHLICH:
+Dialogue: 0,0:01:21.80,0:01:22.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES IST EIN
+Dialogue: 0,0:01:22.28,0:01:23.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ECHTES STÜCK AUS
+Dialogue: 0,0:01:23.30,0:01:24.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEM BERNSTEINZIMMER.
+Dialogue: 0,0:01:24.64,0:01:25.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WENN EIN STÜCK
+Dialogue: 0,0:01:25.44,0:01:26.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBERLEBT HAT …
+Dialogue: 0,0:01:26.64,0:01:27.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS IST MIT
+Dialogue: 0,0:01:27.10,0:01:27.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEM REST?
+Dialogue: 0,0:01:28.26,0:01:29.36,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}2003 WIRD IN
+Dialogue: 0,0:01:29.36,0:01:30.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SANKT PETERSBURG EINE
+Dialogue: 0,0:01:30.30,0:01:31.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NACHBILDUNG ERÖFFNET.
+Dialogue: 0,0:01:31.84,0:01:32.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PRACHTVOLL.
+Dialogue: 0,0:01:32.64,0:01:33.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PERFEKT.
+Dialogue: 0,0:01:33.60,0:01:34.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABER EBEN:
+Dialogue: 0,0:01:34.12,0:01:35.27,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE KOPIE.
+Dialogue: 0,0:01:35.58,0:01:36.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS ORIGINAL LIEGT
+Dialogue: 0,0:01:36.68,0:01:37.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VIELLEICHT NOCH IRGENDWO.
+Dialogue: 0,0:01:38.34,0:01:39.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UNTER DER ERDE.
+Dialogue: 0,0:01:39.50,0:01:40.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UNTER WASSER.
+Dialogue: 0,0:01:40.64,0:01:41.90,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ODER ES EXISTIERT
+Dialogue: 0,0:01:41.90,0:01:42.47,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT MEHR.
+Dialogue: 0,0:01:42.86,0:01:43.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
+Dialogue: 0,0:01:43.58,0:01:44.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
+Dialogue: 0,0:01:44.16,0:01:44.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WO IST DAS
+Dialogue: 0,0:01:44.72,0:01:45.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BERNSTEINZIMMER?
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}EIN GANZER RAUM AUS GOLD UND BERNSTEIN – VERSCHWUNDEN

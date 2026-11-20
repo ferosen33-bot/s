@@ -33,7 +33,7 @@ Immer wieder behauptet jemand, den Code geknackt zu haben. Beweisen konnte es bi
 ---
 
 ## Bildschirmtext (Hook)
-> Dieses Buch kann seit über 600 Jahren niemand lesen
+> Dieses Buch kann bis heute niemand lesen
 
 ## Caption für TikTok
 Unbekannte Schrift, Pflanzen, die es nicht gibt, und über 600 Jahre alt: Das Voynich-Manuskript konnte bis heute niemand entschlüsseln. 📜 Was steht drin? 👇

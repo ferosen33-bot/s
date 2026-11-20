@@ -1,0 +1,24 @@
+{
+  "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
+  "hook": "Dieses Buch kann bis heute niemand lesen",
+  "ausgabe": "voynich_manuskript_tiktok.mp4",
+  "szenen": [
+    {"ab": "Es gibt",          "bild": "bilder/01_buch_2.png",         "von": [0.50, 0.55, 1.30], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Nicht die besten", "bild": "bilder/08_maschine_4.png",     "von": [0.50, 0.50, 1.00], "nach": [0.40, 0.40, 1.25]},
+    {"ab": "Es heißt:",        "bild": "bilder/01_buch_4.png",         "von": [0.50, 0.60, 1.00], "nach": [0.50, 0.60, 1.30]},
+    {"ab": "Voll mit",         "bild": "bilder/15_finger_3.png",       "von": [0.50, 0.60, 1.00], "nach": [0.45, 0.65, 1.25]},
+    {"ab": "Pflanzen, die",    "bild": "bilder/03_pflanze_2.png",      "von": [0.50, 0.65, 1.25], "nach": [0.50, 0.40, 1.00]},
+    {"ab": "Sternkarten.",     "bild": "bilder/04_sterne_2.png",       "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.35, 1.30]},
+    {"ab": "Und nackte",       "bild": "bilder/05_becken_2.png",       "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.50, 1.25]},
+    {"ab": "1912 kauft",       "bild": "bilder/06_antiquar_3.png",     "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.45, 1.25]},
+    {"ab": "Ein alter Brief",  "bild": "bilder/07_kaiser_3.png",       "von": [0.50, 0.40, 1.00], "nach": [0.45, 0.65, 1.25]},
+    {"ab": "Ab dem Zweiten",   "bild": "bilder/02_codeknacker_4.png",  "von": [0.50, 0.50, 1.25], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "2009 dann",        "bild": "bilder/09_labor_2.png",        "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.30, 1.25]},
+    {"ab": "Aber was steht",   "bild": "bilder/10_schreiber_2.png",    "von": [0.50, 0.50, 1.00], "nach": [0.55, 0.45, 1.25]},
+    {"ab": "Das Seltsame:",    "bild": "bilder/11_muster_3.png",       "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.35, 1.30]},
+    {"ab": "Immer wieder",     "bild": "bilder/12_versuche_2.png",     "von": [0.50, 0.50, 1.25], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Heute liegt",      "bild": "bilder/13_bibliothek_2.png",   "von": [0.50, 0.60, 1.00], "nach": [0.50, 0.40, 1.25]},
+    {"ab": "Jede Seite",       "bild": "bilder/14_handy_2.png",        "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.30]},
+    {"ab": "Vielleicht bist",  "bild": "bilder/15_finger_2.png",       "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.60, 1.35]}
+  ]
+}

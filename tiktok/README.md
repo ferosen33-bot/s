@@ -9,8 +9,8 @@ Sprache Deutsch · Ziel: Creator Rewards (Videos über 1 Minute) · 1 Video pro 
 | 2 | Djatlow-Pass | fertig: `02-djatlow-pass/djatlow_pass_tiktok.mp4` |
 | 3 | Mary Celeste | fertig: `03-mary-celeste/mary_celeste_tiktok.mp4` |
 | 4 | Tanzwut 1518 | fertig: `04-tanzwut-1518/tanzwut_1518_tiktok.mp4` |
-| 5 | Bernsteinzimmer | geplant |
-| 6 | Voynich-Manuskript | geplant |
+| 5 | Bernsteinzimmer | fertig: `05-bernsteinzimmer/bernsteinzimmer_tiktok.mp4` |
+| 6 | Voynich-Manuskript | fertig: `06-voynich-manuskript/voynich_manuskript_tiktok.mp4` |
 | 7 | Tunguska 1908 | geplant |
 | 8 | Roanoke | geplant |
 | 9 | Wow!-Signal | geplant |
