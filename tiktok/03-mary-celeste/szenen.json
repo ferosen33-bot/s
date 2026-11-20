@@ -1,0 +1,23 @@
+{
+  "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
+  "hook": "Ein Schiff voller Vorräte. Aber niemand an Bord.",
+  "ausgabe": "mary_celeste_tiktok.mp4",
+  "szenen": [
+    {"ab": "4. Dezember",        "bild": "bilder/01_schiff_2.png",         "von": [0.50, 0.30, 1.30], "nach": [0.50, 0.40, 1.00]},
+    {"ab": "Ein paar Männer",    "bild": "bilder/02_ruderboot_1.png",      "von": [0.50, 0.60, 1.00], "nach": [0.50, 0.35, 1.25]},
+    {"ab": "Kein Kapitän.",      "bild": "bilder/03_deck_2.png",           "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.60, 1.25]},
+    {"ab": "Darunter die Frau",  "bild": "bilder/04_kajuete_2.png",        "von": [0.50, 0.50, 1.00], "nach": [0.35, 0.60, 1.35]},
+    {"ab": "Doch das Schiff",    "bild": "bilder/03_deck_4.png",           "von": [0.50, 0.40, 1.20], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "An Bord:",           "bild": "bilder/05_vorraete_2.png",       "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.40, 1.25]},
+    {"ab": "Was fehlt?",         "bild": "bilder/06_davits_2.png",         "von": [0.50, 0.40, 1.00], "nach": [0.60, 0.45, 1.25]},
+    {"ab": "Der letzte Eintrag", "bild": "bilder/07_logbuch_2.png",        "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.65, 1.35]},
+    {"ab": "Im Laderaum:",       "bild": "bilder/08_faesser_3.png",        "von": [0.50, 0.70, 1.20], "nach": [0.50, 0.45, 1.00]},
+    {"ab": "Später erzählt",     "bild": "bilder/09_tee_4.png",            "von": [0.50, 0.50, 1.00], "nach": [0.60, 0.55, 1.30]},
+    {"ab": "Bekannt wurde",      "bild": "bilder/10_schriftsteller_2.png", "von": [0.50, 0.55, 1.00], "nach": [0.45, 0.50, 1.25]},
+    {"ab": "Aber was ist",       "bild": "bilder/13_meuterei_2.png",       "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.25]},
+    {"ab": "Oder hatte der",     "bild": "bilder/11_rettungsboot_4.png",   "von": [0.50, 0.60, 1.25], "nach": [0.50, 0.40, 1.00]},
+    {"ab": "Niemand weiß es.",   "bild": "bilder/12_ozean_2.png",          "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.50, 1.30]},
+    {"ab": "Und die Mary",       "bild": "bilder/14_wrack_4.png",          "von": [0.50, 0.50, 1.00], "nach": [0.60, 0.40, 1.25]},
+    {"ab": "Was glaubst",        "bild": "bilder/15_geisterschiff_1.png",  "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.30]}
+  ]
+}

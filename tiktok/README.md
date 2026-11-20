@@ -7,8 +7,8 @@ Sprache Deutsch · Ziel: Creator Rewards (Videos über 1 Minute) · 1 Video pro 
 |---|---|---|
 | 1 | Kaspar Hauser | fertig: `01-kaspar-hauser/kaspar_hauser_tiktok.mp4` |
 | 2 | Djatlow-Pass | fertig: `02-djatlow-pass/djatlow_pass_tiktok.mp4` |
-| 3 | Mary Celeste | geplant |
-| 4 | Tanzwut 1518 | geplant |
+| 3 | Mary Celeste | fertig: `03-mary-celeste/mary_celeste_tiktok.mp4` |
+| 4 | Tanzwut 1518 | fertig: `04-tanzwut-1518/tanzwut_1518_tiktok.mp4` |
 | 5 | Bernsteinzimmer | geplant |
 | 6 | Voynich-Manuskript | geplant |
 | 7 | Tunguska 1908 | geplant |

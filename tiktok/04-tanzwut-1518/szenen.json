@@ -1,0 +1,22 @@
+{
+  "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
+  "hook": "1518 konnte eine ganze Stadt nicht aufhören zu tanzen",
+  "ausgabe": "tanzwut_1518_tiktok.mp4",
+  "szenen": [
+    {"ab": "Straßburg, im",      "bild": "bilder/01_frau_2.png",          "von": [0.50, 0.30, 1.30], "nach": [0.50, 0.55, 1.00]},
+    {"ab": "Keine Musik.",       "bild": "bilder/02_fuesse_3.png",        "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.60, 1.25]},
+    {"ab": "Die Chroniken",      "bild": "bilder/03_zusammenbruch_2.png", "von": [0.50, 0.40, 1.00], "nach": [0.40, 0.70, 1.30]},
+    {"ab": "Dann passiert",      "bild": "bilder/04_dreissig_2.png",      "von": [0.50, 0.55, 1.25], "nach": [0.50, 0.45, 1.00]},
+    {"ab": "Und es werden",      "bild": "bilder/05_hunderte_1.png",      "von": [0.50, 0.60, 1.30], "nach": [0.50, 0.40, 1.00]},
+    {"ab": "Die Stadtoberen",    "bild": "bilder/06_stadtrat_3.png",      "von": [0.50, 0.55, 1.00], "nach": [0.45, 0.60, 1.25]},
+    {"ab": "Also bauen",         "bild": "bilder/07_buehne_2.png",        "von": [0.50, 0.30, 1.25], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Es wird nur",        "bild": "bilder/08_fackeln_3.png",       "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.55, 1.25]},
+    {"ab": "Spätere Chroniken",  "bild": "bilder/09_erschoepft_2.png",    "von": [0.50, 0.50, 1.00], "nach": [0.40, 0.55, 1.30]},
+    {"ab": "Erst als",           "bild": "bilder/10_stille_2.png",        "von": [0.50, 0.50, 1.20], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "zu einer Kapelle",   "bild": "bilder/11_wallfahrt_3.png",     "von": [0.50, 0.60, 1.00], "nach": [0.60, 0.30, 1.30]},
+    {"ab": "Was war das?",       "bild": "bilder/12_mutterkorn_2.png",    "von": [0.50, 0.50, 1.00], "nach": [0.55, 0.40, 1.30]},
+    {"ab": "Viele Historiker",   "bild": "bilder/13_hunger_1.png",        "von": [0.50, 0.40, 1.00], "nach": [0.35, 0.55, 1.30]},
+    {"ab": "Und das Unheimliche:", "bild": "bilder/14_rhein_2.png",       "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.70, 1.25]},
+    {"ab": "Was glaubst",        "bild": "bilder/15_schuhe_3.png",        "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.65, 1.35]}
+  ]
+}
