@@ -1,0 +1,129 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
+Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}FEBRUAR 1959.
+Dialogue: 0,0:00:02.64,0:00:03.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}URAL-GEBIRGE.
+Dialogue: 0,0:00:04.06,0:00:05.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NEUN ERFAHRENE WANDERER
+Dialogue: 0,0:00:05.40,0:00:06.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHLAGEN IHR ZELT
+Dialogue: 0,0:00:06.18,0:00:07.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AN EINEM VERSCHNEITEN
+Dialogue: 0,0:00:07.10,0:00:07.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BERGHANG AUF.
+Dialogue: 0,0:00:08.62,0:00:09.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN DIESER NACHT
+Dialogue: 0,0:00:09.46,0:00:09.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
+Dialogue: 0,0:00:09.46,0:00:10.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHNEIDEN SIE IHR
+Dialogue: 0,0:00:10.78,0:00:11.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZELT VON INNEN
+Dialogue: 0,0:00:11.64,0:00:12.02,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF.
+Dialogue: 0,0:00:12.02,0:00:13.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND RENNEN HINAUS
+Dialogue: 0,0:00:13.30,0:00:14.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN DIE DUNKELHEIT.
+Dialogue: 0,0:00:14.44,0:00:15.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BEI RUND MINUS
+Dialogue: 0,0:00:15.12,0:00:16.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}30 GRAD.
+Dialogue: 0,0:00:16.48,0:00:17.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OHNE JACKEN.
+Dialogue: 0,0:00:17.56,0:00:18.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OHNE SCHUHE.
+Dialogue: 0,0:00:18.80,0:00:19.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINER VON IHNEN
+Dialogue: 0,0:00:19.46,0:00:20.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KOMMT ZURÜCK.
+Dialogue: 0,0:00:20.88,0:00:21.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WOCHEN SPÄTER FINDEN
+Dialogue: 0,0:00:21.86,0:00:23.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SUCHTRUPPS DAS ZELT.
+Dialogue: 0,0:00:23.44,0:00:24.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HALB BEGRABEN IM
+Dialogue: 0,0:00:24.28,0:00:24.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHNEE.
+Dialogue: 0,0:00:24.80,0:00:25.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DRINNEN:
+Dialogue: 0,0:00:26.06,0:00:26.89,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IHRE STIEFEL,
+Dialogue: 0,0:00:27.10,0:00:27.79,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IHRE JACKEN,
+Dialogue: 0,0:00:27.98,0:00:28.47,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IHR ESSEN.
+Dialogue: 0,0:00:28.88,0:00:29.67,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALLES NOCH DA.
+Dialogue: 0,0:00:30.24,0:00:31.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPUREN FÜHREN DEN
+Dialogue: 0,0:00:31.38,0:00:32.15,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HANG HINAB.
+Dialogue: 0,0:00:32.68,0:00:33.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE SPUREN VON
+Dialogue: 0,0:00:33.38,0:00:34.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ACHT ODER NEUN
+Dialogue: 0,0:00:34.44,0:00:34.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MENSCHEN.
+Dialogue: 0,0:00:35.34,0:00:35.97,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN SOCKEN.
+Dialogue: 0,0:00:36.34,0:00:37.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MANCHE BARFUSS.
+Dialogue: 0,0:00:37.76,0:00:38.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANDERTHALB KILOMETER
+Dialogue: 0,0:00:38.74,0:00:39.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WEIT …
+Dialogue: 0,0:00:39.46,0:00:40.47,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS ZUM WALDRAND.
+Dialogue: 0,0:00:41.10,0:00:41.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UNTER EINER ZEDER
+Dialogue: 0,0:00:41.96,0:00:42.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LIEGEN DIE ERSTEN
+Dialogue: 0,0:00:42.62,0:00:43.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZWEI.
+Dialogue: 0,0:00:43.52,0:00:44.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NUR IN UNTERWÄSCHE.
+Dialogue: 0,0:00:45.00,0:00:45.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NEBEN IHNEN DIE
+Dialogue: 0,0:00:45.72,0:00:46.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RESTE EINES KLEINEN
+Dialogue: 0,0:00:46.50,0:00:47.15,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}FEUERS.
+Dialogue: 0,0:00:47.64,0:00:48.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DREI WEITERE LIEGEN
+Dialogue: 0,0:00:48.54,0:00:49.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZWISCHEN DEM BAUM
+Dialogue: 0,0:00:49.32,0:00:50.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DEM ZELT.
+Dialogue: 0,0:00:50.48,0:00:51.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS HÄTTEN SIE
+Dialogue: 0,0:00:51.04,0:00:51.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERSUCHT …
+Dialogue: 0,0:00:51.86,0:00:52.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZURÜCKZUKEHREN.
+Dialogue: 0,0:00:52.70,0:00:53.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH DIE LETZTEN
+Dialogue: 0,0:00:53.78,0:00:54.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VIER?
+Dialogue: 0,0:00:54.66,0:00:55.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE FINDET MAN
+Dialogue: 0,0:00:55.28,0:00:56.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ERST IM MAI.
+Dialogue: 0,0:00:56.30,0:00:57.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN EINER SCHLUCHT,
+Dialogue: 0,0:00:57.12,0:00:58.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UNTER METERHOHEM SCHNEE.
+Dialogue: 0,0:00:58.96,0:00:59.42,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND WAS DIE
+Dialogue: 0,0:00:59.42,0:01:00.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÄRZTE SEHEN,
+Dialogue: 0,0:01:00.22,0:01:01.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ERGIBT KEINEN SINN.
+Dialogue: 0,0:01:01.76,0:01:02.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHÄDELBRÜCHE.
+Dialogue: 0,0:01:02.66,0:01:03.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZERTRÜMMERTE RIPPEN.
+Dialogue: 0,0:01:03.94,0:01:04.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KRÄFTE WIE BEI
+Dialogue: 0,0:01:04.52,0:01:05.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINEM AUTOUNFALL.
+Dialogue: 0,0:01:05.94,0:01:06.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABER KAUM ÄUSSERE
+Dialogue: 0,0:01:06.96,0:01:07.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERLETZUNGEN.
+Dialogue: 0,0:01:07.98,0:01:08.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND AN EINIGEN
+Dialogue: 0,0:01:08.58,0:01:09.34,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KLEIDUNGSSTÜCKEN:
+Dialogue: 0,0:01:09.34,0:01:11.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPUREN VON RADIOAKTIVITÄT.
+Dialogue: 0,0:01:11.84,0:01:13.02,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE SOWJETISCHEN ERMITTLER
+Dialogue: 0,0:01:13.02,0:01:13.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHLIESSEN DEN FALL
+Dialogue: 0,0:01:13.82,0:01:14.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MIT EINEM EINZIGEN
+Dialogue: 0,0:01:14.74,0:01:15.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SATZ:
+Dialogue: 0,0:01:15.66,0:01:16.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE WANDERER SEIEN
+Dialogue: 0,0:01:16.50,0:01:18.01,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINER NATURGEWALT ERLEGEN,
+Dialogue: 0,0:01:18.06,0:01:18.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE SIE NICHT
+Dialogue: 0,0:01:18.56,0:01:19.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBERWINDEN KONNTEN.
+Dialogue: 0,0:01:19.40,0:01:20.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE LAWINE?
+Dialogue: 0,0:01:21.04,0:01:22.45,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN GEHEIMER MILITÄRTEST?
+Dialogue: 0,0:01:22.72,0:01:23.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ODER ETWAS …
+Dialogue: 0,0:01:23.30,0:01:24.35,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GANZ ANDERES?
+Dialogue: 0,0:01:24.90,0:01:26.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}2020 ERKLÄRT RUSSLAND
+Dialogue: 0,0:01:26.68,0:01:27.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OFFIZIELL:
+Dialogue: 0,0:01:27.66,0:01:28.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES WAR EINE
+Dialogue: 0,0:01:28.30,0:01:28.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LAWINE.
+Dialogue: 0,0:01:29.10,0:01:30.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH VIELE ZWEIFELN
+Dialogue: 0,0:01:30.04,0:01:30.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS HEUTE.
+Dialogue: 0,0:01:31.18,0:01:32.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WARUM LAUFEN ERFAHRENE
+Dialogue: 0,0:01:32.40,0:01:33.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BERGSTEIGER OHNE SCHUHE
+Dialogue: 0,0:01:33.88,0:01:34.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANDERTHALB KILOMETER
+Dialogue: 0,0:01:34.92,0:01:35.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WEIT IN DIE
+Dialogue: 0,0:01:35.46,0:01:36.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EISIGE NACHT?
+Dialogue: 0,0:01:36.64,0:01:37.36,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND WOHER KOMMT
+Dialogue: 0,0:01:37.36,0:01:38.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE STRAHLUNG?
+Dialogue: 0,0:01:38.52,0:01:39.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DANN IST
+Dialogue: 0,0:01:39.04,0:01:39.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DA NOCH DIE
+Dialogue: 0,0:01:39.46,0:01:40.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KLEINE SPASS-ZEITUNG,
+Dialogue: 0,0:01:40.68,0:01:41.22,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE DIE GRUPPE
+Dialogue: 0,0:01:41.22,0:01:41.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AM ABEND ZUVOR
+Dialogue: 0,0:01:41.96,0:01:42.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GESCHRIEBEN HAT.
+Dialogue: 0,0:01:42.62,0:01:43.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DARIN:
+Dialogue: 0,0:01:43.50,0:01:44.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN WITZ ÜBER
+Dialogue: 0,0:01:44.56,0:01:46.36,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHNEEMENSCHEN IM URAL.
+Dialogue: 0,0:01:46.36,0:01:47.00,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER BERG HEISST
+Dialogue: 0,0:01:47.00,0:01:47.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN DER SPRACHE
+Dialogue: 0,0:01:47.70,0:01:48.34,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER MANSI:
+Dialogue: 0,0:01:48.34,0:01:50.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}CHOLAT SJACHL.
+Dialogue: 0,0:01:50.04,0:01:51.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OFT ÜBERSETZT ALS
+Dialogue: 0,0:01:51.10,0:01:51.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
+Dialogue: 0,0:01:51.10,0:01:52.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TOTER BERG.
+Dialogue: 0,0:01:52.76,0:01:53.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
+Dialogue: 0,0:01:53.48,0:01:54.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
+Dialogue: 0,0:01:54.04,0:01:54.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS IST IN
+Dialogue: 0,0:01:54.50,0:01:55.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIESER NACHT PASSIERT?
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}SIE FLOHEN OHNE SCHUHE IN DEN SCHNEE. WARUM?

@@ -6,7 +6,7 @@ Sprache Deutsch · Ziel: Creator Rewards (Videos über 1 Minute) · 1 Video pro 
 | # | Thema | Status |
 |---|---|---|
 | 1 | Kaspar Hauser | fertig: `01-kaspar-hauser/kaspar_hauser_tiktok.mp4` |
-| 2 | Djatlow-Pass | geplant |
+| 2 | Djatlow-Pass | fertig: `02-djatlow-pass/djatlow_pass_tiktok.mp4` |
 | 3 | Mary Celeste | geplant |
 | 4 | Tanzwut 1518 | geplant |
 | 5 | Bernsteinzimmer | geplant |
