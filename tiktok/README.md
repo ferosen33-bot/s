@@ -11,10 +11,10 @@ Sprache Deutsch · Ziel: Creator Rewards (Videos über 1 Minute) · 1 Video pro 
 | 4 | Tanzwut 1518 | fertig: `04-tanzwut-1518/tanzwut_1518_tiktok.mp4` |
 | 5 | Bernsteinzimmer | fertig: `05-bernsteinzimmer/bernsteinzimmer_tiktok.mp4` |
 | 6 | Voynich-Manuskript | fertig: `06-voynich-manuskript/voynich_manuskript_tiktok.mp4` |
-| 7 | Tunguska 1908 | geplant |
-| 8 | Roanoke | geplant |
-| 9 | Wow!-Signal | geplant |
-| 10 | Antikythera-Mechanismus | geplant |
+| 7 | Tunguska 1908 | fertig: `07-tunguska/tunguska_tiktok.mp4` |
+| 8 | Roanoke | fertig: `08-roanoke/roanoke_tiktok.mp4` |
+| 9 | Wow!-Signal | Skript + Stimme fertig, Bilder fehlen (ElevenLabs-Credits aufgebraucht) |
+| 10 | Antikythera-Mechanismus | Skript + Stimme fertig, Bilder fehlen (ElevenLabs-Credits aufgebraucht) |
 
 ## Ablauf pro Folge
 1. **Skript** (`skript.md`): Hook → Kontext → Steigerung → Theorien → offenes Ende mit Frage. Fakten prüfen.

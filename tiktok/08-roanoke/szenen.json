@@ -1,0 +1,24 @@
+{
+  "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
+  "hook": "Über 100 Menschen verschwinden – zurück bleibt ein Wort",
+  "ausgabe": "roanoke_tiktok.mp4",
+  "szenen": [
+    {"ab": "1587.",              "bild": "bilder/01_ankunft_2.png",      "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.30]},
+    {"ab": "Drei Jahre später",  "bild": "bilder/07_verlassen_4.png",    "von": [0.50, 0.50, 1.30], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Ihr Anführer",       "bild": "bilder/02_siedlung_1.png",     "von": [0.50, 0.40, 1.00], "nach": [0.45, 0.40, 1.30]},
+    {"ab": "Kurz nach",          "bild": "bilder/03_dare_3.png",         "von": [0.50, 0.50, 1.00], "nach": [0.40, 0.55, 1.30]},
+    {"ab": "Doch die Vorräte",   "bild": "bilder/04_abreise_3.png",      "von": [0.50, 0.50, 1.00], "nach": [0.60, 0.40, 1.25]},
+    {"ab": "Dann eskaliert",     "bild": "bilder/05_armada_2.png",       "von": [0.50, 0.50, 1.30], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Im August",          "bild": "bilder/06_rueckkehr_3.png",    "von": [0.50, 0.55, 1.00], "nach": [0.50, 0.40, 1.25]},
+    {"ab": "Er findet",          "bild": "bilder/07_verlassen_2.png",    "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.30]},
+    {"ab": "Nur ein einziges",   "bild": "bilder/08_croatoan_2.png",     "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.40, 1.35]},
+    {"ab": "Und auf einem",      "bild": "bilder/09_cro_3.png",          "von": [0.50, 0.45, 1.00], "nach": [0.50, 0.42, 1.35]},
+    {"ab": "Vor seiner Abreise", "bild": "bilder/10_kreuz_4.png",        "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.45, 1.25]},
+    {"ab": "Es gibt kein",       "bild": "bilder/15_pfosten_4.png",      "von": [0.50, 0.50, 1.30], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Croatoan ist",       "bild": "bilder/11_insel_3.png",        "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.55, 1.30]},
+    {"ab": "White will",         "bild": "bilder/12_sturm_2.png",        "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.35, 1.25]},
+    {"ab": "Er sieht",           "bild": "bilder/13_white_1.png",        "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.40, 1.30]},
+    {"ab": "Bis heute",          "bild": "bilder/14_archaeologen_2.png", "von": [0.50, 0.50, 1.25], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Was glaubst",        "bild": "bilder/15_pfosten_2.png",      "von": [0.50, 0.55, 1.00], "nach": [0.50, 0.45, 1.30]}
+  ]
+}

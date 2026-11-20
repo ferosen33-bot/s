@@ -1,0 +1,112 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
+Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.02,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}1587. ÜBER HUNDERT
+Dialogue: 0,0:00:03.02,0:00:03.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MÄNNER,
+Dialogue: 0,0:00:03.64,0:00:04.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}FRAUEN UND KINDER
+Dialogue: 0,0:00:04.54,0:00:05.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GRÜNDEN AUF EINER
+Dialogue: 0,0:00:05.56,0:00:06.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}INSEL VOR NORDAMERIKA
+Dialogue: 0,0:00:06.88,0:00:08.27,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE ENGLISCHE SIEDLUNG.
+Dialogue: 0,0:00:08.68,0:00:09.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ROANOKE.
+Dialogue: 0,0:00:10.22,0:00:11.22,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DREI JAHRE SPÄTER
+Dialogue: 0,0:00:11.22,0:00:13.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIND ALLE VERSCHWUNDEN.
+Dialogue: 0,0:00:13.64,0:00:14.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IHR ANFÜHRER HEISST
+Dialogue: 0,0:00:14.50,0:00:15.45,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JOHN WHITE.
+Dialogue: 0,0:00:15.98,0:00:16.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KURZ NACH DER
+Dialogue: 0,0:00:16.52,0:00:17.42,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANKUNFT WIRD SEINE
+Dialogue: 0,0:00:17.42,0:00:18.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENKELIN GEBOREN:
+Dialogue: 0,0:00:18.74,0:00:19.71,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VIRGINIA DARE.
+Dialogue: 0,0:00:20.16,0:00:21.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS ERSTE ENGLISCHE
+Dialogue: 0,0:00:21.10,0:00:21.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KIND,
+Dialogue: 0,0:00:21.50,0:00:22.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS IN AMERIKA
+Dialogue: 0,0:00:22.20,0:00:23.07,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZUR WELT KOMMT.
+Dialogue: 0,0:00:23.66,0:00:24.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH DIE VORRÄTE
+Dialogue: 0,0:00:24.48,0:00:25.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}REICHEN NICHT.
+Dialogue: 0,0:00:25.70,0:00:26.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WHITE SEGELT ZURÜCK
+Dialogue: 0,0:00:26.58,0:00:27.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NACH ENGLAND,
+Dialogue: 0,0:00:27.30,0:00:27.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UM HILFE ZU
+Dialogue: 0,0:00:27.88,0:00:28.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HOLEN.
+Dialogue: 0,0:00:28.18,0:00:29.25,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER VERSPRICHT:
+Dialogue: 0,0:00:29.62,0:00:30.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ICH KOMME BALD
+Dialogue: 0,0:00:30.38,0:00:30.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIEDER.
+Dialogue: 0,0:00:31.60,0:00:32.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DANN ESKALIERT DER
+Dialogue: 0,0:00:32.48,0:00:33.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KRIEG ZWISCHEN ENGLAND
+Dialogue: 0,0:00:33.38,0:00:34.27,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND SPANIEN.
+Dialogue: 0,0:00:34.62,0:00:35.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JEDES SCHIFF WIRD
+Dialogue: 0,0:00:35.28,0:00:35.95,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GEBRAUCHT.
+Dialogue: 0,0:00:36.20,0:00:37.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WHITE SITZT FEST.
+Dialogue: 0,0:00:37.66,0:00:38.67,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DREI JAHRE LANG.
+Dialogue: 0,0:00:39.12,0:00:40.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IM AUGUST 1590
+Dialogue: 0,0:00:40.80,0:00:41.84,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ERREICHT ER ENDLICH
+Dialogue: 0,0:00:41.84,0:00:42.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIEDER DIE INSEL.
+Dialogue: 0,0:00:43.14,0:00:43.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES IST DER
+Dialogue: 0,0:00:43.54,0:00:44.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DRITTE GEBURTSTAG SEINER
+Dialogue: 0,0:00:44.70,0:00:45.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENKELIN.
+Dialogue: 0,0:00:45.78,0:00:47.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER FINDET NICHTS.
+Dialogue: 0,0:00:48.00,0:00:48.79,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE MENSCHEN.
+Dialogue: 0,0:00:49.20,0:00:50.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE TOTEN.
+Dialogue: 0,0:00:50.28,0:00:51.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE SPUREN EINES
+Dialogue: 0,0:00:51.28,0:00:52.07,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KAMPFES.
+Dialogue: 0,0:00:52.32,0:00:52.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE HÄUSER SIND
+Dialogue: 0,0:00:52.88,0:00:53.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABGEBAUT.
+Dialogue: 0,0:00:53.86,0:00:54.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS WÄREN ALLE
+Dialogue: 0,0:00:54.64,0:00:55.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN RUHE GEGANGEN.
+Dialogue: 0,0:00:55.98,0:00:57.02,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NUR EIN EINZIGES
+Dialogue: 0,0:00:57.02,0:00:57.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WORT,
+Dialogue: 0,0:00:57.38,0:00:58.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN EINEN HOLZPFOSTEN
+Dialogue: 0,0:00:58.62,0:00:59.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GERITZT:
+Dialogue: 0,0:00:59.12,0:01:00.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}CROATOAN.
+Dialogue: 0,0:01:00.74,0:01:01.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND AUF EINEM
+Dialogue: 0,0:01:01.32,0:01:01.77,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BAUM:
+Dialogue: 0,0:01:02.02,0:01:03.01,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DREI BUCHSTABEN.
+Dialogue: 0,0:01:03.34,0:01:03.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}C.
+Dialogue: 0,0:01:03.56,0:01:04.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}R.
+Dialogue: 0,0:01:04.30,0:01:05.05,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}O.
+Dialogue: 0,0:01:05.88,0:01:06.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VOR SEINER ABREISE
+Dialogue: 0,0:01:06.82,0:01:07.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HATTE WHITE MIT
+Dialogue: 0,0:01:07.58,0:01:08.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEN SIEDLERN ETWAS
+Dialogue: 0,0:01:08.32,0:01:09.01,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VEREINBART:
+Dialogue: 0,0:01:09.36,0:01:09.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WENN SIE IN
+Dialogue: 0,0:01:09.76,0:01:10.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GEFAHR FORTGEHEN MÜSSEN,
+Dialogue: 0,0:01:11.22,0:01:11.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SOLLEN SIE EIN
+Dialogue: 0,0:01:11.64,0:01:12.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KREUZ EINRITZEN.
+Dialogue: 0,0:01:13.28,0:01:13.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES GIBT KEIN
+Dialogue: 0,0:01:13.86,0:01:14.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KREUZ.
+Dialogue: 0,0:01:14.28,0:01:15.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}CROATOAN IST DER
+Dialogue: 0,0:01:15.72,0:01:17.03,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NAME EINER NACHBARINSEL.
+Dialogue: 0,0:01:17.16,0:01:18.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND EINES VOLKES,
+Dialogue: 0,0:01:18.16,0:01:18.97,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS DORT LEBTE.
+Dialogue: 0,0:01:19.38,0:01:19.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIND DIE SIEDLER
+Dialogue: 0,0:01:19.98,0:01:20.91,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU IHNEN GEGANGEN?
+Dialogue: 0,0:01:21.42,0:01:22.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WHITE WILL HINSEGELN
+Dialogue: 0,0:01:22.54,0:01:23.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND NACHSEHEN.
+Dialogue: 0,0:01:23.56,0:01:24.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH EIN STURM
+Dialogue: 0,0:01:24.10,0:01:24.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZIEHT AUF.
+Dialogue: 0,0:01:24.58,0:01:25.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS SCHIFF MUSS
+Dialogue: 0,0:01:25.50,0:01:26.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABDREHEN.
+Dialogue: 0,0:01:26.44,0:01:26.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER SIEHT DIE
+Dialogue: 0,0:01:26.86,0:01:27.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}INSEL NIE WIEDER.
+Dialogue: 0,0:01:28.20,0:01:28.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND SEINE FAMILIE
+Dialogue: 0,0:01:28.88,0:01:29.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUCH NICHT.
+Dialogue: 0,0:01:30.12,0:01:30.90,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS HEUTE SUCHEN
+Dialogue: 0,0:01:30.90,0:01:32.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ARCHÄOLOGEN NACH SPUREN
+Dialogue: 0,0:01:32.16,0:01:33.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER VERLORENEN KOLONIE.
+Dialogue: 0,0:01:33.88,0:01:34.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINIGE FUNDE DEUTEN
+Dialogue: 0,0:01:34.86,0:01:36.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NACH CROATOAN.
+Dialogue: 0,0:01:36.14,0:01:37.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BEWIESEN IST NICHTS.
+Dialogue: 0,0:01:38.04,0:01:38.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
+Dialogue: 0,0:01:39.32,0:01:39.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS IST MIT
+Dialogue: 0,0:01:39.82,0:01:40.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEN SIEDLERN VON
+Dialogue: 0,0:01:40.46,0:01:41.47,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ROANOKE PASSIERT?
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}ÜBER 100 MENSCHEN VERSCHWINDEN – ZURÜCK BLEIBT EIN WORT

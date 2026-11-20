@@ -1,0 +1,106 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
+Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}30. JUNI 1908.
+Dialogue: 0,0:00:02.76,0:00:03.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIBIRIEN.
+Dialogue: 0,0:00:04.02,0:00:04.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KURZ NACH SIEBEN
+Dialogue: 0,0:00:04.74,0:00:05.55,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UHR MORGENS.
+Dialogue: 0,0:00:05.86,0:00:07.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN GRELLER FEUERBALL
+Dialogue: 0,0:00:07.14,0:00:07.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RAST ÜBER DEN
+Dialogue: 0,0:00:07.92,0:00:08.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HIMMEL.
+Dialogue: 0,0:00:08.90,0:00:10.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DANN EXPLODIERT ER.
+Dialogue: 0,0:00:11.24,0:00:12.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE DRUCKWELLE KNICKT
+Dialogue: 0,0:00:12.16,0:00:13.26,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RUND 80 MILLIONEN
+Dialogue: 0,0:00:13.26,0:00:14.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BÄUME UM.
+Dialogue: 0,0:00:14.40,0:00:15.06,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF EINER FLÄCHE
+Dialogue: 0,0:00:15.06,0:00:15.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MEHR ALS DOPPELT
+Dialogue: 0,0:00:15.92,0:00:16.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO GROSS WIE
+Dialogue: 0,0:00:16.50,0:00:16.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BERLIN.
+Dialogue: 0,0:00:17.56,0:00:18.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN EINER HANDELSSTATION,
+Dialogue: 0,0:00:19.28,0:00:20.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RUND 65 KILOMETER
+Dialogue: 0,0:00:20.66,0:00:21.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENTFERNT,
+Dialogue: 0,0:00:21.64,0:00:22.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIRD EIN MANN
+Dialogue: 0,0:00:22.12,0:00:22.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VON SEINER VERANDA
+Dialogue: 0,0:00:22.96,0:00:23.73,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GESCHLEUDERT.
+Dialogue: 0,0:00:24.06,0:00:25.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER ERZÄHLT SPÄTER,
+Dialogue: 0,0:00:25.34,0:00:25.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES HABE SICH
+Dialogue: 0,0:00:25.78,0:00:26.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANGEFÜHLT,
+Dialogue: 0,0:00:26.58,0:00:27.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS WÜRDE SEIN
+Dialogue: 0,0:00:27.12,0:00:27.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HEMD BRENNEN.
+Dialogue: 0,0:00:28.18,0:00:29.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE EXPLOSION IST
+Dialogue: 0,0:00:29.30,0:00:30.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO STARK WIE
+Dialogue: 0,0:00:30.12,0:00:31.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS ZU TAUSEND
+Dialogue: 0,0:00:31.38,0:00:32.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HIROSHIMA-BOMBEN.
+Dialogue: 0,0:00:32.28,0:00:32.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND IN DEN
+Dialogue: 0,0:00:32.80,0:00:33.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NÄCHTEN DANACH GESCHIEHT
+Dialogue: 0,0:00:33.96,0:00:34.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ETWAS SELTSAMES:
+Dialogue: 0,0:00:35.28,0:00:36.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER HIMMEL ÜBER
+Dialogue: 0,0:00:36.12,0:00:37.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EUROPA LEUCHTET.
+Dialogue: 0,0:00:37.64,0:00:38.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO HELL,
+Dialogue: 0,0:00:38.58,0:00:39.00,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DASS MAN IN
+Dialogue: 0,0:00:39.00,0:00:39.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LONDON UM MITTERNACHT
+Dialogue: 0,0:00:39.98,0:00:41.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DRAUSSEN ZEITUNG LESEN
+Dialogue: 0,0:00:41.18,0:00:41.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KANN.
+Dialogue: 0,0:00:41.88,0:00:42.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH NIEMAND FÄHRT
+Dialogue: 0,0:00:42.54,0:00:42.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HIN.
+Dialogue: 0,0:00:43.24,0:00:43.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU WEIT,
+Dialogue: 0,0:00:44.08,0:00:44.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU ABGELEGEN.
+Dialogue: 0,0:00:45.24,0:00:46.22,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ERST 19 JAHRE
+Dialogue: 0,0:00:46.22,0:00:47.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPÄTER ERREICHT EINE
+Dialogue: 0,0:00:47.30,0:00:48.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EXPEDITION DEN ORT.
+Dialogue: 0,0:00:48.96,0:00:49.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS SIE FINDEN,
+Dialogue: 0,0:00:49.88,0:00:50.91,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IST UNHEIMLICH.
+Dialogue: 0,0:00:51.58,0:00:52.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KILOMETERWEIT UMGESTÜRZTE
+Dialogue: 0,0:00:52.86,0:00:53.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BÄUME,
+Dialogue: 0,0:00:53.66,0:00:54.42,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALLE VON EINEM
+Dialogue: 0,0:00:54.42,0:00:55.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PUNKT WEG NACH
+Dialogue: 0,0:00:55.18,0:00:55.90,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUSSEN GERICHTET.
+Dialogue: 0,0:00:55.90,0:00:57.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND GENAU IN
+Dialogue: 0,0:00:57.10,0:00:58.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER MITTE STEHEN
+Dialogue: 0,0:00:58.18,0:00:59.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BÄUME NOCH AUFRECHT.
+Dialogue: 0,0:00:59.14,0:01:00.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KAHL.
+Dialogue: 0,0:01:00.40,0:01:01.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OHNE ÄSTE.
+Dialogue: 0,0:01:01.42,0:01:02.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE TELEFONMASTEN.
+Dialogue: 0,0:01:02.88,0:01:03.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABER:
+Dialogue: 0,0:01:03.16,0:01:04.45,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN KRATER.
+Dialogue: 0,0:01:04.68,0:01:05.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN METEORIT.
+Dialogue: 0,0:01:05.76,0:01:06.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE TRÜMMER.
+Dialogue: 0,0:01:06.76,0:01:07.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHTS.
+Dialogue: 0,0:01:07.80,0:01:08.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS ALSO IST
+Dialogue: 0,0:01:08.50,0:01:09.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EXPLODIERT?
+Dialogue: 0,0:01:09.66,0:01:10.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE MEISTEN FORSCHER
+Dialogue: 0,0:01:10.48,0:01:11.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GLAUBEN HEUTE:
+Dialogue: 0,0:01:11.58,0:01:12.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN ASTEROID ODER
+Dialogue: 0,0:01:12.62,0:01:13.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KOMET IST EINIGE
+Dialogue: 0,0:01:13.70,0:01:14.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KILOMETER ÜBER DEM
+Dialogue: 0,0:01:14.76,0:01:15.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BODEN IN DER
+Dialogue: 0,0:01:15.38,0:01:16.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LUFT ZERPLATZT.
+Dialogue: 0,0:01:16.48,0:01:17.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DARUM GIBT ES
+Dialogue: 0,0:01:17.18,0:01:17.91,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINEN KRATER.
+Dialogue: 0,0:01:18.28,0:01:18.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH ES GIBT
+Dialogue: 0,0:01:18.72,0:01:19.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS HEUTE ANDERE
+Dialogue: 0,0:01:19.46,0:01:20.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}THEORIEN.
+Dialogue: 0,0:01:20.60,0:01:21.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANTIMATERIE.
+Dialogue: 0,0:01:21.60,0:01:22.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN WINZIGES SCHWARZES
+Dialogue: 0,0:01:22.64,0:01:23.07,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LOCH.
+Dialogue: 0,0:01:23.28,0:01:24.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SOGAR EIN ABGESTÜRZTES
+Dialogue: 0,0:01:24.52,0:01:25.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RAUMSCHIFF.
+Dialogue: 0,0:01:25.04,0:01:26.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DAS BEUNRUHIGENDSTE:
+Dialogue: 0,0:01:27.18,0:01:27.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO ETWAS KANN
+Dialogue: 0,0:01:27.76,0:01:28.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIEDER PASSIEREN.
+Dialogue: 0,0:01:28.88,0:01:29.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JEDERZEIT.
+Dialogue: 0,0:01:30.00,0:01:30.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
+Dialogue: 0,0:01:31.04,0:01:32.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS IST 1908
+Dialogue: 0,0:01:32.44,0:01:33.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER SIBIRIEN EXPLODIERT?
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}80 MILLIONEN BÄUME UMGEKNICKT – ABER KEIN KRATER

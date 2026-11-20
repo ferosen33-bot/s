@@ -1,0 +1,23 @@
+{
+  "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
+  "hook": "80 Millionen Bäume umgeknickt – aber kein Krater",
+  "ausgabe": "tunguska_tiktok.mp4",
+  "szenen": [
+    {"ab": "30.",                     "bild": "bilder/01_feuerball_2.png",   "von": [0.50, 0.45, 1.00], "nach": [0.50, 0.40, 1.30]},
+    {"ab": "Dann",                    "bild": "bilder/12_luft_4.png",        "von": [0.50, 0.50, 1.30], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Die Druckwelle",          "bild": "bilder/03_baeume_2.png",      "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.55, 1.30]},
+    {"ab": "Auf einer Fläche",        "bild": "bilder/05_druckwelle_1.png",  "von": [0.50, 0.50, 1.25], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "In einer", "bild": "bilder/04_station_2.png",     "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.45, 1.25]},
+    {"ab": "Die Explosion ist",       "bild": "bilder/02_explosion_2.png",   "von": [0.50, 0.45, 1.00], "nach": [0.50, 0.40, 1.35]},
+    {"ab": "Und in den Nächten",      "bild": "bilder/06_london_4.png",      "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.60, 1.25]},
+    {"ab": "Doch niemand",            "bild": "bilder/07_expedition_3.png",  "von": [0.50, 0.50, 1.25], "nach": [0.50, 0.50, 1.00]},
+    {"ab": "Was sie",                 "bild": "bilder/08_maenner_3.png",     "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.25]},
+    {"ab": "Und genau in",            "bild": "bilder/09_masten_2.png",      "von": [0.50, 0.60, 1.00], "nach": [0.50, 0.40, 1.25]},
+    {"ab": "Aber: kein",              "bild": "bilder/10_krater_3.png",      "von": [0.50, 0.50, 1.30], "nach": [0.50, 0.55, 1.00]},
+    {"ab": "Was also",                "bild": "bilder/11_asteroid_4.png",    "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.50, 1.30]},
+    {"ab": "Die meisten",             "bild": "bilder/12_luft_2.png",        "von": [0.50, 0.45, 1.00], "nach": [0.50, 0.55, 1.25]},
+    {"ab": "Doch es gibt",            "bild": "bilder/13_theorie_2.png",     "von": [0.50, 0.50, 1.25], "nach": [0.50, 0.45, 1.00]},
+    {"ab": "Und das Beunruhigendste:","bild": "bilder/14_stadt_3.png",       "von": [0.50, 0.40, 1.00], "nach": [0.50, 0.50, 1.25]},
+    {"ab": "Was glaubst",             "bild": "bilder/15_baum_2.png",        "von": [0.50, 0.55, 1.00], "nach": [0.50, 0.45, 1.30]}
+  ]
+}
