@@ -16,7 +16,6 @@ Dialogue: 0,0:00:00.00,0:00:00.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:00:01.08,0:00:02.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IM JULI 1518.
 Dialogue: 0,0:00:03.52,0:00:04.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE FRAU TRITT
 Dialogue: 0,0:00:04.30,0:00:04.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF DIE STRASSE
-Dialogue: 0,0:00:04.98,0:00:04.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
 Dialogue: 0,0:00:04.98,0:00:06.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND BEGINNT ZU
 Dialogue: 0,0:00:06.28,0:00:06.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TANZEN.
 Dialogue: 0,0:00:07.32,0:00:08.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE MUSIK.
@@ -92,18 +91,17 @@ Dialogue: 0,0:01:20.72,0:01:21.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:01:21.30,0:01:22.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ART MASSENHYSTERIE.
 Dialogue: 0,0:01:22.80,0:01:23.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HUNGER,
 Dialogue: 0,0:01:23.44,0:01:24.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KRANKHEIT,
-Dialogue: 0,0:01:24.10,0:01:25.00,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERZWEIFLUNG …
-Dialogue: 0,0:01:25.00,0:01:25.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS DIE MENSCHEN
-Dialogue: 0,0:01:25.80,0:01:26.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE KONTROLLE ÜBER
-Dialogue: 0,0:01:26.68,0:01:27.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IHRE KÖRPER VERLOREN.
+Dialogue: 0,0:01:24.10,0:01:25.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERZWEIFLUNG BIS DIE
+Dialogue: 0,0:01:25.52,0:01:26.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MENSCHEN DIE KONTROLLE
+Dialogue: 0,0:01:26.46,0:01:27.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER IHRE KÖRPER
+Dialogue: 0,0:01:27.20,0:01:27.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERLOREN.
 Dialogue: 0,0:01:28.18,0:01:29.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DAS UNHEIMLICHE:
 Dialogue: 0,0:01:29.68,0:01:30.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES WAR NICHT
 Dialogue: 0,0:01:30.14,0:01:31.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS EINZIGE MAL.
 Dialogue: 0,0:01:31.60,0:01:32.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENTLANG DES RHEINS
 Dialogue: 0,0:01:32.44,0:01:34.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BRACHEN SOLCHE TANZWUT-EPIDEMIEN
 Dialogue: 0,0:01:34.28,0:01:35.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IMMER WIEDER AUS.
-Dialogue: 0,0:01:35.78,0:01:36.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
-Dialogue: 0,0:01:36.50,0:01:37.08,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
+Dialogue: 0,0:01:35.78,0:01:36.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
 Dialogue: 0,0:01:37.08,0:01:37.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE KANN EINE
 Dialogue: 0,0:01:37.62,0:01:38.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GANZE STADT EINFACH
 Dialogue: 0,0:01:38.72,0:01:39.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT AUFHÖREN ZU

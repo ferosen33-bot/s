@@ -12,8 +12,7 @@ Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}26.
-Dialogue: 0,0:00:01.06,0:00:02.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MAI 1828.
+Dialogue: 0,0:00:00.00,0:00:02.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}26. MAI 1828.
 Dialogue: 0,0:00:03.50,0:00:04.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NÜRNBERG.
 Dialogue: 0,0:00:04.68,0:00:05.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN JUNGE TAUMELT
 Dialogue: 0,0:00:05.58,0:00:06.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER EINEN PLATZ.
@@ -22,20 +21,18 @@ Dialogue: 0,0:00:07.34,0:00:07.89,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:00:08.20,0:00:08.95,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KAUM SPRECHEN.
 Dialogue: 0,0:00:09.48,0:00:10.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER WEISS NICHT,
 Dialogue: 0,0:00:10.04,0:00:10.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE ALT ER
-Dialogue: 0,0:00:10.46,0:00:11.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IST …
-Dialogue: 0,0:00:11.18,0:00:11.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT,
+Dialogue: 0,0:00:10.46,0:00:11.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IST NICHT,
 Dialogue: 0,0:00:11.60,0:00:12.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WOHER ER KOMMT.
 Dialogue: 0,0:00:13.22,0:00:14.22,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND FAST 200
-Dialogue: 0,0:00:14.22,0:00:15.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JAHRE SPÄTER …
-Dialogue: 0,0:00:15.16,0:00:16.36,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WEISS ES IMMER
-Dialogue: 0,0:00:16.36,0:00:16.95,Gelb,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NOCH NIEMAND.
+Dialogue: 0,0:00:14.22,0:00:15.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JAHRE SPÄTER WEISS
+Dialogue: 0,0:00:15.92,0:00:16.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES IMMER NOCH
+Dialogue: 0,0:00:16.54,0:00:16.95,Gelb,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NIEMAND.
 Dialogue: 0,0:00:17.62,0:00:18.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN SEINER HAND:
 Dialogue: 0,0:00:18.32,0:00:19.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN BRIEF.
 Dialogue: 0,0:00:19.68,0:00:20.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OHNE ABSENDER.
 Dialogue: 0,0:00:21.08,0:00:21.97,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DARIN STEHT NUR,
 Dialogue: 0,0:00:22.04,0:00:22.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MAN HABE IHN
 Dialogue: 0,0:00:22.52,0:00:23.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS BABY AUFGENOMMEN
-Dialogue: 0,0:00:23.58,0:00:23.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
 Dialogue: 0,0:00:23.58,0:00:24.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND IHN NIE
 Dialogue: 0,0:00:24.56,0:00:25.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUS DEM HAUS
 Dialogue: 0,0:00:25.14,0:00:25.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GELASSEN.
@@ -56,8 +53,7 @@ Dialogue: 0,0:00:39.74,0:00:40.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:00:40.76,0:00:41.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STANDEN BROT UND
 Dialogue: 0,0:00:41.48,0:00:42.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WASSER DA.
 Dialogue: 0,0:00:42.48,0:00:43.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABER DEN MENSCHEN,
-Dialogue: 0,0:00:43.12,0:00:43.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER ES BRACHTE
-Dialogue: 0,0:00:43.76,0:00:44.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
+Dialogue: 0,0:00:43.12,0:00:43.91,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER ES BRACHTE
 Dialogue: 0,0:00:44.30,0:00:44.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HAT ER NIE
 Dialogue: 0,0:00:44.70,0:00:45.06,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GESEHEN.
 Dialogue: 0,0:00:45.06,0:00:46.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GANZ EUROPA SPRICHT
@@ -69,14 +65,11 @@ Dialogue: 0,0:00:50.08,0:00:50.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:00:50.88,0:00:51.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER SEI EIN
 Dialogue: 0,0:00:51.38,0:00:52.05,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PRINZ.
 Dialogue: 0,0:00:52.32,0:00:53.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER ERBPRINZ VON
-Dialogue: 0,0:00:53.14,0:00:53.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BADEN
-Dialogue: 0,0:00:53.80,0:00:54.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS BABY VERTAUSCHT
-Dialogue: 0,0:00:54.96,0:00:54.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
-Dialogue: 0,0:00:54.96,0:00:56.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND WEGGESPERRT.
+Dialogue: 0,0:00:53.14,0:00:54.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BADEN ALS BABY
+Dialogue: 0,0:00:54.32,0:00:56.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERTAUSCHT UND WEGGESPERRT.
 Dialogue: 0,0:00:56.36,0:00:56.94,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND WENN DAS
-Dialogue: 0,0:00:56.94,0:00:57.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STIMMT …
-Dialogue: 0,0:00:57.74,0:00:58.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DANN GIBT ES
-Dialogue: 0,0:00:58.14,0:00:58.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MENSCHEN,
+Dialogue: 0,0:00:56.94,0:00:57.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STIMMT DANN GIBT
+Dialogue: 0,0:00:57.98,0:00:58.59,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES MENSCHEN,
 Dialogue: 0,0:00:58.62,0:00:59.06,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE IHN LIEBER
 Dialogue: 0,0:00:59.06,0:01:00.03,Gelb,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TOT SEHEN WOLLEN.
 Dialogue: 0,0:01:01.24,0:01:02.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}1829 FINDET MAN
@@ -86,8 +79,7 @@ Dialogue: 0,0:01:03.96,0:01:04.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:01:05.02,0:01:06.05,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN VERMUMMTER MANN,
 Dialogue: 0,0:01:06.08,0:01:06.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SAGT ER.
 Dialogue: 0,0:01:06.52,0:01:08.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VIER JAHRE SPÄTER.
-Dialogue: 0,0:01:08.50,0:01:10.27,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEZEMBER 1833.
-Dialogue: 0,0:01:10.72,0:01:11.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANSBACH.
+Dialogue: 0,0:01:08.50,0:01:11.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEZEMBER 1833. ANSBACH.
 Dialogue: 0,0:01:11.18,0:01:12.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KASPAR STOLPERT AUS
 Dialogue: 0,0:01:12.76,0:01:13.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEM HOFGARTEN.
 Dialogue: 0,0:01:13.84,0:01:14.71,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN MESSERSTICH,
@@ -106,7 +98,6 @@ Dialogue: 0,0:01:24.60,0:01:25.07,Gelb,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\f
 Dialogue: 0,0:01:25.60,0:01:26.74,Gelb,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAR ES MORD?
 Dialogue: 0,0:01:26.74,0:01:27.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ODER HAT ER
 Dialogue: 0,0:01:27.16,0:01:28.08,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SICH SELBST VERLETZT
-Dialogue: 0,0:01:28.08,0:01:28.08,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}
 Dialogue: 0,0:01:28.08,0:01:28.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND ES GING
 Dialogue: 0,0:01:28.62,0:01:29.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHIEF?
 Dialogue: 0,0:01:29.86,0:01:31.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}2024 SOLL ENDLICH
@@ -120,10 +111,10 @@ Dialogue: 0,0:01:37.76,0:01:38.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:01:38.70,0:01:39.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES IST NUR
 Dialogue: 0,0:01:39.32,0:01:40.25,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NOCH GRÖSSER.
 Dialogue: 0,0:01:40.42,0:01:41.02,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DENN WENN SEINE
-Dialogue: 0,0:01:41.02,0:01:42.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GESCHICHTE STIMMT …
-Dialogue: 0,0:01:42.46,0:01:42.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WER HAT IHN
-Dialogue: 0,0:01:42.92,0:01:43.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DANN ALL DIE
-Dialogue: 0,0:01:43.48,0:01:44.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JAHRE VERSTECKT?
+Dialogue: 0,0:01:41.02,0:01:42.60,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GESCHICHTE STIMMT WER
+Dialogue: 0,0:01:42.60,0:01:43.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HAT IHN DANN
+Dialogue: 0,0:01:43.04,0:01:43.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALL DIE JAHRE
+Dialogue: 0,0:01:43.70,0:01:44.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERSTECKT?
 Dialogue: 0,0:01:44.68,0:01:45.25,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND WARUM?
 Dialogue: 0,0:01:45.82,0:01:46.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF SEINEM GRAB
 Dialogue: 0,0:01:46.58,0:01:47.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STEHT BIS HEUTE:
@@ -132,7 +123,6 @@ Dialogue: 0,0:01:49.19,0:01:49.90,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fs
 Dialogue: 0,0:01:49.90,0:01:50.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RÄTSEL SEINER ZEIT.
 Dialogue: 0,0:01:51.40,0:01:52.71,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UNBEKANNT DIE HERKUNFT.
 Dialogue: 0,0:01:53.02,0:01:54.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GEHEIMNISVOLL DER TOD.
-Dialogue: 0,0:01:54.66,0:01:55.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
-Dialogue: 0,0:01:55.40,0:01:55.90,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}…
+Dialogue: 0,0:01:54.66,0:01:55.55,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
 Dialogue: 0,0:01:55.90,0:01:56.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WER WAR ER?
 Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}BIS HEUTE WEISS NIEMAND, WER DIESER JUNGE WAR
