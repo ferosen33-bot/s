@@ -6,26 +6,26 @@
   "ausgabe": "kaspar_hauser_tiktok.mp4",
   "szenen": [
     {"ab": "26.",               "bild": "bilder/nuernberg.png",   "von": [0.35, 0.50, 1.00], "nach": [0.68, 0.55, 1.15]},
-    {"ab": "Er kann kaum",      "bild": "bilder/kaspar_1828.jpg", "helligkeit": 0.72, "von": [0.50, 0.45, 1.00], "nach": [0.50, 0.35, 1.25]},
-    {"ab": "Und fast 200",      "bild": "bilder/kaspar_kreul_1830.jpg", "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.40, 1.50]},
-    {"ab": "In seiner Hand:",   "bild": "bilder/kaspar_1828.jpg", "helligkeit": 0.72, "von": [0.60, 0.50, 1.40], "nach": [0.78, 0.52, 2.60]},
+    {"ab": "Er kann kaum",      "bild": "bilder/kaspar_1828.jpg", "ruhig": true, "helligkeit": 0.72, "von": [0.50, 0.45, 1.00], "nach": [0.50, 0.35, 1.25]},
+    {"ab": "Und fast 200",      "bild": "bilder/kaspar_kreul_1830.jpg", "ruhig": true, "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.42, 1.30]},
+    {"ab": "In seiner Hand:",   "bild": "bilder/kaspar_1828.jpg", "ruhig": true, "helligkeit": 0.72, "von": [0.60, 0.50, 1.40], "nach": [0.70, 0.52, 1.55]},
     {"ab": "Er kennt nur",      "bild": "bilder/reiter.png",      "von": [0.55, 0.50, 1.00], "nach": [0.68, 0.50, 1.30]},
     {"ab": "Dann erzählt",      "bild": "bilder/zelle.png",       "von": [0.40, 0.50, 1.00], "nach": [0.62, 0.60, 1.30]},
     {"ab": "Aber den",          "bild": "bilder/gestalt.png",     "von": [0.30, 0.50, 1.00], "nach": [0.30, 0.45, 1.35]},
     {"ab": "Ganz Europa",       "bild": "bilder/europa.png",      "von": [0.30, 0.50, 1.00], "nach": [0.65, 0.50, 1.00]},
     {"ab": "Kaspar sei kein",   "bild": "bilder/wiege.png",       "von": [0.50, 0.50, 1.00], "nach": [0.75, 0.60, 1.10]},
     {"ab": "Und wenn das",      "bild": "bilder/gestalt_2.png",   "von": [0.60, 0.50, 1.00], "nach": [0.60, 0.45, 1.40]},
-    {"ab": "1829 findet",       "bild": "bilder/kaspar_kreul_1830.jpg", "von": [0.50, 0.45, 1.20], "nach": [0.47, 0.30, 2.20]},
+    {"ab": "1829 findet",       "bild": "bilder/kaspar_kreul_1830.jpg", "ruhig": true, "von": [0.50, 0.45, 1.05], "nach": [0.48, 0.38, 1.45]},
     {"ab": "Ein vermummter",    "bild": "bilder/vermummt.png",    "von": [0.45, 0.50, 1.10], "nach": [0.45, 0.50, 1.35]},
     {"ab": "Vier Jahre",        "bild": "bilder/hofgarten.png",   "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.60, 1.30]},
-    {"ab": "Ein Messerstich,",  "bild": "bilder/attentat_1833.jpg", "helligkeit": 0.6, "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.45, 1.40]},
+    {"ab": "Ein Messerstich,",  "bild": "bilder/attentat_1833.jpg", "ruhig": true, "helligkeit": 0.6, "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.45, 1.40]},
     {"ab": "Zurück bleibt",     "bild": "bilder/beutel.png",      "von": [0.30, 0.50, 1.00], "nach": [0.40, 0.40, 1.50]},
     {"ab": "Drei Tage",         "bild": "bilder/kerze.png",       "von": [0.40, 0.50, 1.00], "nach": [0.35, 0.45, 1.40]},
-    {"ab": "War es",            "bild": "bilder/kaspar_1828.jpg", "helligkeit": 0.72, "von": [0.50, 0.25, 2.00], "nach": [0.50, 0.45, 1.00]},
+    {"ab": "War es",            "bild": "bilder/kaspar_1828.jpg", "ruhig": true, "helligkeit": 0.72, "von": [0.50, 0.35, 1.40], "nach": [0.50, 0.45, 1.00]},
     {"ab": "2024 soll",         "bild": "bilder/dna.png",         "von": [0.35, 0.50, 1.00], "nach": [0.70, 0.50, 1.10]},
     {"ab": "Doch das Rätsel",   "bild": "bilder/nuernberg_2.png", "von": [0.70, 0.50, 1.20], "nach": [0.62, 0.55, 1.00]},
     {"ab": "Denn wenn",         "bild": "bilder/zelle_2.png",     "von": [0.30, 0.50, 1.00], "nach": [0.40, 0.65, 1.30]},
     {"ab": "Auf seinem",        "bild": "bilder/grab.png",        "von": [0.50, 0.50, 1.00], "nach": [0.45, 0.45, 1.30]},
-    {"ab": "Was glaubst",       "bild": "bilder/kaspar_kreul_1830.jpg", "von": [0.50, 0.40, 1.60], "nach": [0.50, 0.38, 2.20]}
+    {"ab": "Was glaubst",       "bild": "bilder/kaspar_kreul_1830.jpg", "ruhig": true, "von": [0.50, 0.42, 1.15], "nach": [0.50, 0.40, 1.50]}
   ]
 }

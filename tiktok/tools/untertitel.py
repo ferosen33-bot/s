@@ -71,7 +71,7 @@ GELB, ROT = r'{\c&H0034D4FF&}', r'{\c&H3C3CFF&}'
 SIGNAL = re.compile(r'^(NIEMAND|KEIN|KEINE|KEINEN|TOT|MORD|NIE|NICHTS|SPURLOS|VERSCHWUNDEN)\W*$', re.I)
 
 
-def karaoke_ass(sw, times, out, hook=None, akte=None, max_words=3, max_chars=18):
+def karaoke_ass(sw, times, out, hook=None, akte=None, max_words=3, max_chars=18, ende=None):
     """Untertitel mit Wort-für-Wort-Hervorhebung (aktives Wort gelb, Signalwörter rot)."""
     groups, cur = [], []
     for idx, w in enumerate(sw):
@@ -82,13 +82,17 @@ def karaoke_ass(sw, times, out, hook=None, akte=None, max_words=3, max_chars=18)
             groups.append(cur); cur = []
     if cur: groups.append(cur)
     clean = lambda w: w.replace('„', '').replace('“', '').replace('"', '').strip(' —').upper()
-    lines = [HEADER.replace(',86,', ',94,').replace(',1,7,3,2,', ',1,8,4,2,')]
+    lines = [HEADER.replace(',86,', ',94,').replace(',1,7,3,2,', ',1,8,4,2,').replace(',80,80,560,1', ',80,80,610,1')]
     if hook:
-        lines[0] = lines[0].replace('Style: Gelb,', 'Style: Hook,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,22,0,8,80,80,300,1\n'
-                                    'Style: Akte,Inter ExtraBold,40,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,10,0,8,80,80,236,1\nStyle: Gelb,', 1)
+        lines[0] = lines[0].replace('Style: Gelb,', 'Style: Hook,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,22,0,8,80,80,360,1\n'
+                                    'Style: Akte,Inter ExtraBold,40,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,10,0,8,80,80,296,1\nStyle: Gelb,', 1)
         if akte:
             lines.append(f'Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{{\\fad(0,300)}}AKTE {akte}\n')
         lines.append(f'Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{{\\fad(0,300)\\fscx112\\fscy112\\t(0,160,\\fscx100\\fscy100)}}{hook.upper()}\n')
+    if ende and hook:   # Endkarte: Aufforderung zum Folgen
+        e0 = ts(max(ende - 2.6, 0)); e1 = ts(ende)
+        lines.append(f'Dialogue: 2,{e0},{e1},Akte,,0,0,0,,{{\\fad(200,0)}}VERBORGENE AKTEN\n')
+        lines.append(f'Dialogue: 1,{e0},{e1},Hook,,0,0,0,,{{\\fad(200,0)\\fscx90\\fscy90\\t(0,200,\\fscx100\\fscy100)}}FOLGE FÜR DIE NÄCHSTE AKTE\n')
     for gi, g in enumerate(groups):
         g_end = times[g[-1]][1]
         nxt = times[groups[gi + 1][0]][0] if gi + 1 < len(groups) else g_end + 0.5

@@ -82,6 +82,7 @@ class Scene:
         else:
             self.bw, self.bh = iw, iw * self.out_h / self.out_w
         self.a, self.b = sc['von'], sc['nach']
+        self.ruhig = sc.get('ruhig', False)   # keine Punch-ins (Schrift im Bild, alte Gemälde)
         s = max(W / iw, H / ih)
         bg = img.resize((int(iw * s) + 1, int(ih * s) + 1), Image.BICUBIC)
         l, t = (bg.width - W) // 2, (bg.height - H) // 2
@@ -98,10 +99,10 @@ class Scene:
         p = smooth((t - self.start) / max(self.end - self.start, 0.01))
         cx, cy, z = [a + (b - a) * p for a, b in zip(self.a, self.b)]
         k = self.shot(t)
-        pz, dx, dy = PUNCH[k % len(PUNCH)] if k else PUNCH[0]
+        pz, dx, dy = PUNCH[k % len(PUNCH)] if k and not self.ruhig else PUNCH[0]
         # innerhalb jeder Einstellung leichter Push-in, dazu ein Hauch Kamerawackeln
         q = (t - self.cuts[k]) / max(self.cuts[k + 1] - self.cuts[k], 0.01)
-        z = max(z * pz * (1 + 0.05 * q) * extra, 1.0)
+        z = max(z * pz * (1 + (0.0 if self.ruhig else 0.05) * q) * extra, 1.0)
         cx += dx + 0.003 * math.sin(2.1 * t) + 0.002 * math.sin(3.7 * t + 1)
         cy += dy + 0.003 * math.sin(1.7 * t + 2)
         iw, ih = self.img.size
@@ -134,7 +135,7 @@ def main(cfg_path):
     tempo = cfg.get('tempo', 1.06)
     dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration',
                                 '-of', 'csv=p=0', cfg['audio']], capture_output=True, text=True).stdout) / tempo
-    total = dur + 0.8
+    total = dur + 1.8
     sw = ut.script_words(open(cfg['skript'], encoding='utf-8').read())
     times = [(s / tempo, e / tempo) for s, e in ut.align(sw, json.load(open(cfg['woerter'], encoding='utf-8')))]
     starts = resolve_times(cfg, sw, times)
@@ -145,12 +146,12 @@ def main(cfg_path):
 
     # Ton: Stimme (schneller) + Drone + Whooshes + Impact
     mixwav = 'audio/mix.wav'
-    sd.mix(cfg['audio'], tempo, starts[1:], total, mixwav)
+    sd.mix(cfg['audio'], tempo, starts[1:], total, mixwav, ende=total - 2.6)
 
     # Untertitel + Hook
     ass = 'audio/untertitel_video.ass'
     m = re.match(r'(\d+)-', os.path.basename(os.path.abspath('.')))
-    n = ut.karaoke_ass(sw, times, ass, cfg.get('hook'), m.group(1) if m else None)
+    n = ut.karaoke_ass(sw, times, ass, cfg.get('hook'), m.group(1) if m else None, ende=total)
     print(f'{n} Untertitel -> {ass}')
 
     vf = (f"eq=contrast=1.06:saturation=1.08:gamma=1.03,"

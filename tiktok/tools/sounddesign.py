@@ -75,7 +75,7 @@ def einfuegen(spur, clip, zeit, pegel):
     spur[i:i + k] += clip[:k] * pegel
 
 
-def mix(stimme_pfad, tempo, whoosh_zeiten, dauer, ziel):
+def mix(stimme_pfad, tempo, whoosh_zeiten, dauer, ziel, ende=None):
     v = lade(stimme_pfad, tempo)
     n = int(dauer * SR)
     voice = np.zeros(n)
@@ -96,6 +96,8 @@ def mix(stimme_pfad, tempo, whoosh_zeiten, dauer, ziel):
     for z in whoosh_zeiten:
         einfuegen(fx, w, max(z - 0.3, 0), db(-21))
     einfuegen(fx, impact(), 0.0, db(-10))
+    if ende:
+        einfuegen(fx, impact(), ende, db(-17))
 
     out = voice / max(np.max(np.abs(voice)), 1e-6) * db(-3) + bed + fx
     out = out / max(np.max(np.abs(out)), 1e-6) * db(-1)

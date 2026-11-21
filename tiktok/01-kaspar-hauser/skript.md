@@ -40,9 +40,9 @@ Vier Jahre später. Dezember 1833. Ansbach. Kaspar stolpert aus dem Hofgarten. E
 > Bis heute weiß niemand, wer dieser Junge war.
 
 ## Caption für TikTok
-Nürnberg, 1828: Ein Junge taucht aus dem Nichts auf – und sein Tod ist bis heute ungeklärt. 🕯️ Wer war Kaspar Hauser? Schreib deine Theorie in die Kommentare 👇
+Nürnberg, 1828: Ein Junge taucht aus dem Nichts auf. Niemand weiß, woher er kommt, und sein Tod ist bis heute ungeklärt. 🕯️ Wer war Kaspar Hauser? 👇
 
-#kasparhauser #mystery #geschichte #ungelöst #rätsel #history #nürnberg #wusstestdu #lernenmittiktok
+#kasparhauser #mystery #geschichte #ungelöst #rätsel #history #nürnberg #wusstestdu #verborgeneakten
 
 ## Faktencheck
 - Auftauchen in Nürnberg: 26. Mai 1828 (Pfingstmontag), Unschlittplatz; anonymer Begleitbrief
