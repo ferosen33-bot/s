@@ -42,7 +42,7 @@ def chunks(sw, times, max_words=3, max_chars=18):
         cur.append(idx)
         text = ' '.join(sw[k] for k in cur)
         # Ordnungszahlen wie „15.“ oder „26.“ sind kein Satzende
-        end_punct = re.search(r'[.,:;?!…—“"]$', w) and not re.fullmatch(r'\d+\.', w)
+        end_punct = re.search(r'[.,:;?!…—“"]$', w) and not re.fullmatch(r'\d{1,2}\.', w)
         if end_punct or len(cur) >= max_words or len(text) >= max_chars:
             out.append(cur); cur = []
     if cur: out.append(cur)
@@ -66,6 +66,49 @@ Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
+
+GELB, ROT = r'{\c&H0034D4FF&}', r'{\c&H3C3CFF&}'
+SIGNAL = re.compile(r'^(NIEMAND|KEIN|KEINE|KEINEN|TOT|MORD|NIE|NICHTS|SPURLOS|VERSCHWUNDEN)\W*$', re.I)
+
+
+def karaoke_ass(sw, times, out, hook=None, akte=None, max_words=3, max_chars=18):
+    """Untertitel mit Wort-für-Wort-Hervorhebung (aktives Wort gelb, Signalwörter rot)."""
+    groups, cur = [], []
+    for idx, w in enumerate(sw):
+        cur.append(idx)
+        text = ' '.join(sw[k] for k in cur)
+        end_punct = re.search(r'[.,:;?!…—“"]$', w) and not re.fullmatch(r'\d{1,2}\.', w)
+        if end_punct or len(cur) >= max_words or len(text) >= max_chars:
+            groups.append(cur); cur = []
+    if cur: groups.append(cur)
+    clean = lambda w: w.replace('„', '').replace('“', '').replace('"', '').strip(' —').upper()
+    lines = [HEADER.replace(',86,', ',94,').replace(',1,7,3,2,', ',1,8,4,2,')]
+    if hook:
+        lines[0] = lines[0].replace('Style: Gelb,', 'Style: Hook,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,22,0,8,80,80,300,1\n'
+                                    'Style: Akte,Inter ExtraBold,40,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,10,0,8,80,80,236,1\nStyle: Gelb,', 1)
+        if akte:
+            lines.append(f'Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{{\\fad(0,300)}}AKTE {akte}\n')
+        lines.append(f'Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{{\\fad(0,300)\\fscx112\\fscy112\\t(0,160,\\fscx100\\fscy100)}}{hook.upper()}\n')
+    for gi, g in enumerate(groups):
+        g_end = times[g[-1]][1]
+        nxt = times[groups[gi + 1][0]][0] if gi + 1 < len(groups) else g_end + 0.5
+        g_end = min(max(g_end + 0.15, times[g[0]][0] + 0.35), nxt)
+        for wi, k in enumerate(g):
+            s = times[k][0] if wi else times[g[0]][0]
+            e = times[g[wi + 1]][0] if wi + 1 < len(g) else g_end
+            if e <= s: continue
+            parts = []
+            for kk in g:
+                c = clean(sw[kk])
+                if not c: continue
+                if SIGNAL.match(c): parts.append(ROT + c + r'{\c&HFFFFFF&}')
+                elif kk == k: parts.append(GELB + c + r'{\c&HFFFFFF&}')
+                else: parts.append(c)
+            pop = r'{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}' if wi == 0 else ''
+            lines.append(f'Dialogue: 0,{ts(s)},{ts(e)},Sub,,0,0,0,,{pop}{" ".join(parts)}\n')
+    open(out, 'w', encoding='utf-8').writelines(lines)
+    return len(groups)
+
 
 if __name__ == '__main__':
     md, wj, out = sys.argv[1:4]
