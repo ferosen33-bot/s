@@ -6,101 +6,227 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
-Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
-Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Sub,Inter ExtraBold,94,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
+Style: Hook,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,22,0,8,80,80,300,1
+Style: Akte,Inter ExtraBold,40,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,10,0,8,80,80,236,1
+Style: Gelb,Inter ExtraBold,94,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:02.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}30. JUNI 1908.
-Dialogue: 0,0:00:02.76,0:00:03.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIBIRIEN.
-Dialogue: 0,0:00:04.02,0:00:04.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KURZ NACH SIEBEN
-Dialogue: 0,0:00:04.74,0:00:05.55,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UHR MORGENS.
-Dialogue: 0,0:00:05.86,0:00:07.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN GRELLER FEUERBALL
-Dialogue: 0,0:00:07.14,0:00:07.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RAST ÜBER DEN
-Dialogue: 0,0:00:07.92,0:00:08.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HIMMEL.
-Dialogue: 0,0:00:08.90,0:00:10.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DANN EXPLODIERT ER.
-Dialogue: 0,0:00:11.24,0:00:12.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE DRUCKWELLE KNICKT
-Dialogue: 0,0:00:12.16,0:00:13.26,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RUND 80 MILLIONEN
-Dialogue: 0,0:00:13.26,0:00:14.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BÄUME UM.
-Dialogue: 0,0:00:14.40,0:00:15.06,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF EINER FLÄCHE
-Dialogue: 0,0:00:15.06,0:00:15.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MEHR ALS DOPPELT
-Dialogue: 0,0:00:15.92,0:00:16.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO GROSS WIE
-Dialogue: 0,0:00:16.50,0:00:16.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BERLIN.
-Dialogue: 0,0:00:17.56,0:00:18.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IN EINER HANDELSSTATION,
-Dialogue: 0,0:00:19.28,0:00:20.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RUND 65 KILOMETER
-Dialogue: 0,0:00:20.66,0:00:21.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENTFERNT,
-Dialogue: 0,0:00:21.64,0:00:22.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIRD EIN MANN
-Dialogue: 0,0:00:22.12,0:00:22.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VON SEINER VERANDA
-Dialogue: 0,0:00:22.96,0:00:23.73,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GESCHLEUDERT.
-Dialogue: 0,0:00:24.06,0:00:25.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER ERZÄHLT SPÄTER,
-Dialogue: 0,0:00:25.34,0:00:25.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES HABE SICH
-Dialogue: 0,0:00:25.78,0:00:26.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANGEFÜHLT,
-Dialogue: 0,0:00:26.58,0:00:27.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS WÜRDE SEIN
-Dialogue: 0,0:00:27.12,0:00:27.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HEMD BRENNEN.
-Dialogue: 0,0:00:28.18,0:00:29.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE EXPLOSION IST
-Dialogue: 0,0:00:29.30,0:00:30.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO STARK WIE
-Dialogue: 0,0:00:30.12,0:00:31.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS ZU TAUSEND
-Dialogue: 0,0:00:31.38,0:00:32.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HIROSHIMA-BOMBEN.
-Dialogue: 0,0:00:32.28,0:00:32.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND IN DEN
-Dialogue: 0,0:00:32.80,0:00:33.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NÄCHTEN DANACH GESCHIEHT
-Dialogue: 0,0:00:33.96,0:00:34.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ETWAS SELTSAMES:
-Dialogue: 0,0:00:35.28,0:00:36.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER HIMMEL ÜBER
-Dialogue: 0,0:00:36.12,0:00:37.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EUROPA LEUCHTET.
-Dialogue: 0,0:00:37.64,0:00:38.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO HELL,
-Dialogue: 0,0:00:38.58,0:00:39.00,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DASS MAN IN
-Dialogue: 0,0:00:39.00,0:00:39.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LONDON UM MITTERNACHT
-Dialogue: 0,0:00:39.98,0:00:41.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DRAUSSEN ZEITUNG LESEN
-Dialogue: 0,0:00:41.18,0:00:41.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KANN.
-Dialogue: 0,0:00:41.88,0:00:42.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH NIEMAND FÄHRT
-Dialogue: 0,0:00:42.54,0:00:42.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HIN.
-Dialogue: 0,0:00:43.24,0:00:43.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU WEIT,
-Dialogue: 0,0:00:44.08,0:00:44.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU ABGELEGEN.
-Dialogue: 0,0:00:45.24,0:00:46.22,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ERST 19 JAHRE
-Dialogue: 0,0:00:46.22,0:00:47.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPÄTER ERREICHT EINE
-Dialogue: 0,0:00:47.30,0:00:48.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EXPEDITION DEN ORT.
-Dialogue: 0,0:00:48.96,0:00:49.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS SIE FINDEN,
-Dialogue: 0,0:00:49.88,0:00:50.91,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IST UNHEIMLICH.
-Dialogue: 0,0:00:51.58,0:00:52.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KILOMETERWEIT UMGESTÜRZTE
-Dialogue: 0,0:00:52.86,0:00:53.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BÄUME,
-Dialogue: 0,0:00:53.66,0:00:54.42,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALLE VON EINEM
-Dialogue: 0,0:00:54.42,0:00:55.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PUNKT WEG NACH
-Dialogue: 0,0:00:55.18,0:00:55.90,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUSSEN GERICHTET.
-Dialogue: 0,0:00:55.90,0:00:57.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND GENAU IN
-Dialogue: 0,0:00:57.10,0:00:58.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER MITTE STEHEN
-Dialogue: 0,0:00:58.18,0:00:59.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BÄUME NOCH AUFRECHT.
-Dialogue: 0,0:00:59.14,0:01:00.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KAHL.
-Dialogue: 0,0:01:00.40,0:01:01.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}OHNE ÄSTE.
-Dialogue: 0,0:01:01.42,0:01:02.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE TELEFONMASTEN.
-Dialogue: 0,0:01:02.88,0:01:03.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABER:
-Dialogue: 0,0:01:03.16,0:01:04.45,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN KRATER.
-Dialogue: 0,0:01:04.68,0:01:05.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN METEORIT.
-Dialogue: 0,0:01:05.76,0:01:06.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE TRÜMMER.
-Dialogue: 0,0:01:06.76,0:01:07.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHTS.
-Dialogue: 0,0:01:07.80,0:01:08.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS ALSO IST
-Dialogue: 0,0:01:08.50,0:01:09.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EXPLODIERT?
-Dialogue: 0,0:01:09.66,0:01:10.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE MEISTEN FORSCHER
-Dialogue: 0,0:01:10.48,0:01:11.23,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GLAUBEN HEUTE:
-Dialogue: 0,0:01:11.58,0:01:12.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN ASTEROID ODER
-Dialogue: 0,0:01:12.62,0:01:13.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KOMET IST EINIGE
-Dialogue: 0,0:01:13.70,0:01:14.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KILOMETER ÜBER DEM
-Dialogue: 0,0:01:14.76,0:01:15.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BODEN IN DER
-Dialogue: 0,0:01:15.38,0:01:16.29,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LUFT ZERPLATZT.
-Dialogue: 0,0:01:16.48,0:01:17.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DARUM GIBT ES
-Dialogue: 0,0:01:17.18,0:01:17.91,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINEN KRATER.
-Dialogue: 0,0:01:18.28,0:01:18.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH ES GIBT
-Dialogue: 0,0:01:18.72,0:01:19.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS HEUTE ANDERE
-Dialogue: 0,0:01:19.46,0:01:20.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}THEORIEN.
-Dialogue: 0,0:01:20.60,0:01:21.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANTIMATERIE.
-Dialogue: 0,0:01:21.60,0:01:22.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN WINZIGES SCHWARZES
-Dialogue: 0,0:01:22.64,0:01:23.07,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LOCH.
-Dialogue: 0,0:01:23.28,0:01:24.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SOGAR EIN ABGESTÜRZTES
-Dialogue: 0,0:01:24.52,0:01:25.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RAUMSCHIFF.
-Dialogue: 0,0:01:25.04,0:01:26.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DAS BEUNRUHIGENDSTE:
-Dialogue: 0,0:01:27.18,0:01:27.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO ETWAS KANN
-Dialogue: 0,0:01:27.76,0:01:28.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIEDER PASSIEREN.
-Dialogue: 0,0:01:28.88,0:01:29.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JEDERZEIT.
-Dialogue: 0,0:01:30.00,0:01:30.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
-Dialogue: 0,0:01:31.04,0:01:32.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS IST 1908
-Dialogue: 0,0:01:32.44,0:01:33.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER SIBIRIEN EXPLODIERT?
-Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}80 MILLIONEN BÄUME UMGEKNICKT – ABER KEIN KRATER
+Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{\fad(0,300)}AKTE 07
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(0,300)\fscx112\fscy112\t(0,160,\fscx100\fscy100)}80 MILLIONEN BÄUME UMGEKNICKT – ABER KEIN KRATER
+Dialogue: 0,0:00:00.00,0:00:00.66,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}30.{\c&HFFFFFF&} JUNI 1908.
+Dialogue: 0,0:00:00.66,0:00:01.08,Sub,,0,0,0,,30. {\c&H0034D4FF&}JUNI{\c&HFFFFFF&} 1908.
+Dialogue: 0,0:00:01.08,0:00:02.21,Sub,,0,0,0,,30. JUNI {\c&H0034D4FF&}1908.{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.60,0:00:03.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIBIRIEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.79,0:00:04.00,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KURZ{\c&HFFFFFF&} NACH SIEBEN
+Dialogue: 0,0:00:04.00,0:00:04.25,Sub,,0,0,0,,KURZ {\c&H0034D4FF&}NACH{\c&HFFFFFF&} SIEBEN
+Dialogue: 0,0:00:04.25,0:00:04.47,Sub,,0,0,0,,KURZ NACH {\c&H0034D4FF&}SIEBEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.47,0:00:04.68,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UHR{\c&HFFFFFF&} MORGENS.
+Dialogue: 0,0:00:04.68,0:00:05.24,Sub,,0,0,0,,UHR {\c&H0034D4FF&}MORGENS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.53,0:00:05.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} GRELLER FEUERBALL
+Dialogue: 0,0:00:05.77,0:00:06.17,Sub,,0,0,0,,EIN {\c&H0034D4FF&}GRELLER{\c&HFFFFFF&} FEUERBALL
+Dialogue: 0,0:00:06.17,0:00:06.74,Sub,,0,0,0,,EIN GRELLER {\c&H0034D4FF&}FEUERBALL{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.74,0:00:07.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}RAST{\c&HFFFFFF&} ÜBER DEN
+Dialogue: 0,0:00:07.11,0:00:07.30,Sub,,0,0,0,,RAST {\c&H0034D4FF&}ÜBER{\c&HFFFFFF&} DEN
+Dialogue: 0,0:00:07.30,0:00:07.47,Sub,,0,0,0,,RAST ÜBER {\c&H0034D4FF&}DEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.47,0:00:07.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HIMMEL.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.40,0:00:08.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DANN{\c&HFFFFFF&} EXPLODIERT ER.
+Dialogue: 0,0:00:08.62,0:00:09.81,Sub,,0,0,0,,DANN {\c&H0034D4FF&}EXPLODIERT{\c&HFFFFFF&} ER.
+Dialogue: 0,0:00:09.81,0:00:10.15,Sub,,0,0,0,,DANN EXPLODIERT {\c&H0034D4FF&}ER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.60,0:00:10.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} DRUCKWELLE KNICKT
+Dialogue: 0,0:00:10.70,0:00:11.21,Sub,,0,0,0,,DIE {\c&H0034D4FF&}DRUCKWELLE{\c&HFFFFFF&} KNICKT
+Dialogue: 0,0:00:11.21,0:00:11.47,Sub,,0,0,0,,DIE DRUCKWELLE {\c&H0034D4FF&}KNICKT{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.47,0:00:11.66,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}RUND{\c&HFFFFFF&} 80 MILLIONEN
+Dialogue: 0,0:00:11.66,0:00:12.15,Sub,,0,0,0,,RUND {\c&H0034D4FF&}80{\c&HFFFFFF&} MILLIONEN
+Dialogue: 0,0:00:12.15,0:00:12.51,Sub,,0,0,0,,RUND 80 {\c&H0034D4FF&}MILLIONEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.51,0:00:12.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BÄUME{\c&HFFFFFF&} UM.
+Dialogue: 0,0:00:12.96,0:00:13.32,Sub,,0,0,0,,BÄUME {\c&H0034D4FF&}UM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.58,0:00:13.72,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AUF{\c&HFFFFFF&} EINER FLÄCHE
+Dialogue: 0,0:00:13.72,0:00:13.89,Sub,,0,0,0,,AUF {\c&H0034D4FF&}EINER{\c&HFFFFFF&} FLÄCHE
+Dialogue: 0,0:00:13.89,0:00:14.21,Sub,,0,0,0,,AUF EINER {\c&H0034D4FF&}FLÄCHE{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.21,0:00:14.42,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MEHR{\c&HFFFFFF&} ALS DOPPELT
+Dialogue: 0,0:00:14.42,0:00:14.60,Sub,,0,0,0,,MEHR {\c&H0034D4FF&}ALS{\c&HFFFFFF&} DOPPELT
+Dialogue: 0,0:00:14.60,0:00:15.02,Sub,,0,0,0,,MEHR ALS {\c&H0034D4FF&}DOPPELT{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.02,0:00:15.17,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SO{\c&HFFFFFF&} GROSS WIE
+Dialogue: 0,0:00:15.17,0:00:15.40,Sub,,0,0,0,,SO {\c&H0034D4FF&}GROSS{\c&HFFFFFF&} WIE
+Dialogue: 0,0:00:15.40,0:00:15.57,Sub,,0,0,0,,SO GROSS {\c&H0034D4FF&}WIE{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.57,0:00:15.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BERLIN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.57,0:00:16.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IN{\c&HFFFFFF&} EINER HANDELSSTATION,
+Dialogue: 0,0:00:16.70,0:00:16.92,Sub,,0,0,0,,IN {\c&H0034D4FF&}EINER{\c&HFFFFFF&} HANDELSSTATION,
+Dialogue: 0,0:00:16.92,0:00:17.79,Sub,,0,0,0,,IN EINER {\c&H0034D4FF&}HANDELSSTATION,{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.19,0:00:18.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}RUND{\c&HFFFFFF&} 65 KILOMETER
+Dialogue: 0,0:00:18.30,0:00:18.89,Sub,,0,0,0,,RUND {\c&H0034D4FF&}65{\c&HFFFFFF&} KILOMETER
+Dialogue: 0,0:00:18.89,0:00:19.49,Sub,,0,0,0,,RUND 65 {\c&H0034D4FF&}KILOMETER{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.49,0:00:20.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ENTFERNT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.42,0:00:20.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIRD{\c&HFFFFFF&} EIN MANN
+Dialogue: 0,0:00:20.53,0:00:20.70,Sub,,0,0,0,,WIRD {\c&H0034D4FF&}EIN{\c&HFFFFFF&} MANN
+Dialogue: 0,0:00:20.70,0:00:20.87,Sub,,0,0,0,,WIRD EIN {\c&H0034D4FF&}MANN{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.87,0:00:21.08,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VON{\c&HFFFFFF&} SEINER VERANDA
+Dialogue: 0,0:00:21.08,0:00:21.32,Sub,,0,0,0,,VON {\c&H0034D4FF&}SEINER{\c&HFFFFFF&} VERANDA
+Dialogue: 0,0:00:21.32,0:00:21.66,Sub,,0,0,0,,VON SEINER {\c&H0034D4FF&}VERANDA{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.66,0:00:22.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}GESCHLEUDERT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.70,0:00:22.83,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ER{\c&HFFFFFF&} ERZÄHLT SPÄTER,
+Dialogue: 0,0:00:22.83,0:00:23.15,Sub,,0,0,0,,ER {\c&H0034D4FF&}ERZÄHLT{\c&HFFFFFF&} SPÄTER,
+Dialogue: 0,0:00:23.15,0:00:23.75,Sub,,0,0,0,,ER ERZÄHLT {\c&H0034D4FF&}SPÄTER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.91,0:00:23.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} HABE SICH
+Dialogue: 0,0:00:23.98,0:00:24.15,Sub,,0,0,0,,ES {\c&H0034D4FF&}HABE{\c&HFFFFFF&} SICH
+Dialogue: 0,0:00:24.15,0:00:24.32,Sub,,0,0,0,,ES HABE {\c&H0034D4FF&}SICH{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.32,0:00:25.08,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ANGEFÜHLT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.08,0:00:25.17,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALS{\c&HFFFFFF&} WÜRDE SEIN
+Dialogue: 0,0:00:25.17,0:00:25.38,Sub,,0,0,0,,ALS {\c&H0034D4FF&}WÜRDE{\c&HFFFFFF&} SEIN
+Dialogue: 0,0:00:25.38,0:00:25.58,Sub,,0,0,0,,ALS WÜRDE {\c&H0034D4FF&}SEIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.58,0:00:25.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HEMD{\c&HFFFFFF&} BRENNEN.
+Dialogue: 0,0:00:25.96,0:00:26.41,Sub,,0,0,0,,HEMD {\c&H0034D4FF&}BRENNEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.58,0:00:26.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} EXPLOSION IST
+Dialogue: 0,0:00:26.89,0:00:27.36,Sub,,0,0,0,,DIE {\c&H0034D4FF&}EXPLOSION{\c&HFFFFFF&} IST
+Dialogue: 0,0:00:27.36,0:00:27.64,Sub,,0,0,0,,DIE EXPLOSION {\c&H0034D4FF&}IST{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.64,0:00:27.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SO{\c&HFFFFFF&} STARK WIE
+Dialogue: 0,0:00:27.89,0:00:28.34,Sub,,0,0,0,,SO {\c&H0034D4FF&}STARK{\c&HFFFFFF&} WIE
+Dialogue: 0,0:00:28.34,0:00:28.42,Sub,,0,0,0,,SO STARK {\c&H0034D4FF&}WIE{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.42,0:00:28.57,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BIS{\c&HFFFFFF&} ZU TAUSEND
+Dialogue: 0,0:00:28.57,0:00:28.75,Sub,,0,0,0,,BIS {\c&H0034D4FF&}ZU{\c&HFFFFFF&} TAUSEND
+Dialogue: 0,0:00:28.75,0:00:29.60,Sub,,0,0,0,,BIS ZU {\c&H0034D4FF&}TAUSEND{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.60,0:00:30.45,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HIROSHIMA-BOMBEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.45,0:00:30.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} IN DEN
+Dialogue: 0,0:00:30.70,0:00:30.83,Sub,,0,0,0,,UND {\c&H0034D4FF&}IN{\c&HFFFFFF&} DEN
+Dialogue: 0,0:00:30.83,0:00:30.94,Sub,,0,0,0,,UND IN {\c&H0034D4FF&}DEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.94,0:00:31.32,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NÄCHTEN{\c&HFFFFFF&} DANACH GESCHIEHT
+Dialogue: 0,0:00:31.32,0:00:31.62,Sub,,0,0,0,,NÄCHTEN {\c&H0034D4FF&}DANACH{\c&HFFFFFF&} GESCHIEHT
+Dialogue: 0,0:00:31.62,0:00:32.04,Sub,,0,0,0,,NÄCHTEN DANACH {\c&H0034D4FF&}GESCHIEHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.04,0:00:32.26,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ETWAS{\c&HFFFFFF&} SELTSAMES:
+Dialogue: 0,0:00:32.26,0:00:32.96,Sub,,0,0,0,,ETWAS {\c&H0034D4FF&}SELTSAMES:{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.28,0:00:33.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DER{\c&HFFFFFF&} HIMMEL ÜBER
+Dialogue: 0,0:00:33.51,0:00:33.89,Sub,,0,0,0,,DER {\c&H0034D4FF&}HIMMEL{\c&HFFFFFF&} ÜBER
+Dialogue: 0,0:00:33.89,0:00:34.08,Sub,,0,0,0,,DER HIMMEL {\c&H0034D4FF&}ÜBER{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.08,0:00:34.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EUROPA{\c&HFFFFFF&} LEUCHTET.
+Dialogue: 0,0:00:34.51,0:00:35.28,Sub,,0,0,0,,EUROPA {\c&H0034D4FF&}LEUCHTET.{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.51,0:00:35.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SO{\c&HFFFFFF&} HELL,
+Dialogue: 0,0:00:35.81,0:00:36.21,Sub,,0,0,0,,SO {\c&H0034D4FF&}HELL,{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.40,0:00:36.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DASS{\c&HFFFFFF&} MAN IN
+Dialogue: 0,0:00:36.49,0:00:36.64,Sub,,0,0,0,,DASS {\c&H0034D4FF&}MAN{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:36.64,0:00:36.79,Sub,,0,0,0,,DASS MAN {\c&H0034D4FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.79,0:00:37.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LONDON{\c&HFFFFFF&} UM MITTERNACHT
+Dialogue: 0,0:00:37.11,0:00:37.30,Sub,,0,0,0,,LONDON {\c&H0034D4FF&}UM{\c&HFFFFFF&} MITTERNACHT
+Dialogue: 0,0:00:37.30,0:00:37.72,Sub,,0,0,0,,LONDON UM {\c&H0034D4FF&}MITTERNACHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.72,0:00:38.00,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DRAUSSEN{\c&HFFFFFF&} ZEITUNG LESEN
+Dialogue: 0,0:00:38.00,0:00:38.55,Sub,,0,0,0,,DRAUSSEN {\c&H0034D4FF&}ZEITUNG{\c&HFFFFFF&} LESEN
+Dialogue: 0,0:00:38.55,0:00:38.85,Sub,,0,0,0,,DRAUSSEN ZEITUNG {\c&H0034D4FF&}LESEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.85,0:00:39.20,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KANN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.51,0:00:39.64,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DOCH{\c&HFFFFFF&} {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} FÄHRT
+Dialogue: 0,0:00:39.64,0:00:39.89,Sub,,0,0,0,,DOCH {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} FÄHRT
+Dialogue: 0,0:00:39.89,0:00:40.13,Sub,,0,0,0,,DOCH {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} {\c&H0034D4FF&}FÄHRT{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.13,0:00:40.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HIN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.79,0:00:40.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ZU{\c&HFFFFFF&} WEIT,
+Dialogue: 0,0:00:40.92,0:00:41.28,Sub,,0,0,0,,ZU {\c&H0034D4FF&}WEIT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.58,0:00:41.66,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ZU{\c&HFFFFFF&} ABGELEGEN.
+Dialogue: 0,0:00:41.66,0:00:42.30,Sub,,0,0,0,,ZU {\c&H0034D4FF&}ABGELEGEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.68,0:00:42.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ERST{\c&HFFFFFF&} 19 JAHRE
+Dialogue: 0,0:00:42.87,0:00:43.36,Sub,,0,0,0,,ERST {\c&H0034D4FF&}19{\c&HFFFFFF&} JAHRE
+Dialogue: 0,0:00:43.36,0:00:43.60,Sub,,0,0,0,,ERST 19 {\c&H0034D4FF&}JAHRE{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.60,0:00:44.04,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SPÄTER{\c&HFFFFFF&} ERREICHT EINE
+Dialogue: 0,0:00:44.04,0:00:44.42,Sub,,0,0,0,,SPÄTER {\c&H0034D4FF&}ERREICHT{\c&HFFFFFF&} EINE
+Dialogue: 0,0:00:44.42,0:00:44.62,Sub,,0,0,0,,SPÄTER ERREICHT {\c&H0034D4FF&}EINE{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.62,0:00:45.23,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EXPEDITION{\c&HFFFFFF&} DEN ORT.
+Dialogue: 0,0:00:45.23,0:00:45.40,Sub,,0,0,0,,EXPEDITION {\c&H0034D4FF&}DEN{\c&HFFFFFF&} ORT.
+Dialogue: 0,0:00:45.40,0:00:45.83,Sub,,0,0,0,,EXPEDITION DEN {\c&H0034D4FF&}ORT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.19,0:00:46.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} SIE FINDEN,
+Dialogue: 0,0:00:46.30,0:00:46.43,Sub,,0,0,0,,WAS {\c&H0034D4FF&}SIE{\c&HFFFFFF&} FINDEN,
+Dialogue: 0,0:00:46.43,0:00:46.89,Sub,,0,0,0,,WAS SIE {\c&H0034D4FF&}FINDEN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.06,0:00:47.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IST{\c&HFFFFFF&} UNHEIMLICH.
+Dialogue: 0,0:00:47.21,0:00:48.04,Sub,,0,0,0,,IST {\c&H0034D4FF&}UNHEIMLICH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.66,0:00:49.26,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KILOMETERWEIT{\c&HFFFFFF&} UMGESTÜRZTE
+Dialogue: 0,0:00:49.26,0:00:49.87,Sub,,0,0,0,,KILOMETERWEIT {\c&H0034D4FF&}UMGESTÜRZTE{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.87,0:00:50.41,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BÄUME,{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.62,0:00:50.83,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALLE{\c&HFFFFFF&} VON EINEM
+Dialogue: 0,0:00:50.83,0:00:51.00,Sub,,0,0,0,,ALLE {\c&H0034D4FF&}VON{\c&HFFFFFF&} EINEM
+Dialogue: 0,0:00:51.00,0:00:51.34,Sub,,0,0,0,,ALLE VON {\c&H0034D4FF&}EINEM{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.34,0:00:51.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}PUNKT{\c&HFFFFFF&} WEG NACH
+Dialogue: 0,0:00:51.62,0:00:51.85,Sub,,0,0,0,,PUNKT {\c&H0034D4FF&}WEG{\c&HFFFFFF&} NACH
+Dialogue: 0,0:00:51.85,0:00:52.06,Sub,,0,0,0,,PUNKT WEG {\c&H0034D4FF&}NACH{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.06,0:00:52.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AUSSEN{\c&HFFFFFF&} GERICHTET.
+Dialogue: 0,0:00:52.40,0:00:52.74,Sub,,0,0,0,,AUSSEN {\c&H0034D4FF&}GERICHTET.{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.74,0:00:53.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} GENAU IN
+Dialogue: 0,0:00:53.36,0:00:53.66,Sub,,0,0,0,,UND {\c&H0034D4FF&}GENAU{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:53.66,0:00:53.87,Sub,,0,0,0,,UND GENAU {\c&H0034D4FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.87,0:00:53.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DER{\c&HFFFFFF&} MITTE STEHEN
+Dialogue: 0,0:00:53.96,0:00:54.19,Sub,,0,0,0,,DER {\c&H0034D4FF&}MITTE{\c&HFFFFFF&} STEHEN
+Dialogue: 0,0:00:54.19,0:00:54.89,Sub,,0,0,0,,DER MITTE {\c&H0034D4FF&}STEHEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.89,0:00:55.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BÄUME{\c&HFFFFFF&} NOCH AUFRECHT.
+Dialogue: 0,0:00:55.21,0:00:55.36,Sub,,0,0,0,,BÄUME {\c&H0034D4FF&}NOCH{\c&HFFFFFF&} AUFRECHT.
+Dialogue: 0,0:00:55.36,0:00:55.79,Sub,,0,0,0,,BÄUME NOCH {\c&H0034D4FF&}AUFRECHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.79,0:00:56.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KAHL.{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.98,0:00:57.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}OHNE{\c&HFFFFFF&} ÄSTE.
+Dialogue: 0,0:00:57.21,0:00:57.68,Sub,,0,0,0,,OHNE {\c&H0034D4FF&}ÄSTE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.94,0:00:58.08,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIE{\c&HFFFFFF&} TELEFONMASTEN.
+Dialogue: 0,0:00:58.08,0:00:58.96,Sub,,0,0,0,,WIE {\c&H0034D4FF&}TELEFONMASTEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.32,0:00:59.58,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ABER:{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.58,0:01:00.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} KRATER.
+Dialogue: 0,0:01:00.21,0:01:00.81,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}KRATER.{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.02,0:01:01.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} METEORIT.
+Dialogue: 0,0:01:01.21,0:01:01.94,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}METEORIT.{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.04,0:01:02.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} TRÜMMER.
+Dialogue: 0,0:01:02.36,0:01:02.92,Sub,,0,0,0,,{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} {\c&H0034D4FF&}TRÜMMER.{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.98,0:01:03.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}NICHTS.{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.96,0:01:04.13,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} ALSO IST
+Dialogue: 0,0:01:04.13,0:01:04.45,Sub,,0,0,0,,WAS {\c&H0034D4FF&}ALSO{\c&HFFFFFF&} IST
+Dialogue: 0,0:01:04.45,0:01:04.62,Sub,,0,0,0,,WAS ALSO {\c&H0034D4FF&}IST{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.62,0:01:05.32,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EXPLODIERT?{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.72,0:01:05.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} MEISTEN FORSCHER
+Dialogue: 0,0:01:05.81,0:01:06.06,Sub,,0,0,0,,DIE {\c&H0034D4FF&}MEISTEN{\c&HFFFFFF&} FORSCHER
+Dialogue: 0,0:01:06.06,0:01:06.49,Sub,,0,0,0,,DIE MEISTEN {\c&H0034D4FF&}FORSCHER{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.49,0:01:06.72,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}GLAUBEN{\c&HFFFFFF&} HEUTE:
+Dialogue: 0,0:01:06.72,0:01:07.21,Sub,,0,0,0,,GLAUBEN {\c&H0034D4FF&}HEUTE:{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.53,0:01:07.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} ASTEROID ODER
+Dialogue: 0,0:01:07.70,0:01:08.32,Sub,,0,0,0,,EIN {\c&H0034D4FF&}ASTEROID{\c&HFFFFFF&} ODER
+Dialogue: 0,0:01:08.32,0:01:08.51,Sub,,0,0,0,,EIN ASTEROID {\c&H0034D4FF&}ODER{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.51,0:01:08.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KOMET{\c&HFFFFFF&} IST EINIGE
+Dialogue: 0,0:01:08.87,0:01:09.15,Sub,,0,0,0,,KOMET {\c&H0034D4FF&}IST{\c&HFFFFFF&} EINIGE
+Dialogue: 0,0:01:09.15,0:01:09.53,Sub,,0,0,0,,KOMET IST {\c&H0034D4FF&}EINIGE{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.53,0:01:10.06,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KILOMETER{\c&HFFFFFF&} ÜBER DEM
+Dialogue: 0,0:01:10.06,0:01:10.36,Sub,,0,0,0,,KILOMETER {\c&H0034D4FF&}ÜBER{\c&HFFFFFF&} DEM
+Dialogue: 0,0:01:10.36,0:01:10.53,Sub,,0,0,0,,KILOMETER ÜBER {\c&H0034D4FF&}DEM{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.53,0:01:10.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BODEN{\c&HFFFFFF&} IN DER
+Dialogue: 0,0:01:10.81,0:01:11.02,Sub,,0,0,0,,BODEN {\c&H0034D4FF&}IN{\c&HFFFFFF&} DER
+Dialogue: 0,0:01:11.02,0:01:11.11,Sub,,0,0,0,,BODEN IN {\c&H0034D4FF&}DER{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.11,0:01:11.32,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LUFT{\c&HFFFFFF&} ZERPLATZT.
+Dialogue: 0,0:01:11.32,0:01:11.98,Sub,,0,0,0,,LUFT {\c&H0034D4FF&}ZERPLATZT.{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.15,0:01:12.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DARUM{\c&HFFFFFF&} GIBT ES
+Dialogue: 0,0:01:12.51,0:01:12.68,Sub,,0,0,0,,DARUM {\c&H0034D4FF&}GIBT{\c&HFFFFFF&} ES
+Dialogue: 0,0:01:12.68,0:01:12.81,Sub,,0,0,0,,DARUM GIBT {\c&H0034D4FF&}ES{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.81,0:01:12.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEINEN{\c&HFFFFFF&} KRATER.
+Dialogue: 0,0:01:12.98,0:01:13.51,Sub,,0,0,0,,{\c&H3C3CFF&}KEINEN{\c&HFFFFFF&} {\c&H0034D4FF&}KRATER.{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.85,0:01:13.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DOCH{\c&HFFFFFF&} ES GIBT
+Dialogue: 0,0:01:13.96,0:01:14.09,Sub,,0,0,0,,DOCH {\c&H0034D4FF&}ES{\c&HFFFFFF&} GIBT
+Dialogue: 0,0:01:14.09,0:01:14.26,Sub,,0,0,0,,DOCH ES {\c&H0034D4FF&}GIBT{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.26,0:01:14.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BIS{\c&HFFFFFF&} HEUTE ANDERE
+Dialogue: 0,0:01:14.40,0:01:14.70,Sub,,0,0,0,,BIS {\c&H0034D4FF&}HEUTE{\c&HFFFFFF&} ANDERE
+Dialogue: 0,0:01:14.70,0:01:14.96,Sub,,0,0,0,,BIS HEUTE {\c&H0034D4FF&}ANDERE{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.96,0:01:15.66,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}THEORIEN.{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.04,0:01:16.83,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ANTIMATERIE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.98,0:01:17.09,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} WINZIGES SCHWARZES
+Dialogue: 0,0:01:17.09,0:01:17.53,Sub,,0,0,0,,EIN {\c&H0034D4FF&}WINZIGES{\c&HFFFFFF&} SCHWARZES
+Dialogue: 0,0:01:17.53,0:01:17.96,Sub,,0,0,0,,EIN WINZIGES {\c&H0034D4FF&}SCHWARZES{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.96,0:01:18.38,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LOCH.{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.57,0:01:18.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SOGAR{\c&HFFFFFF&} EIN ABGESTÜRZTES
+Dialogue: 0,0:01:18.77,0:01:18.98,Sub,,0,0,0,,SOGAR {\c&H0034D4FF&}EIN{\c&HFFFFFF&} ABGESTÜRZTES
+Dialogue: 0,0:01:18.98,0:01:19.74,Sub,,0,0,0,,SOGAR EIN {\c&H0034D4FF&}ABGESTÜRZTES{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.74,0:01:20.23,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}RAUMSCHIFF.{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.23,0:01:20.75,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} DAS BEUNRUHIGENDSTE:
+Dialogue: 0,0:01:20.75,0:01:20.92,Sub,,0,0,0,,UND {\c&H0034D4FF&}DAS{\c&HFFFFFF&} BEUNRUHIGENDSTE:
+Dialogue: 0,0:01:20.92,0:01:21.92,Sub,,0,0,0,,UND DAS {\c&H0034D4FF&}BEUNRUHIGENDSTE:{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.25,0:01:22.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SO{\c&HFFFFFF&} ETWAS KANN
+Dialogue: 0,0:01:22.34,0:01:22.53,Sub,,0,0,0,,SO {\c&H0034D4FF&}ETWAS{\c&HFFFFFF&} KANN
+Dialogue: 0,0:01:22.53,0:01:22.79,Sub,,0,0,0,,SO ETWAS {\c&H0034D4FF&}KANN{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.79,0:01:23.00,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIEDER{\c&HFFFFFF&} PASSIEREN.
+Dialogue: 0,0:01:23.00,0:01:23.60,Sub,,0,0,0,,WIEDER {\c&H0034D4FF&}PASSIEREN.{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.85,0:01:24.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}JEDERZEIT.{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.91,0:01:25.09,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} GLAUBST DU
+Dialogue: 0,0:01:25.09,0:01:25.45,Sub,,0,0,0,,WAS {\c&H0034D4FF&}GLAUBST{\c&HFFFFFF&} DU
+Dialogue: 0,0:01:25.45,0:01:25.72,Sub,,0,0,0,,WAS GLAUBST {\c&H0034D4FF&}DU{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.89,0:01:26.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} IST 1908
+Dialogue: 0,0:01:26.19,0:01:26.40,Sub,,0,0,0,,WAS {\c&H0034D4FF&}IST{\c&HFFFFFF&} 1908
+Dialogue: 0,0:01:26.40,0:01:27.21,Sub,,0,0,0,,WAS IST {\c&H0034D4FF&}1908{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.21,0:01:27.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ÜBER{\c&HFFFFFF&} SIBIRIEN EXPLODIERT?
+Dialogue: 0,0:01:27.43,0:01:27.96,Sub,,0,0,0,,ÜBER {\c&H0034D4FF&}SIBIRIEN{\c&HFFFFFF&} EXPLODIERT?
+Dialogue: 0,0:01:27.96,0:01:28.62,Sub,,0,0,0,,ÜBER SIBIRIEN {\c&H0034D4FF&}EXPLODIERT?{\c&HFFFFFF&}

@@ -6,102 +6,247 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
-Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
-Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Sub,Inter ExtraBold,94,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
+Style: Hook,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,22,0,8,80,80,300,1
+Style: Akte,Inter ExtraBold,40,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,10,0,8,80,80,236,1
+Style: Gelb,Inter ExtraBold,94,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:02.35,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}4. DEZEMBER 1872.
-Dialogue: 0,0:00:02.94,0:00:04.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MITTEN IM ATLANTIK.
-Dialogue: 0,0:00:04.86,0:00:05.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE MANNSCHAFT DER
-Dialogue: 0,0:00:05.56,0:00:06.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEI GRATIA
-Dialogue: 0,0:00:06.52,0:00:07.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENTDECKT EIN SCHIFF,
-Dialogue: 0,0:00:07.82,0:00:08.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS SELTSAM HIN
-Dialogue: 0,0:00:08.70,0:00:09.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND HER TREIBT.
-Dialogue: 0,0:00:10.22,0:00:11.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE SEGEL NUR
-Dialogue: 0,0:00:11.16,0:00:12.25,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TEILWEISE GESETZT.
-Dialogue: 0,0:00:12.66,0:00:13.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN MENSCH AN
-Dialogue: 0,0:00:13.32,0:00:13.67,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DECK.
-Dialogue: 0,0:00:14.06,0:00:15.01,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIE RUFEN HINÜBER.
-Dialogue: 0,0:00:15.56,0:00:16.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE ANTWORT.
-Dialogue: 0,0:00:16.88,0:00:17.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN PAAR MÄNNER
-Dialogue: 0,0:00:17.46,0:00:18.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RUDERN HINÜBER.
-Dialogue: 0,0:00:18.90,0:00:19.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS SCHIFF HEISST
-Dialogue: 0,0:00:19.58,0:00:20.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MARY CELESTE.
-Dialogue: 0,0:00:21.34,0:00:21.94,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND ES IST
-Dialogue: 0,0:00:21.94,0:00:23.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VOLLKOMMEN LEER.
-Dialogue: 0,0:00:24.18,0:00:25.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN KAPITÄN.
-Dialogue: 0,0:00:25.72,0:00:26.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE MANNSCHAFT.
-Dialogue: 0,0:00:27.14,0:00:27.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZEHN MENSCHEN,
-Dialogue: 0,0:00:28.08,0:00:29.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINFACH VERSCHWUNDEN.
-Dialogue: 0,0:00:29.72,0:00:30.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DARUNTER DIE FRAU
-Dialogue: 0,0:00:30.38,0:00:31.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DES KAPITÄNS UND
-Dialogue: 0,0:00:31.78,0:00:33.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IHRE ZWEIJÄHRIGE TOCHTER.
-Dialogue: 0,0:00:34.02,0:00:34.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH DAS SCHIFF
-Dialogue: 0,0:00:34.52,0:00:35.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IST NICHT GESUNKEN.
-Dialogue: 0,0:00:35.82,0:00:37.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES IST SEETÜCHTIG.
-Dialogue: 0,0:00:37.20,0:00:37.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AN BORD:
-Dialogue: 0,0:00:38.08,0:00:39.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LEBENSMITTEL UND WASSER
-Dialogue: 0,0:00:39.16,0:00:40.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}FÜR SECHS MONATE.
-Dialogue: 0,0:00:40.54,0:00:41.15,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KLEIDUNG.
-Dialogue: 0,0:00:41.28,0:00:42.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PERSÖNLICHE SACHEN.
-Dialogue: 0,0:00:42.40,0:00:43.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALLES NOCH DA.
-Dialogue: 0,0:00:43.74,0:00:44.47,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS FEHLT?
-Dialogue: 0,0:00:44.98,0:00:46.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS EINZIGE RETTUNGSBOOT.
-Dialogue: 0,0:00:46.56,0:00:47.35,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER SEXTANT.
-Dialogue: 0,0:00:47.56,0:00:48.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE SCHIFFSPAPIERE.
-Dialogue: 0,0:00:48.92,0:00:49.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS HÄTTEN SIE
-Dialogue: 0,0:00:49.46,0:00:50.02,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS SCHIFF IN
-Dialogue: 0,0:00:50.02,0:00:51.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GROSSER EILE VERLASSEN.
-Dialogue: 0,0:00:51.18,0:00:52.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER LETZTE EINTRAG
-Dialogue: 0,0:00:52.68,0:00:53.74,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IM LOGBUCH:
-Dialogue: 0,0:00:53.74,0:00:54.77,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NEUN TAGE ALT.
-Dialogue: 0,0:00:54.96,0:00:55.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN HINWEIS AUF
-Dialogue: 0,0:00:55.78,0:00:56.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN PROBLEM.
-Dialogue: 0,0:00:56.92,0:00:57.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IM LADERAUM:
-Dialogue: 0,0:00:57.62,0:00:59.94,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER 1700 FÄSSER
-Dialogue: 0,0:00:59.94,0:01:00.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALKOHOL.
-Dialogue: 0,0:01:00.84,0:01:02.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NEUN DAVON LEER.
-Dialogue: 0,0:01:02.96,0:01:03.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPÄTER ERZÄHLT MAN
-Dialogue: 0,0:01:03.92,0:01:04.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SICH VON HALB
-Dialogue: 0,0:01:04.68,0:01:05.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GEGESSENEM FRÜHSTÜCK
-Dialogue: 0,0:01:05.80,0:01:06.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND NOCH WARMEM
-Dialogue: 0,0:01:06.64,0:01:07.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TEE.
-Dialogue: 0,0:01:07.56,0:01:08.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS STIMMT NICHT.
-Dialogue: 0,0:01:09.04,0:01:09.92,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BEKANNT WURDE DIESE
-Dialogue: 0,0:01:09.92,0:01:10.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LEGENDE VOR ALLEM
-Dialogue: 0,0:01:10.82,0:01:11.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DURCH EINE GESCHICHTE
-Dialogue: 0,0:01:11.56,0:01:13.15,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINES JUNGEN SCHRIFTSTELLERS.
-Dialogue: 0,0:01:13.34,0:01:13.78,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SEIN NAME:
-Dialogue: 0,0:01:13.78,0:01:15.85,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ARTHUR CONAN DOYLE.
-Dialogue: 0,0:01:15.96,0:01:16.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER SPÄTERE ERFINDER
-Dialogue: 0,0:01:16.82,0:01:17.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VON SHERLOCK HOLMES.
-Dialogue: 0,0:01:17.80,0:01:19.06,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABER WAS IST
-Dialogue: 0,0:01:19.06,0:01:20.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIRKLICH PASSIERT?
-Dialogue: 0,0:01:20.36,0:01:21.05,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PIRATEN?
-Dialogue: 0,0:01:21.28,0:01:22.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE MEUTEREI?
-Dialogue: 0,0:01:22.48,0:01:23.16,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ODER HATTE DER
-Dialogue: 0,0:01:23.16,0:01:24.15,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KAPITÄN ANGST,
-Dialogue: 0,0:01:24.28,0:01:25.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE ALKOHOLFÄSSER KÖNNTEN
-Dialogue: 0,0:01:25.28,0:01:26.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EXPLODIEREN UND LIESS
-Dialogue: 0,0:01:26.72,0:01:27.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALLE INS RETTUNGSBOOT
-Dialogue: 0,0:01:27.72,0:01:28.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STEIGEN,
-Dialogue: 0,0:01:28.20,0:01:28.94,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS DANN ABGETRIEBEN
-Dialogue: 0,0:01:28.94,0:01:29.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IST?
-Dialogue: 0,0:01:29.80,0:01:30.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NIEMAND WEISS ES.
-Dialogue: 0,0:01:31.20,0:01:31.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VON DEN ZEHN
-Dialogue: 0,0:01:31.70,0:01:32.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MENSCHEN FEHLT BIS
-Dialogue: 0,0:01:32.54,0:01:33.91,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HEUTE JEDE SPUR.
-Dialogue: 0,0:01:34.20,0:01:34.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DIE MARY
-Dialogue: 0,0:01:34.86,0:01:35.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}CELESTE?
-Dialogue: 0,0:01:36.10,0:01:37.24,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN SPÄTERER KAPITÄN
-Dialogue: 0,0:01:37.24,0:01:38.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LIESS SIE 1885
-Dialogue: 0,0:01:38.88,0:01:40.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABSICHTLICH VOR HAITI
-Dialogue: 0,0:01:40.40,0:01:41.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF EIN RIFF
-Dialogue: 0,0:01:41.04,0:01:41.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LAUFEN.
-Dialogue: 0,0:01:41.88,0:01:42.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}FÜR DIE VERSICHERUNG.
-Dialogue: 0,0:01:42.52,0:01:44.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
-Dialogue: 0,0:01:44.50,0:01:45.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WARUM HABEN SIE
-Dialogue: 0,0:01:45.20,0:01:46.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS SCHIFF VERLASSEN?
-Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}EIN SCHIFF VOLLER VORRÄTE. ABER NIEMAND AN BORD.
+Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{\fad(0,300)}AKTE 03
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(0,300)\fscx112\fscy112\t(0,160,\fscx100\fscy100)}EIN SCHIFF VOLLER VORRÄTE. ABER NIEMAND AN BORD.
+Dialogue: 0,0:00:00.00,0:00:00.38,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}4.{\c&HFFFFFF&} DEZEMBER 1872.
+Dialogue: 0,0:00:00.38,0:00:00.83,Sub,,0,0,0,,4. {\c&H0034D4FF&}DEZEMBER{\c&HFFFFFF&} 1872.
+Dialogue: 0,0:00:00.83,0:00:02.23,Sub,,0,0,0,,4. DEZEMBER {\c&H0034D4FF&}1872.{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.77,0:00:03.17,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MITTEN{\c&HFFFFFF&} IM ATLANTIK.
+Dialogue: 0,0:00:03.17,0:00:03.43,Sub,,0,0,0,,MITTEN {\c&H0034D4FF&}IM{\c&HFFFFFF&} ATLANTIK.
+Dialogue: 0,0:00:03.43,0:00:04.19,Sub,,0,0,0,,MITTEN IM {\c&H0034D4FF&}ATLANTIK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.58,0:00:04.68,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} MANNSCHAFT DER
+Dialogue: 0,0:00:04.68,0:00:05.04,Sub,,0,0,0,,DIE {\c&H0034D4FF&}MANNSCHAFT{\c&HFFFFFF&} DER
+Dialogue: 0,0:00:05.04,0:00:05.25,Sub,,0,0,0,,DIE MANNSCHAFT {\c&H0034D4FF&}DER{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.25,0:00:05.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DEI{\c&HFFFFFF&} GRATIA
+Dialogue: 0,0:00:05.70,0:00:06.15,Sub,,0,0,0,,DEI {\c&H0034D4FF&}GRATIA{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.15,0:00:06.64,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ENTDECKT{\c&HFFFFFF&} EIN SCHIFF,
+Dialogue: 0,0:00:06.64,0:00:06.79,Sub,,0,0,0,,ENTDECKT {\c&H0034D4FF&}EIN{\c&HFFFFFF&} SCHIFF,
+Dialogue: 0,0:00:06.79,0:00:07.26,Sub,,0,0,0,,ENTDECKT EIN {\c&H0034D4FF&}SCHIFF,{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.38,0:00:07.45,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} SELTSAM HIN
+Dialogue: 0,0:00:07.45,0:00:08.00,Sub,,0,0,0,,DAS {\c&H0034D4FF&}SELTSAM{\c&HFFFFFF&} HIN
+Dialogue: 0,0:00:08.00,0:00:08.21,Sub,,0,0,0,,DAS SELTSAM {\c&H0034D4FF&}HIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.21,0:00:08.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} HER TREIBT.
+Dialogue: 0,0:00:08.36,0:00:08.55,Sub,,0,0,0,,UND {\c&H0034D4FF&}HER{\c&HFFFFFF&} TREIBT.
+Dialogue: 0,0:00:08.55,0:00:09.07,Sub,,0,0,0,,UND HER {\c&H0034D4FF&}TREIBT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.64,0:00:10.06,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} SEGEL NUR
+Dialogue: 0,0:00:10.06,0:00:10.34,Sub,,0,0,0,,DIE {\c&H0034D4FF&}SEGEL{\c&HFFFFFF&} NUR
+Dialogue: 0,0:00:10.34,0:00:10.53,Sub,,0,0,0,,DIE SEGEL {\c&H0034D4FF&}NUR{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.53,0:00:10.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TEILWEISE{\c&HFFFFFF&} GESETZT.
+Dialogue: 0,0:00:10.87,0:00:11.57,Sub,,0,0,0,,TEILWEISE {\c&H0034D4FF&}GESETZT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.94,0:00:12.17,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} MENSCH AN
+Dialogue: 0,0:00:12.17,0:00:12.38,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}MENSCH{\c&HFFFFFF&} AN
+Dialogue: 0,0:00:12.38,0:00:12.57,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} MENSCH {\c&H0034D4FF&}AN{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.57,0:00:12.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DECK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.26,0:00:13.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIE{\c&HFFFFFF&} RUFEN HINÜBER.
+Dialogue: 0,0:00:13.40,0:00:13.62,Sub,,0,0,0,,SIE {\c&H0034D4FF&}RUFEN{\c&HFFFFFF&} HINÜBER.
+Dialogue: 0,0:00:13.62,0:00:14.17,Sub,,0,0,0,,SIE RUFEN {\c&H0034D4FF&}HINÜBER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.68,0:00:14.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} ANTWORT.
+Dialogue: 0,0:00:14.92,0:00:15.40,Sub,,0,0,0,,{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} {\c&H0034D4FF&}ANTWORT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.92,0:00:16.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} PAAR MÄNNER
+Dialogue: 0,0:00:16.11,0:00:16.26,Sub,,0,0,0,,EIN {\c&H0034D4FF&}PAAR{\c&HFFFFFF&} MÄNNER
+Dialogue: 0,0:00:16.26,0:00:16.47,Sub,,0,0,0,,EIN PAAR {\c&H0034D4FF&}MÄNNER{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.47,0:00:16.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}RUDERN{\c&HFFFFFF&} HINÜBER.
+Dialogue: 0,0:00:16.87,0:00:17.38,Sub,,0,0,0,,RUDERN {\c&H0034D4FF&}HINÜBER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.83,0:00:17.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} SCHIFF HEISST
+Dialogue: 0,0:00:17.96,0:00:18.19,Sub,,0,0,0,,DAS {\c&H0034D4FF&}SCHIFF{\c&HFFFFFF&} HEISST
+Dialogue: 0,0:00:18.19,0:00:18.47,Sub,,0,0,0,,DAS SCHIFF {\c&H0034D4FF&}HEISST{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.47,0:00:19.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MARY{\c&HFFFFFF&} CELESTE.
+Dialogue: 0,0:00:19.11,0:00:19.81,Sub,,0,0,0,,MARY {\c&H0034D4FF&}CELESTE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.13,0:00:20.28,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} ES IST
+Dialogue: 0,0:00:20.28,0:00:20.43,Sub,,0,0,0,,UND {\c&H0034D4FF&}ES{\c&HFFFFFF&} IST
+Dialogue: 0,0:00:20.43,0:00:20.70,Sub,,0,0,0,,UND ES {\c&H0034D4FF&}IST{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.70,0:00:21.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VOLLKOMMEN{\c&HFFFFFF&} LEER.
+Dialogue: 0,0:00:21.81,0:00:22.24,Sub,,0,0,0,,VOLLKOMMEN {\c&H0034D4FF&}LEER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.81,0:00:23.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} KAPITÄN.
+Dialogue: 0,0:00:23.11,0:00:23.79,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}KAPITÄN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.26,0:00:24.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} MANNSCHAFT.
+Dialogue: 0,0:00:24.53,0:00:25.13,Sub,,0,0,0,,{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} {\c&H0034D4FF&}MANNSCHAFT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.60,0:00:25.85,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ZEHN{\c&HFFFFFF&} MENSCHEN,
+Dialogue: 0,0:00:25.85,0:00:26.28,Sub,,0,0,0,,ZEHN {\c&H0034D4FF&}MENSCHEN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.49,0:00:26.79,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINFACH{\c&HFFFFFF&} {\c&H3C3CFF&}VERSCHWUNDEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.79,0:00:27.47,Sub,,0,0,0,,EINFACH {\c&H3C3CFF&}VERSCHWUNDEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.04,0:00:28.26,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DARUNTER{\c&HFFFFFF&} DIE FRAU
+Dialogue: 0,0:00:28.26,0:00:28.43,Sub,,0,0,0,,DARUNTER {\c&H0034D4FF&}DIE{\c&HFFFFFF&} FRAU
+Dialogue: 0,0:00:28.43,0:00:28.66,Sub,,0,0,0,,DARUNTER DIE {\c&H0034D4FF&}FRAU{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.66,0:00:28.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DES{\c&HFFFFFF&} KAPITÄNS UND
+Dialogue: 0,0:00:28.81,0:00:29.32,Sub,,0,0,0,,DES {\c&H0034D4FF&}KAPITÄNS{\c&HFFFFFF&} UND
+Dialogue: 0,0:00:29.32,0:00:29.98,Sub,,0,0,0,,DES KAPITÄNS {\c&H0034D4FF&}UND{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.98,0:00:30.28,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IHRE{\c&HFFFFFF&} ZWEIJÄHRIGE TOCHTER.
+Dialogue: 0,0:00:30.28,0:00:30.92,Sub,,0,0,0,,IHRE {\c&H0034D4FF&}ZWEIJÄHRIGE{\c&HFFFFFF&} TOCHTER.
+Dialogue: 0,0:00:30.92,0:00:31.43,Sub,,0,0,0,,IHRE ZWEIJÄHRIGE {\c&H0034D4FF&}TOCHTER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.09,0:00:32.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DOCH{\c&HFFFFFF&} DAS SCHIFF
+Dialogue: 0,0:00:32.19,0:00:32.38,Sub,,0,0,0,,DOCH {\c&H0034D4FF&}DAS{\c&HFFFFFF&} SCHIFF
+Dialogue: 0,0:00:32.38,0:00:32.57,Sub,,0,0,0,,DOCH DAS {\c&H0034D4FF&}SCHIFF{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.57,0:00:32.74,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IST{\c&HFFFFFF&} NICHT GESUNKEN.
+Dialogue: 0,0:00:32.74,0:00:32.92,Sub,,0,0,0,,IST {\c&H0034D4FF&}NICHT{\c&HFFFFFF&} GESUNKEN.
+Dialogue: 0,0:00:32.92,0:00:33.49,Sub,,0,0,0,,IST NICHT {\c&H0034D4FF&}GESUNKEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.79,0:00:33.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} IST SEETÜCHTIG.
+Dialogue: 0,0:00:33.89,0:00:34.02,Sub,,0,0,0,,ES {\c&H0034D4FF&}IST{\c&HFFFFFF&} SEETÜCHTIG.
+Dialogue: 0,0:00:34.02,0:00:35.09,Sub,,0,0,0,,ES IST {\c&H0034D4FF&}SEETÜCHTIG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.09,0:00:35.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AN{\c&HFFFFFF&} BORD:
+Dialogue: 0,0:00:35.21,0:00:35.62,Sub,,0,0,0,,AN {\c&H0034D4FF&}BORD:{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.92,0:00:36.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LEBENSMITTEL{\c&HFFFFFF&} UND WASSER
+Dialogue: 0,0:00:36.49,0:00:36.68,Sub,,0,0,0,,LEBENSMITTEL {\c&H0034D4FF&}UND{\c&HFFFFFF&} WASSER
+Dialogue: 0,0:00:36.68,0:00:36.94,Sub,,0,0,0,,LEBENSMITTEL UND {\c&H0034D4FF&}WASSER{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.94,0:00:37.13,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}FÜR{\c&HFFFFFF&} SECHS MONATE.
+Dialogue: 0,0:00:37.13,0:00:37.40,Sub,,0,0,0,,FÜR {\c&H0034D4FF&}SECHS{\c&HFFFFFF&} MONATE.
+Dialogue: 0,0:00:37.40,0:00:37.87,Sub,,0,0,0,,FÜR SECHS {\c&H0034D4FF&}MONATE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.25,0:00:38.83,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KLEIDUNG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.94,0:00:39.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}PERSÖNLICHE{\c&HFFFFFF&} SACHEN.
+Dialogue: 0,0:00:39.36,0:00:39.75,Sub,,0,0,0,,PERSÖNLICHE {\c&H0034D4FF&}SACHEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.00,0:00:40.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALLES{\c&HFFFFFF&} NOCH DA.
+Dialogue: 0,0:00:40.19,0:00:40.42,Sub,,0,0,0,,ALLES {\c&H0034D4FF&}NOCH{\c&HFFFFFF&} DA.
+Dialogue: 0,0:00:40.42,0:00:40.77,Sub,,0,0,0,,ALLES NOCH {\c&H0034D4FF&}DA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.26,0:00:41.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} FEHLT?
+Dialogue: 0,0:00:41.43,0:00:41.96,Sub,,0,0,0,,WAS {\c&H0034D4FF&}FEHLT?{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.43,0:00:42.55,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} EINZIGE RETTUNGSBOOT.
+Dialogue: 0,0:00:42.55,0:00:42.92,Sub,,0,0,0,,DAS {\c&H0034D4FF&}EINZIGE{\c&HFFFFFF&} RETTUNGSBOOT.
+Dialogue: 0,0:00:42.92,0:00:43.87,Sub,,0,0,0,,DAS EINZIGE {\c&H0034D4FF&}RETTUNGSBOOT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.92,0:00:44.02,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DER{\c&HFFFFFF&} SEXTANT.
+Dialogue: 0,0:00:44.02,0:00:44.68,Sub,,0,0,0,,DER {\c&H0034D4FF&}SEXTANT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.87,0:00:44.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} SCHIFFSPAPIERE.
+Dialogue: 0,0:00:44.92,0:00:45.79,Sub,,0,0,0,,DIE {\c&H0034D4FF&}SCHIFFSPAPIERE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.15,0:00:46.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALS{\c&HFFFFFF&} HÄTTEN SIE
+Dialogue: 0,0:00:46.34,0:00:46.53,Sub,,0,0,0,,ALS {\c&H0034D4FF&}HÄTTEN{\c&HFFFFFF&} SIE
+Dialogue: 0,0:00:46.53,0:00:46.66,Sub,,0,0,0,,ALS HÄTTEN {\c&H0034D4FF&}SIE{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.66,0:00:46.85,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} SCHIFF IN
+Dialogue: 0,0:00:46.85,0:00:47.08,Sub,,0,0,0,,DAS {\c&H0034D4FF&}SCHIFF{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:47.08,0:00:47.19,Sub,,0,0,0,,DAS SCHIFF {\c&H0034D4FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.19,0:00:47.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}GROSSER{\c&HFFFFFF&} EILE VERLASSEN.
+Dialogue: 0,0:00:47.49,0:00:47.89,Sub,,0,0,0,,GROSSER {\c&H0034D4FF&}EILE{\c&HFFFFFF&} VERLASSEN.
+Dialogue: 0,0:00:47.89,0:00:48.28,Sub,,0,0,0,,GROSSER EILE {\c&H0034D4FF&}VERLASSEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.28,0:00:49.06,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DER{\c&HFFFFFF&} LETZTE EINTRAG
+Dialogue: 0,0:00:49.06,0:00:49.26,Sub,,0,0,0,,DER {\c&H0034D4FF&}LETZTE{\c&HFFFFFF&} EINTRAG
+Dialogue: 0,0:00:49.26,0:00:49.70,Sub,,0,0,0,,DER LETZTE {\c&H0034D4FF&}EINTRAG{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.70,0:00:49.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IM{\c&HFFFFFF&} LOGBUCH:
+Dialogue: 0,0:00:49.87,0:00:50.70,Sub,,0,0,0,,IM {\c&H0034D4FF&}LOGBUCH:{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.70,0:00:50.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NEUN{\c&HFFFFFF&} TAGE ALT.
+Dialogue: 0,0:00:50.94,0:00:51.19,Sub,,0,0,0,,NEUN {\c&H0034D4FF&}TAGE{\c&HFFFFFF&} ALT.
+Dialogue: 0,0:00:51.19,0:00:51.68,Sub,,0,0,0,,NEUN TAGE {\c&H0034D4FF&}ALT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.85,0:00:52.13,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} HINWEIS AUF
+Dialogue: 0,0:00:52.13,0:00:52.43,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}HINWEIS{\c&HFFFFFF&} AUF
+Dialogue: 0,0:00:52.43,0:00:52.62,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} HINWEIS {\c&H0034D4FF&}AUF{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.62,0:00:52.75,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} PROBLEM.
+Dialogue: 0,0:00:52.75,0:00:53.23,Sub,,0,0,0,,EIN {\c&H0034D4FF&}PROBLEM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.70,0:00:53.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IM{\c&HFFFFFF&} LADERAUM:
+Dialogue: 0,0:00:53.81,0:00:54.36,Sub,,0,0,0,,IM {\c&H0034D4FF&}LADERAUM:{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.36,0:00:54.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ÜBER{\c&HFFFFFF&} 1700 FÄSSER
+Dialogue: 0,0:00:54.91,0:00:55.85,Sub,,0,0,0,,ÜBER {\c&H0034D4FF&}1700{\c&HFFFFFF&} FÄSSER
+Dialogue: 0,0:00:55.85,0:00:56.55,Sub,,0,0,0,,ÜBER 1700 {\c&H0034D4FF&}FÄSSER{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.55,0:00:57.23,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALKOHOL.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.40,0:00:57.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NEUN{\c&HFFFFFF&} DAVON LEER.
+Dialogue: 0,0:00:57.70,0:00:58.45,Sub,,0,0,0,,NEUN {\c&H0034D4FF&}DAVON{\c&HFFFFFF&} LEER.
+Dialogue: 0,0:00:58.45,0:00:58.98,Sub,,0,0,0,,NEUN DAVON {\c&H0034D4FF&}LEER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.40,0:00:59.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SPÄTER{\c&HFFFFFF&} ERZÄHLT MAN
+Dialogue: 0,0:00:59.81,0:01:00.11,Sub,,0,0,0,,SPÄTER {\c&H0034D4FF&}ERZÄHLT{\c&HFFFFFF&} MAN
+Dialogue: 0,0:01:00.11,0:01:00.30,Sub,,0,0,0,,SPÄTER ERZÄHLT {\c&H0034D4FF&}MAN{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.30,0:01:00.47,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SICH{\c&HFFFFFF&} VON HALB
+Dialogue: 0,0:01:00.47,0:01:00.70,Sub,,0,0,0,,SICH {\c&H0034D4FF&}VON{\c&HFFFFFF&} HALB
+Dialogue: 0,0:01:00.70,0:01:01.02,Sub,,0,0,0,,SICH VON {\c&H0034D4FF&}HALB{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.02,0:01:01.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}GEGESSENEM{\c&HFFFFFF&} FRÜHSTÜCK
+Dialogue: 0,0:01:01.49,0:01:02.08,Sub,,0,0,0,,GEGESSENEM {\c&H0034D4FF&}FRÜHSTÜCK{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.08,0:01:02.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} NOCH WARMEM
+Dialogue: 0,0:01:02.36,0:01:02.53,Sub,,0,0,0,,UND {\c&H0034D4FF&}NOCH{\c&HFFFFFF&} WARMEM
+Dialogue: 0,0:01:02.53,0:01:02.87,Sub,,0,0,0,,UND NOCH {\c&H0034D4FF&}WARMEM{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.87,0:01:03.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TEE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.74,0:01:03.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} STIMMT NICHT.
+Dialogue: 0,0:01:03.94,0:01:04.13,Sub,,0,0,0,,DAS {\c&H0034D4FF&}STIMMT{\c&HFFFFFF&} NICHT.
+Dialogue: 0,0:01:04.13,0:01:04.57,Sub,,0,0,0,,DAS STIMMT {\c&H0034D4FF&}NICHT.{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.13,0:01:05.45,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BEKANNT{\c&HFFFFFF&} WURDE DIESE
+Dialogue: 0,0:01:05.45,0:01:05.72,Sub,,0,0,0,,BEKANNT {\c&H0034D4FF&}WURDE{\c&HFFFFFF&} DIESE
+Dialogue: 0,0:01:05.72,0:01:05.96,Sub,,0,0,0,,BEKANNT WURDE {\c&H0034D4FF&}DIESE{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.96,0:01:06.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LEGENDE{\c&HFFFFFF&} VOR ALLEM
+Dialogue: 0,0:01:06.36,0:01:06.60,Sub,,0,0,0,,LEGENDE {\c&H0034D4FF&}VOR{\c&HFFFFFF&} ALLEM
+Dialogue: 0,0:01:06.60,0:01:06.81,Sub,,0,0,0,,LEGENDE VOR {\c&H0034D4FF&}ALLEM{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.81,0:01:06.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DURCH{\c&HFFFFFF&} EINE GESCHICHTE
+Dialogue: 0,0:01:06.98,0:01:07.19,Sub,,0,0,0,,DURCH {\c&H0034D4FF&}EINE{\c&HFFFFFF&} GESCHICHTE
+Dialogue: 0,0:01:07.19,0:01:07.51,Sub,,0,0,0,,DURCH EINE {\c&H0034D4FF&}GESCHICHTE{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.51,0:01:07.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINES{\c&HFFFFFF&} JUNGEN SCHRIFTSTELLERS.
+Dialogue: 0,0:01:07.87,0:01:08.11,Sub,,0,0,0,,EINES {\c&H0034D4FF&}JUNGEN{\c&HFFFFFF&} SCHRIFTSTELLERS.
+Dialogue: 0,0:01:08.11,0:01:09.02,Sub,,0,0,0,,EINES JUNGEN {\c&H0034D4FF&}SCHRIFTSTELLERS.{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.19,0:01:09.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SEIN{\c&HFFFFFF&} NAME:
+Dialogue: 0,0:01:09.43,0:01:09.60,Sub,,0,0,0,,SEIN {\c&H0034D4FF&}NAME:{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.60,0:01:10.42,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ARTHUR{\c&HFFFFFF&} CONAN DOYLE.
+Dialogue: 0,0:01:10.42,0:01:10.85,Sub,,0,0,0,,ARTHUR {\c&H0034D4FF&}CONAN{\c&HFFFFFF&} DOYLE.
+Dialogue: 0,0:01:10.85,0:01:11.57,Sub,,0,0,0,,ARTHUR CONAN {\c&H0034D4FF&}DOYLE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.66,0:01:11.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DER{\c&HFFFFFF&} SPÄTERE ERFINDER
+Dialogue: 0,0:01:11.77,0:01:12.17,Sub,,0,0,0,,DER {\c&H0034D4FF&}SPÄTERE{\c&HFFFFFF&} ERFINDER
+Dialogue: 0,0:01:12.17,0:01:12.47,Sub,,0,0,0,,DER SPÄTERE {\c&H0034D4FF&}ERFINDER{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.47,0:01:12.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VON{\c&HFFFFFF&} SHERLOCK HOLMES.
+Dialogue: 0,0:01:12.77,0:01:13.02,Sub,,0,0,0,,VON {\c&H0034D4FF&}SHERLOCK{\c&HFFFFFF&} HOLMES.
+Dialogue: 0,0:01:13.02,0:01:13.40,Sub,,0,0,0,,VON SHERLOCK {\c&H0034D4FF&}HOLMES.{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.40,0:01:14.09,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ABER{\c&HFFFFFF&} WAS IST
+Dialogue: 0,0:01:14.09,0:01:14.38,Sub,,0,0,0,,ABER {\c&H0034D4FF&}WAS{\c&HFFFFFF&} IST
+Dialogue: 0,0:01:14.38,0:01:14.58,Sub,,0,0,0,,ABER WAS {\c&H0034D4FF&}IST{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.58,0:01:14.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIRKLICH{\c&HFFFFFF&} PASSIERT?
+Dialogue: 0,0:01:14.91,0:01:15.60,Sub,,0,0,0,,WIRKLICH {\c&H0034D4FF&}PASSIERT?{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.81,0:01:16.47,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}PIRATEN?{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.68,0:01:16.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} MEUTEREI?
+Dialogue: 0,0:01:16.81,0:01:17.81,Sub,,0,0,0,,EINE {\c&H0034D4FF&}MEUTEREI?{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.81,0:01:18.08,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ODER{\c&HFFFFFF&} HATTE DER
+Dialogue: 0,0:01:18.08,0:01:18.28,Sub,,0,0,0,,ODER {\c&H0034D4FF&}HATTE{\c&HFFFFFF&} DER
+Dialogue: 0,0:01:18.28,0:01:18.45,Sub,,0,0,0,,ODER HATTE {\c&H0034D4FF&}DER{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.45,0:01:18.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KAPITÄN{\c&HFFFFFF&} ANGST,
+Dialogue: 0,0:01:18.87,0:01:19.40,Sub,,0,0,0,,KAPITÄN {\c&H0034D4FF&}ANGST,{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.51,0:01:19.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} ALKOHOLFÄSSER KÖNNTEN
+Dialogue: 0,0:01:19.53,0:01:20.26,Sub,,0,0,0,,DIE {\c&H0034D4FF&}ALKOHOLFÄSSER{\c&HFFFFFF&} KÖNNTEN
+Dialogue: 0,0:01:20.26,0:01:20.45,Sub,,0,0,0,,DIE ALKOHOLFÄSSER {\c&H0034D4FF&}KÖNNTEN{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.45,0:01:21.13,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EXPLODIEREN{\c&HFFFFFF&} UND LIESS
+Dialogue: 0,0:01:21.13,0:01:21.58,Sub,,0,0,0,,EXPLODIEREN {\c&H0034D4FF&}UND{\c&HFFFFFF&} LIESS
+Dialogue: 0,0:01:21.58,0:01:21.81,Sub,,0,0,0,,EXPLODIEREN UND {\c&H0034D4FF&}LIESS{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.81,0:01:22.02,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALLE{\c&HFFFFFF&} INS RETTUNGSBOOT
+Dialogue: 0,0:01:22.02,0:01:22.17,Sub,,0,0,0,,ALLE {\c&H0034D4FF&}INS{\c&HFFFFFF&} RETTUNGSBOOT
+Dialogue: 0,0:01:22.17,0:01:22.75,Sub,,0,0,0,,ALLE INS {\c&H0034D4FF&}RETTUNGSBOOT{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.75,0:01:23.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}STEIGEN,{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.21,0:01:23.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} DANN ABGETRIEBEN
+Dialogue: 0,0:01:23.30,0:01:23.43,Sub,,0,0,0,,DAS {\c&H0034D4FF&}DANN{\c&HFFFFFF&} ABGETRIEBEN
+Dialogue: 0,0:01:23.43,0:01:23.91,Sub,,0,0,0,,DAS DANN {\c&H0034D4FF&}ABGETRIEBEN{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.91,0:01:24.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IST?{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.72,0:01:25.06,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} WEISS ES.
+Dialogue: 0,0:01:25.06,0:01:25.28,Sub,,0,0,0,,{\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} {\c&H0034D4FF&}WEISS{\c&HFFFFFF&} ES.
+Dialogue: 0,0:01:25.28,0:01:25.68,Sub,,0,0,0,,{\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} WEISS {\c&H0034D4FF&}ES.{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.04,0:01:26.17,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VON{\c&HFFFFFF&} DEN ZEHN
+Dialogue: 0,0:01:26.17,0:01:26.28,Sub,,0,0,0,,VON {\c&H0034D4FF&}DEN{\c&HFFFFFF&} ZEHN
+Dialogue: 0,0:01:26.28,0:01:26.51,Sub,,0,0,0,,VON DEN {\c&H0034D4FF&}ZEHN{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.51,0:01:26.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MENSCHEN{\c&HFFFFFF&} FEHLT BIS
+Dialogue: 0,0:01:26.89,0:01:27.17,Sub,,0,0,0,,MENSCHEN {\c&H0034D4FF&}FEHLT{\c&HFFFFFF&} BIS
+Dialogue: 0,0:01:27.17,0:01:27.30,Sub,,0,0,0,,MENSCHEN FEHLT {\c&H0034D4FF&}BIS{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.30,0:01:27.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HEUTE{\c&HFFFFFF&} JEDE SPUR.
+Dialogue: 0,0:01:27.70,0:01:28.00,Sub,,0,0,0,,HEUTE {\c&H0034D4FF&}JEDE{\c&HFFFFFF&} SPUR.
+Dialogue: 0,0:01:28.00,0:01:28.60,Sub,,0,0,0,,HEUTE JEDE {\c&H0034D4FF&}SPUR.{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.87,0:01:29.13,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} DIE MARY
+Dialogue: 0,0:01:29.13,0:01:29.26,Sub,,0,0,0,,UND {\c&H0034D4FF&}DIE{\c&HFFFFFF&} MARY
+Dialogue: 0,0:01:29.26,0:01:29.49,Sub,,0,0,0,,UND DIE {\c&H0034D4FF&}MARY{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.49,0:01:30.13,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}CELESTE?{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.66,0:01:30.79,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} SPÄTERER KAPITÄN
+Dialogue: 0,0:01:30.79,0:01:31.25,Sub,,0,0,0,,EIN {\c&H0034D4FF&}SPÄTERER{\c&HFFFFFF&} KAPITÄN
+Dialogue: 0,0:01:31.25,0:01:31.74,Sub,,0,0,0,,EIN SPÄTERER {\c&H0034D4FF&}KAPITÄN{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.74,0:01:32.04,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LIESS{\c&HFFFFFF&} SIE 1885
+Dialogue: 0,0:01:32.04,0:01:32.11,Sub,,0,0,0,,LIESS {\c&H0034D4FF&}SIE{\c&HFFFFFF&} 1885
+Dialogue: 0,0:01:32.11,0:01:33.28,Sub,,0,0,0,,LIESS SIE {\c&H0034D4FF&}1885{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.28,0:01:34.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ABSICHTLICH{\c&HFFFFFF&} VOR HAITI
+Dialogue: 0,0:01:34.19,0:01:34.40,Sub,,0,0,0,,ABSICHTLICH {\c&H0034D4FF&}VOR{\c&HFFFFFF&} HAITI
+Dialogue: 0,0:01:34.40,0:01:34.72,Sub,,0,0,0,,ABSICHTLICH VOR {\c&H0034D4FF&}HAITI{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.72,0:01:34.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AUF{\c&HFFFFFF&} EIN RIFF
+Dialogue: 0,0:01:34.98,0:01:35.11,Sub,,0,0,0,,AUF {\c&H0034D4FF&}EIN{\c&HFFFFFF&} RIFF
+Dialogue: 0,0:01:35.11,0:01:35.32,Sub,,0,0,0,,AUF EIN {\c&H0034D4FF&}RIFF{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.32,0:01:35.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LAUFEN.{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.11,0:01:36.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}FÜR{\c&HFFFFFF&} DIE VERSICHERUNG.
+Dialogue: 0,0:01:36.21,0:01:36.32,Sub,,0,0,0,,FÜR {\c&H0034D4FF&}DIE{\c&HFFFFFF&} VERSICHERUNG.
+Dialogue: 0,0:01:36.32,0:01:36.72,Sub,,0,0,0,,FÜR DIE {\c&H0034D4FF&}VERSICHERUNG.{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.72,0:01:37.58,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} GLAUBST DU
+Dialogue: 0,0:01:37.58,0:01:37.94,Sub,,0,0,0,,WAS {\c&H0034D4FF&}GLAUBST{\c&HFFFFFF&} DU
+Dialogue: 0,0:01:37.94,0:01:38.24,Sub,,0,0,0,,WAS GLAUBST {\c&H0034D4FF&}DU{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.58,0:01:38.83,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WARUM{\c&HFFFFFF&} HABEN SIE
+Dialogue: 0,0:01:38.83,0:01:39.09,Sub,,0,0,0,,WARUM {\c&H0034D4FF&}HABEN{\c&HFFFFFF&} SIE
+Dialogue: 0,0:01:39.09,0:01:39.25,Sub,,0,0,0,,WARUM HABEN {\c&H0034D4FF&}SIE{\c&HFFFFFF&}
+Dialogue: 0,0:01:39.25,0:01:39.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} SCHIFF VERLASSEN?
+Dialogue: 0,0:01:39.40,0:01:39.58,Sub,,0,0,0,,DAS {\c&H0034D4FF&}SCHIFF{\c&HFFFFFF&} VERLASSEN?
+Dialogue: 0,0:01:39.58,0:01:40.09,Sub,,0,0,0,,DAS SCHIFF {\c&H0034D4FF&}VERLASSEN?{\c&HFFFFFF&}

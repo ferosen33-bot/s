@@ -6,104 +6,236 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
-Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
-Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Sub,Inter ExtraBold,94,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
+Style: Hook,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,22,0,8,80,80,300,1
+Style: Akte,Inter ExtraBold,40,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,10,0,8,80,80,236,1
+Style: Gelb,Inter ExtraBold,94,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STRASSBURG,
-Dialogue: 0,0:00:01.08,0:00:02.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IM JULI 1518.
-Dialogue: 0,0:00:03.52,0:00:04.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE FRAU TRITT
-Dialogue: 0,0:00:04.30,0:00:04.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUF DIE STRASSE
-Dialogue: 0,0:00:04.98,0:00:06.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND BEGINNT ZU
-Dialogue: 0,0:00:06.28,0:00:06.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TANZEN.
-Dialogue: 0,0:00:07.32,0:00:08.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEINE MUSIK.
-Dialogue: 0,0:00:08.46,0:00:09.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN FEST.
-Dialogue: 0,0:00:09.66,0:00:10.61,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIE TANZT EINFACH.
-Dialogue: 0,0:00:11.24,0:00:12.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STUNDENLANG.
-Dialogue: 0,0:00:12.54,0:00:13.27,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TAGELANG.
-Dialogue: 0,0:00:13.82,0:00:14.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE CHRONIKEN NENNEN
-Dialogue: 0,0:00:14.70,0:00:16.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIE FRAU TROFFEA.
-Dialogue: 0,0:00:16.38,0:00:17.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIE TANZT,
-Dialogue: 0,0:00:17.22,0:00:18.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS SIE ZUSAMMENBRICHT.
-Dialogue: 0,0:00:18.86,0:00:19.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHLÄFT.
-Dialogue: 0,0:00:19.14,0:00:20.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND TANZT WEITER.
-Dialogue: 0,0:00:21.38,0:00:22.57,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DANN PASSIERT ETWAS,
-Dialogue: 0,0:00:22.74,0:00:23.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS NIEMAND ERKLÄREN
-Dialogue: 0,0:00:23.80,0:00:24.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KANN.
-Dialogue: 0,0:00:24.72,0:00:25.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NACH EINER WOCHE
-Dialogue: 0,0:00:25.66,0:00:26.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TANZEN ÜBER DREISSIG
-Dialogue: 0,0:00:26.82,0:00:27.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MENSCHEN MIT.
-Dialogue: 0,0:00:28.02,0:00:28.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MÄNNER.
-Dialogue: 0,0:00:28.70,0:00:29.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}FRAUEN.
-Dialogue: 0,0:00:29.56,0:00:30.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIE ZUCKEN,
-Dialogue: 0,0:00:30.34,0:00:30.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DREHEN SICH,
-Dialogue: 0,0:00:31.16,0:00:31.73,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHREIEN.
-Dialogue: 0,0:00:31.92,0:00:32.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALS KÖNNTEN SIE
-Dialogue: 0,0:00:32.56,0:00:33.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT AUFHÖREN.
-Dialogue: 0,0:00:33.72,0:00:34.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND ES WERDEN
-Dialogue: 0,0:00:34.28,0:00:35.15,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IMMER MEHR.
-Dialogue: 0,0:00:35.54,0:00:36.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AM ENDE SOLLEN
-Dialogue: 0,0:00:36.18,0:00:36.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES BIS ZU
-Dialogue: 0,0:00:36.70,0:00:38.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}400 GEWESEN SEIN.
-Dialogue: 0,0:00:38.70,0:00:39.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE STADTOBEREN HABEN
-Dialogue: 0,0:00:39.66,0:00:40.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE IDEE.
-Dialogue: 0,0:00:40.76,0:00:41.97,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE SCHRECKLICHE IDEE.
-Dialogue: 0,0:00:42.42,0:00:42.99,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIE GLAUBEN:
-Dialogue: 0,0:00:43.34,0:00:44.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE KRANKEN MÜSSEN
-Dialogue: 0,0:00:44.14,0:00:45.27,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SICH AUSTANZEN.
-Dialogue: 0,0:00:45.56,0:00:46.36,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALSO BAUEN SIE
-Dialogue: 0,0:00:46.36,0:00:47.05,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE BÜHNE.
-Dialogue: 0,0:00:47.28,0:00:48.19,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HOLEN MUSIKER.
-Dialogue: 0,0:00:48.50,0:00:49.40,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TROMMELN UND PFEIFEN
-Dialogue: 0,0:00:49.40,0:00:50.36,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPIELEN TAG UND
-Dialogue: 0,0:00:50.36,0:00:50.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NACHT.
-Dialogue: 0,0:00:50.68,0:00:51.84,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES WIRD NUR
-Dialogue: 0,0:00:51.84,0:00:52.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHLIMMER.
-Dialogue: 0,0:00:52.84,0:00:54.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPÄTERE CHRONIKEN BERICHTEN:
-Dialogue: 0,0:00:54.84,0:00:55.84,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINIGE TANZEN SICH
-Dialogue: 0,0:00:55.84,0:00:56.55,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU TODE.
-Dialogue: 0,0:00:56.92,0:00:57.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ERSCHÖPFUNG.
-Dialogue: 0,0:00:57.92,0:00:58.71,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HERZVERSAGEN.
-Dialogue: 0,0:00:59.34,0:00:59.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE VIELE ES
-Dialogue: 0,0:00:59.86,0:01:00.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIRKLICH WAREN,
-Dialogue: 0,0:01:00.86,0:01:01.67,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WEISS HEUTE NIEMAND.
-Dialogue: 0,0:01:02.12,0:01:02.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ERST ALS DIE
-Dialogue: 0,0:01:02.70,0:01:03.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STADT MUSIK UND
-Dialogue: 0,0:01:03.56,0:01:04.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TANZ VERBIETET UND
-Dialogue: 0,0:01:04.70,0:01:05.50,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE TANZENDEN ZU
-Dialogue: 0,0:01:05.50,0:01:06.32,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINER KAPELLE DES
-Dialogue: 0,0:01:06.32,0:01:07.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HEILIGEN VEIT BRINGT,
-Dialogue: 0,0:01:07.28,0:01:08.34,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EBBT DIE SEUCHE
-Dialogue: 0,0:01:08.34,0:01:09.15,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LANGSAM AB.
-Dialogue: 0,0:01:09.64,0:01:10.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS WAR DAS?
-Dialogue: 0,0:01:10.78,0:01:11.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE VERGIFTUNG DURCH
-Dialogue: 0,0:01:11.64,0:01:12.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MUTTERKORN,
-Dialogue: 0,0:01:12.62,0:01:13.58,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINEN GIFTIGEN PILZ
-Dialogue: 0,0:01:13.58,0:01:14.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IM GETREIDE?
-Dialogue: 0,0:01:14.82,0:01:16.00,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH MUTTERKORN VERURSACHT
-Dialogue: 0,0:01:16.00,0:01:16.63,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KRÄMPFE.
-Dialogue: 0,0:01:16.86,0:01:18.04,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KEIN TAGELANGES TANZEN.
-Dialogue: 0,0:01:18.04,0:01:19.84,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VIELE HISTORIKER GLAUBEN
-Dialogue: 0,0:01:19.84,0:01:20.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HEUTE:
-Dialogue: 0,0:01:20.72,0:01:21.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES WAR EINE
-Dialogue: 0,0:01:21.30,0:01:22.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ART MASSENHYSTERIE.
-Dialogue: 0,0:01:22.80,0:01:23.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HUNGER,
-Dialogue: 0,0:01:23.44,0:01:24.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KRANKHEIT,
-Dialogue: 0,0:01:24.10,0:01:25.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERZWEIFLUNG BIS DIE
-Dialogue: 0,0:01:25.52,0:01:26.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MENSCHEN DIE KONTROLLE
-Dialogue: 0,0:01:26.46,0:01:27.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER IHRE KÖRPER
-Dialogue: 0,0:01:27.20,0:01:27.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VERLOREN.
-Dialogue: 0,0:01:28.18,0:01:29.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND DAS UNHEIMLICHE:
-Dialogue: 0,0:01:29.68,0:01:30.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES WAR NICHT
-Dialogue: 0,0:01:30.14,0:01:31.21,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS EINZIGE MAL.
-Dialogue: 0,0:01:31.60,0:01:32.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ENTLANG DES RHEINS
-Dialogue: 0,0:01:32.44,0:01:34.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BRACHEN SOLCHE TANZWUT-EPIDEMIEN
-Dialogue: 0,0:01:34.28,0:01:35.37,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IMMER WIEDER AUS.
-Dialogue: 0,0:01:35.78,0:01:36.65,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
-Dialogue: 0,0:01:37.08,0:01:37.62,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE KANN EINE
-Dialogue: 0,0:01:37.62,0:01:38.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}GANZE STADT EINFACH
-Dialogue: 0,0:01:38.72,0:01:39.56,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT AUFHÖREN ZU
-Dialogue: 0,0:01:39.56,0:01:40.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}TANZEN?
-Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}1518 KONNTE EINE GANZE STADT NICHT AUFHÖREN ZU TANZEN
+Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{\fad(0,300)}AKTE 04
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(0,300)\fscx112\fscy112\t(0,160,\fscx100\fscy100)}1518 KONNTE EINE GANZE STADT NICHT AUFHÖREN ZU TANZEN
+Dialogue: 0,0:00:00.00,0:00:00.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}STRASSBURG,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.02,0:00:01.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IM{\c&HFFFFFF&} JULI 1518.
+Dialogue: 0,0:00:01.21,0:00:01.62,Sub,,0,0,0,,IM {\c&H0034D4FF&}JULI{\c&HFFFFFF&} 1518.
+Dialogue: 0,0:00:01.62,0:00:02.68,Sub,,0,0,0,,IM JULI {\c&H0034D4FF&}1518.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.32,0:00:03.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} FRAU TRITT
+Dialogue: 0,0:00:03.53,0:00:03.81,Sub,,0,0,0,,EINE {\c&H0034D4FF&}FRAU{\c&HFFFFFF&} TRITT
+Dialogue: 0,0:00:03.81,0:00:04.06,Sub,,0,0,0,,EINE FRAU {\c&H0034D4FF&}TRITT{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.06,0:00:04.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AUF{\c&HFFFFFF&} DIE STRASSE
+Dialogue: 0,0:00:04.21,0:00:04.36,Sub,,0,0,0,,AUF {\c&H0034D4FF&}DIE{\c&HFFFFFF&} STRASSE
+Dialogue: 0,0:00:04.36,0:00:04.70,Sub,,0,0,0,,AUF DIE {\c&H0034D4FF&}STRASSE{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.70,0:00:05.42,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} BEGINNT ZU
+Dialogue: 0,0:00:05.42,0:00:05.77,Sub,,0,0,0,,UND {\c&H0034D4FF&}BEGINNT{\c&HFFFFFF&} ZU
+Dialogue: 0,0:00:05.77,0:00:05.92,Sub,,0,0,0,,UND BEGINNT {\c&H0034D4FF&}ZU{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.92,0:00:06.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TANZEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.91,0:00:07.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} MUSIK.
+Dialogue: 0,0:00:07.21,0:00:07.64,Sub,,0,0,0,,{\c&H3C3CFF&}KEINE{\c&HFFFFFF&} {\c&H0034D4FF&}MUSIK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.98,0:00:08.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} FEST.
+Dialogue: 0,0:00:08.19,0:00:08.60,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}FEST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.11,0:00:09.25,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIE{\c&HFFFFFF&} TANZT EINFACH.
+Dialogue: 0,0:00:09.25,0:00:09.57,Sub,,0,0,0,,SIE {\c&H0034D4FF&}TANZT{\c&HFFFFFF&} EINFACH.
+Dialogue: 0,0:00:09.57,0:00:10.02,Sub,,0,0,0,,SIE TANZT {\c&H0034D4FF&}EINFACH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.60,0:00:11.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}STUNDENLANG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.83,0:00:12.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TAGELANG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.04,0:00:13.15,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} CHRONIKEN NENNEN
+Dialogue: 0,0:00:13.15,0:00:13.58,Sub,,0,0,0,,DIE {\c&H0034D4FF&}CHRONIKEN{\c&HFFFFFF&} NENNEN
+Dialogue: 0,0:00:13.58,0:00:13.87,Sub,,0,0,0,,DIE CHRONIKEN {\c&H0034D4FF&}NENNEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.87,0:00:14.08,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIE{\c&HFFFFFF&} FRAU TROFFEA.
+Dialogue: 0,0:00:14.08,0:00:14.32,Sub,,0,0,0,,SIE {\c&H0034D4FF&}FRAU{\c&HFFFFFF&} TROFFEA.
+Dialogue: 0,0:00:14.32,0:00:15.45,Sub,,0,0,0,,SIE FRAU {\c&H0034D4FF&}TROFFEA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.45,0:00:15.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIE{\c&HFFFFFF&} TANZT,
+Dialogue: 0,0:00:15.62,0:00:16.21,Sub,,0,0,0,,SIE {\c&H0034D4FF&}TANZT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.25,0:00:16.42,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BIS{\c&HFFFFFF&} SIE ZUSAMMENBRICHT.
+Dialogue: 0,0:00:16.42,0:00:16.55,Sub,,0,0,0,,BIS {\c&H0034D4FF&}SIE{\c&HFFFFFF&} ZUSAMMENBRICHT.
+Dialogue: 0,0:00:16.55,0:00:17.34,Sub,,0,0,0,,BIS SIE {\c&H0034D4FF&}ZUSAMMENBRICHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.79,0:00:18.06,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SCHLÄFT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.06,0:00:18.75,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} TANZT WEITER.
+Dialogue: 0,0:00:18.75,0:00:19.09,Sub,,0,0,0,,UND {\c&H0034D4FF&}TANZT{\c&HFFFFFF&} WEITER.
+Dialogue: 0,0:00:19.09,0:00:19.58,Sub,,0,0,0,,UND TANZT {\c&H0034D4FF&}WEITER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.17,0:00:20.38,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DANN{\c&HFFFFFF&} PASSIERT ETWAS,
+Dialogue: 0,0:00:20.38,0:00:20.77,Sub,,0,0,0,,DANN {\c&H0034D4FF&}PASSIERT{\c&HFFFFFF&} ETWAS,
+Dialogue: 0,0:00:20.77,0:00:21.30,Sub,,0,0,0,,DANN PASSIERT {\c&H0034D4FF&}ETWAS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.45,0:00:21.64,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} ERKLÄREN
+Dialogue: 0,0:00:21.64,0:00:22.02,Sub,,0,0,0,,DAS {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} ERKLÄREN
+Dialogue: 0,0:00:22.02,0:00:22.45,Sub,,0,0,0,,DAS {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} {\c&H0034D4FF&}ERKLÄREN{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.45,0:00:22.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KANN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.32,0:00:23.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NACH{\c&HFFFFFF&} EINER WOCHE
+Dialogue: 0,0:00:23.62,0:00:23.92,Sub,,0,0,0,,NACH {\c&H0034D4FF&}EINER{\c&HFFFFFF&} WOCHE
+Dialogue: 0,0:00:23.92,0:00:24.21,Sub,,0,0,0,,NACH EINER {\c&H0034D4FF&}WOCHE{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.21,0:00:24.64,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TANZEN{\c&HFFFFFF&} ÜBER DREISSIG
+Dialogue: 0,0:00:24.64,0:00:24.87,Sub,,0,0,0,,TANZEN {\c&H0034D4FF&}ÜBER{\c&HFFFFFF&} DREISSIG
+Dialogue: 0,0:00:24.87,0:00:25.30,Sub,,0,0,0,,TANZEN ÜBER {\c&H0034D4FF&}DREISSIG{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.30,0:00:25.75,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MENSCHEN{\c&HFFFFFF&} MIT.
+Dialogue: 0,0:00:25.75,0:00:26.13,Sub,,0,0,0,,MENSCHEN {\c&H0034D4FF&}MIT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.43,0:00:26.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MÄNNER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.08,0:00:27.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}FRAUEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.89,0:00:28.00,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIE{\c&HFFFFFF&} ZUCKEN,
+Dialogue: 0,0:00:28.00,0:00:28.49,Sub,,0,0,0,,SIE {\c&H0034D4FF&}ZUCKEN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.62,0:00:28.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DREHEN{\c&HFFFFFF&} SICH,
+Dialogue: 0,0:00:28.91,0:00:29.24,Sub,,0,0,0,,DREHEN {\c&H0034D4FF&}SICH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.40,0:00:29.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SCHREIEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.11,0:00:30.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALS{\c&HFFFFFF&} KÖNNTEN SIE
+Dialogue: 0,0:00:30.30,0:00:30.51,Sub,,0,0,0,,ALS {\c&H0034D4FF&}KÖNNTEN{\c&HFFFFFF&} SIE
+Dialogue: 0,0:00:30.51,0:00:30.72,Sub,,0,0,0,,ALS KÖNNTEN {\c&H0034D4FF&}SIE{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.72,0:00:30.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NICHT{\c&HFFFFFF&} AUFHÖREN.
+Dialogue: 0,0:00:30.87,0:00:31.49,Sub,,0,0,0,,NICHT {\c&H0034D4FF&}AUFHÖREN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.81,0:00:31.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} ES WERDEN
+Dialogue: 0,0:00:31.92,0:00:32.08,Sub,,0,0,0,,UND {\c&H0034D4FF&}ES{\c&HFFFFFF&} WERDEN
+Dialogue: 0,0:00:32.08,0:00:32.34,Sub,,0,0,0,,UND ES {\c&H0034D4FF&}WERDEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.34,0:00:32.72,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IMMER{\c&HFFFFFF&} MEHR.
+Dialogue: 0,0:00:32.72,0:00:33.17,Sub,,0,0,0,,IMMER {\c&H0034D4FF&}MEHR.{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.53,0:00:33.64,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AM{\c&HFFFFFF&} ENDE SOLLEN
+Dialogue: 0,0:00:33.64,0:00:33.91,Sub,,0,0,0,,AM {\c&H0034D4FF&}ENDE{\c&HFFFFFF&} SOLLEN
+Dialogue: 0,0:00:33.91,0:00:34.13,Sub,,0,0,0,,AM ENDE {\c&H0034D4FF&}SOLLEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.13,0:00:34.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} BIS ZU
+Dialogue: 0,0:00:34.30,0:00:34.42,Sub,,0,0,0,,ES {\c&H0034D4FF&}BIS{\c&HFFFFFF&} ZU
+Dialogue: 0,0:00:34.42,0:00:34.62,Sub,,0,0,0,,ES BIS {\c&H0034D4FF&}ZU{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.62,0:00:35.13,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}400{\c&HFFFFFF&} GEWESEN SEIN.
+Dialogue: 0,0:00:35.13,0:00:35.49,Sub,,0,0,0,,400 {\c&H0034D4FF&}GEWESEN{\c&HFFFFFF&} SEIN.
+Dialogue: 0,0:00:35.49,0:00:36.02,Sub,,0,0,0,,400 GEWESEN {\c&H0034D4FF&}SEIN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.51,0:00:36.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} STADTOBEREN HABEN
+Dialogue: 0,0:00:36.62,0:00:37.25,Sub,,0,0,0,,DIE {\c&H0034D4FF&}STADTOBEREN{\c&HFFFFFF&} HABEN
+Dialogue: 0,0:00:37.25,0:00:37.42,Sub,,0,0,0,,DIE STADTOBEREN {\c&H0034D4FF&}HABEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.42,0:00:37.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} IDEE.
+Dialogue: 0,0:00:37.70,0:00:38.09,Sub,,0,0,0,,EINE {\c&H0034D4FF&}IDEE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.45,0:00:38.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} SCHRECKLICHE IDEE.
+Dialogue: 0,0:00:38.62,0:00:39.13,Sub,,0,0,0,,EINE {\c&H0034D4FF&}SCHRECKLICHE{\c&HFFFFFF&} IDEE.
+Dialogue: 0,0:00:39.13,0:00:39.60,Sub,,0,0,0,,EINE SCHRECKLICHE {\c&H0034D4FF&}IDEE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.02,0:00:40.15,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIE{\c&HFFFFFF&} GLAUBEN:
+Dialogue: 0,0:00:40.15,0:00:40.57,Sub,,0,0,0,,SIE {\c&H0034D4FF&}GLAUBEN:{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.89,0:00:40.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} KRANKEN MÜSSEN
+Dialogue: 0,0:00:40.98,0:00:41.26,Sub,,0,0,0,,DIE {\c&H0034D4FF&}KRANKEN{\c&HFFFFFF&} MÜSSEN
+Dialogue: 0,0:00:41.26,0:00:41.64,Sub,,0,0,0,,DIE KRANKEN {\c&H0034D4FF&}MÜSSEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.64,0:00:41.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SICH{\c&HFFFFFF&} AUSTANZEN.
+Dialogue: 0,0:00:41.89,0:00:42.72,Sub,,0,0,0,,SICH {\c&H0034D4FF&}AUSTANZEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.98,0:00:43.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALSO{\c&HFFFFFF&} BAUEN SIE
+Dialogue: 0,0:00:43.34,0:00:43.57,Sub,,0,0,0,,ALSO {\c&H0034D4FF&}BAUEN{\c&HFFFFFF&} SIE
+Dialogue: 0,0:00:43.57,0:00:43.74,Sub,,0,0,0,,ALSO BAUEN {\c&H0034D4FF&}SIE{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.74,0:00:43.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} BÜHNE.
+Dialogue: 0,0:00:43.91,0:00:44.40,Sub,,0,0,0,,EINE {\c&H0034D4FF&}BÜHNE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.60,0:00:44.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HOLEN{\c&HFFFFFF&} MUSIKER.
+Dialogue: 0,0:00:44.87,0:00:45.47,Sub,,0,0,0,,HOLEN {\c&H0034D4FF&}MUSIKER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.75,0:00:46.09,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TROMMELN{\c&HFFFFFF&} UND PFEIFEN
+Dialogue: 0,0:00:46.09,0:00:46.25,Sub,,0,0,0,,TROMMELN {\c&H0034D4FF&}UND{\c&HFFFFFF&} PFEIFEN
+Dialogue: 0,0:00:46.25,0:00:46.60,Sub,,0,0,0,,TROMMELN UND {\c&H0034D4FF&}PFEIFEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.60,0:00:46.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SPIELEN{\c&HFFFFFF&} TAG UND
+Dialogue: 0,0:00:46.92,0:00:47.26,Sub,,0,0,0,,SPIELEN {\c&H0034D4FF&}TAG{\c&HFFFFFF&} UND
+Dialogue: 0,0:00:47.26,0:00:47.51,Sub,,0,0,0,,SPIELEN TAG {\c&H0034D4FF&}UND{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.51,0:00:47.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NACHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.81,0:00:48.55,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} WIRD NUR
+Dialogue: 0,0:00:48.55,0:00:48.74,Sub,,0,0,0,,ES {\c&H0034D4FF&}WIRD{\c&HFFFFFF&} NUR
+Dialogue: 0,0:00:48.74,0:00:48.91,Sub,,0,0,0,,ES WIRD {\c&H0034D4FF&}NUR{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.91,0:00:49.45,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SCHLIMMER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.85,0:00:50.38,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SPÄTERE{\c&HFFFFFF&} CHRONIKEN BERICHTEN:
+Dialogue: 0,0:00:50.38,0:00:50.77,Sub,,0,0,0,,SPÄTERE {\c&H0034D4FF&}CHRONIKEN{\c&HFFFFFF&} BERICHTEN:
+Dialogue: 0,0:00:50.77,0:00:51.30,Sub,,0,0,0,,SPÄTERE CHRONIKEN {\c&H0034D4FF&}BERICHTEN:{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.74,0:00:52.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINIGE{\c&HFFFFFF&} TANZEN SICH
+Dialogue: 0,0:00:52.11,0:00:52.47,Sub,,0,0,0,,EINIGE {\c&H0034D4FF&}TANZEN{\c&HFFFFFF&} SICH
+Dialogue: 0,0:00:52.47,0:00:52.68,Sub,,0,0,0,,EINIGE TANZEN {\c&H0034D4FF&}SICH{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.68,0:00:52.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ZU{\c&HFFFFFF&} TODE.
+Dialogue: 0,0:00:52.87,0:00:53.36,Sub,,0,0,0,,ZU {\c&H0034D4FF&}TODE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.70,0:00:54.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ERSCHÖPFUNG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.64,0:00:55.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HERZVERSAGEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.98,0:00:56.08,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIE{\c&HFFFFFF&} VIELE ES
+Dialogue: 0,0:00:56.08,0:00:56.30,Sub,,0,0,0,,WIE {\c&H0034D4FF&}VIELE{\c&HFFFFFF&} ES
+Dialogue: 0,0:00:56.30,0:00:56.47,Sub,,0,0,0,,WIE VIELE {\c&H0034D4FF&}ES{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.47,0:00:56.75,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIRKLICH{\c&HFFFFFF&} WAREN,
+Dialogue: 0,0:00:56.75,0:00:57.32,Sub,,0,0,0,,WIRKLICH {\c&H0034D4FF&}WAREN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.42,0:00:57.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WEISS{\c&HFFFFFF&} HEUTE {\c&H3C3CFF&}NIEMAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.49,0:00:57.79,Sub,,0,0,0,,WEISS {\c&H0034D4FF&}HEUTE{\c&HFFFFFF&} {\c&H3C3CFF&}NIEMAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.79,0:00:58.19,Sub,,0,0,0,,WEISS HEUTE {\c&H3C3CFF&}NIEMAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.60,0:00:58.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ERST{\c&HFFFFFF&} ALS DIE
+Dialogue: 0,0:00:58.77,0:00:59.00,Sub,,0,0,0,,ERST {\c&H0034D4FF&}ALS{\c&HFFFFFF&} DIE
+Dialogue: 0,0:00:59.00,0:00:59.15,Sub,,0,0,0,,ERST ALS {\c&H0034D4FF&}DIE{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.15,0:00:59.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}STADT{\c&HFFFFFF&} MUSIK UND
+Dialogue: 0,0:00:59.34,0:00:59.70,Sub,,0,0,0,,STADT {\c&H0034D4FF&}MUSIK{\c&HFFFFFF&} UND
+Dialogue: 0,0:00:59.70,0:00:59.96,Sub,,0,0,0,,STADT MUSIK {\c&H0034D4FF&}UND{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.96,0:01:00.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TANZ{\c&HFFFFFF&} VERBIETET UND
+Dialogue: 0,0:01:00.19,0:01:00.70,Sub,,0,0,0,,TANZ {\c&H0034D4FF&}VERBIETET{\c&HFFFFFF&} UND
+Dialogue: 0,0:01:00.70,0:01:01.04,Sub,,0,0,0,,TANZ VERBIETET {\c&H0034D4FF&}UND{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.04,0:01:01.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} TANZENDEN ZU
+Dialogue: 0,0:01:01.19,0:01:01.58,Sub,,0,0,0,,DIE {\c&H0034D4FF&}TANZENDEN{\c&HFFFFFF&} ZU
+Dialogue: 0,0:01:01.58,0:01:01.79,Sub,,0,0,0,,DIE TANZENDEN {\c&H0034D4FF&}ZU{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.79,0:01:01.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINER{\c&HFFFFFF&} KAPELLE DES
+Dialogue: 0,0:01:01.96,0:01:02.38,Sub,,0,0,0,,EINER {\c&H0034D4FF&}KAPELLE{\c&HFFFFFF&} DES
+Dialogue: 0,0:01:02.38,0:01:02.57,Sub,,0,0,0,,EINER KAPELLE {\c&H0034D4FF&}DES{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.57,0:01:02.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HEILIGEN{\c&HFFFFFF&} VEIT BRINGT,
+Dialogue: 0,0:01:02.91,0:01:03.15,Sub,,0,0,0,,HEILIGEN {\c&H0034D4FF&}VEIT{\c&HFFFFFF&} BRINGT,
+Dialogue: 0,0:01:03.15,0:01:03.47,Sub,,0,0,0,,HEILIGEN VEIT {\c&H0034D4FF&}BRINGT,{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.47,0:01:04.02,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EBBT{\c&HFFFFFF&} DIE SEUCHE
+Dialogue: 0,0:01:04.02,0:01:04.19,Sub,,0,0,0,,EBBT {\c&H0034D4FF&}DIE{\c&HFFFFFF&} SEUCHE
+Dialogue: 0,0:01:04.19,0:01:04.47,Sub,,0,0,0,,EBBT DIE {\c&H0034D4FF&}SEUCHE{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.47,0:01:04.74,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LANGSAM{\c&HFFFFFF&} AB.
+Dialogue: 0,0:01:04.74,0:01:05.24,Sub,,0,0,0,,LANGSAM {\c&H0034D4FF&}AB.{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.70,0:01:05.85,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} WAR DAS?
+Dialogue: 0,0:01:05.85,0:01:06.06,Sub,,0,0,0,,WAS {\c&H0034D4FF&}WAR{\c&HFFFFFF&} DAS?
+Dialogue: 0,0:01:06.06,0:01:06.40,Sub,,0,0,0,,WAS WAR {\c&H0034D4FF&}DAS?{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.77,0:01:06.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} VERGIFTUNG DURCH
+Dialogue: 0,0:01:06.92,0:01:07.42,Sub,,0,0,0,,EINE {\c&H0034D4FF&}VERGIFTUNG{\c&HFFFFFF&} DURCH
+Dialogue: 0,0:01:07.42,0:01:07.58,Sub,,0,0,0,,EINE VERGIFTUNG {\c&H0034D4FF&}DURCH{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.58,0:01:08.32,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MUTTERKORN,{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.51,0:01:08.66,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINEN{\c&HFFFFFF&} GIFTIGEN PILZ
+Dialogue: 0,0:01:08.66,0:01:09.06,Sub,,0,0,0,,EINEN {\c&H0034D4FF&}GIFTIGEN{\c&HFFFFFF&} PILZ
+Dialogue: 0,0:01:09.06,0:01:09.42,Sub,,0,0,0,,EINEN GIFTIGEN {\c&H0034D4FF&}PILZ{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.42,0:01:09.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IM{\c&HFFFFFF&} GETREIDE?
+Dialogue: 0,0:01:09.51,0:01:10.11,Sub,,0,0,0,,IM {\c&H0034D4FF&}GETREIDE?{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.58,0:01:10.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DOCH{\c&HFFFFFF&} MUTTERKORN VERURSACHT
+Dialogue: 0,0:01:10.77,0:01:11.28,Sub,,0,0,0,,DOCH {\c&H0034D4FF&}MUTTERKORN{\c&HFFFFFF&} VERURSACHT
+Dialogue: 0,0:01:11.28,0:01:11.70,Sub,,0,0,0,,DOCH MUTTERKORN {\c&H0034D4FF&}VERURSACHT{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.70,0:01:12.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KRÄMPFE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.51,0:01:12.66,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} TAGELANGES TANZEN.
+Dialogue: 0,0:01:12.66,0:01:13.19,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}TAGELANGES{\c&HFFFFFF&} TANZEN.
+Dialogue: 0,0:01:13.19,0:01:13.62,Sub,,0,0,0,,{\c&H3C3CFF&}KEIN{\c&HFFFFFF&} TAGELANGES {\c&H0034D4FF&}TANZEN.{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.62,0:01:14.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VIELE{\c&HFFFFFF&} HISTORIKER GLAUBEN
+Dialogue: 0,0:01:14.53,0:01:15.13,Sub,,0,0,0,,VIELE {\c&H0034D4FF&}HISTORIKER{\c&HFFFFFF&} GLAUBEN
+Dialogue: 0,0:01:15.13,0:01:15.32,Sub,,0,0,0,,VIELE HISTORIKER {\c&H0034D4FF&}GLAUBEN{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.32,0:01:15.85,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HEUTE:{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.15,0:01:16.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} WAR EINE
+Dialogue: 0,0:01:16.36,0:01:16.53,Sub,,0,0,0,,ES {\c&H0034D4FF&}WAR{\c&HFFFFFF&} EINE
+Dialogue: 0,0:01:16.53,0:01:16.70,Sub,,0,0,0,,ES WAR {\c&H0034D4FF&}EINE{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.70,0:01:16.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ART{\c&HFFFFFF&} MASSENHYSTERIE.
+Dialogue: 0,0:01:16.89,0:01:17.98,Sub,,0,0,0,,ART {\c&H0034D4FF&}MASSENHYSTERIE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.11,0:01:18.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HUNGER,{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.72,0:01:19.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KRANKHEIT,{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.34,0:01:20.19,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VERZWEIFLUNG{\c&HFFFFFF&} BIS DIE
+Dialogue: 0,0:01:20.19,0:01:20.51,Sub,,0,0,0,,VERZWEIFLUNG {\c&H0034D4FF&}BIS{\c&HFFFFFF&} DIE
+Dialogue: 0,0:01:20.51,0:01:20.68,Sub,,0,0,0,,VERZWEIFLUNG BIS {\c&H0034D4FF&}DIE{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.68,0:01:20.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MENSCHEN{\c&HFFFFFF&} DIE KONTROLLE
+Dialogue: 0,0:01:20.94,0:01:21.11,Sub,,0,0,0,,MENSCHEN {\c&H0034D4FF&}DIE{\c&HFFFFFF&} KONTROLLE
+Dialogue: 0,0:01:21.11,0:01:21.57,Sub,,0,0,0,,MENSCHEN DIE {\c&H0034D4FF&}KONTROLLE{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.57,0:01:21.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ÜBER{\c&HFFFFFF&} IHRE KÖRPER
+Dialogue: 0,0:01:21.77,0:01:21.98,Sub,,0,0,0,,ÜBER {\c&H0034D4FF&}IHRE{\c&HFFFFFF&} KÖRPER
+Dialogue: 0,0:01:21.98,0:01:22.26,Sub,,0,0,0,,ÜBER IHRE {\c&H0034D4FF&}KÖRPER{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.26,0:01:22.79,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VERLOREN.{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.19,0:01:23.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} DAS UNHEIMLICHE:
+Dialogue: 0,0:01:23.34,0:01:23.51,Sub,,0,0,0,,UND {\c&H0034D4FF&}DAS{\c&HFFFFFF&} UNHEIMLICHE:
+Dialogue: 0,0:01:23.51,0:01:24.28,Sub,,0,0,0,,UND DAS {\c&H0034D4FF&}UNHEIMLICHE:{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.60,0:01:24.74,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} WAR NICHT
+Dialogue: 0,0:01:24.74,0:01:24.91,Sub,,0,0,0,,ES {\c&H0034D4FF&}WAR{\c&HFFFFFF&} NICHT
+Dialogue: 0,0:01:24.91,0:01:25.04,Sub,,0,0,0,,ES WAR {\c&H0034D4FF&}NICHT{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.04,0:01:25.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} EINZIGE MAL.
+Dialogue: 0,0:01:25.21,0:01:25.57,Sub,,0,0,0,,DAS {\c&H0034D4FF&}EINZIGE{\c&HFFFFFF&} MAL.
+Dialogue: 0,0:01:25.57,0:01:26.06,Sub,,0,0,0,,DAS EINZIGE {\c&H0034D4FF&}MAL.{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.42,0:01:26.74,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ENTLANG{\c&HFFFFFF&} DES RHEINS
+Dialogue: 0,0:01:26.74,0:01:26.92,Sub,,0,0,0,,ENTLANG {\c&H0034D4FF&}DES{\c&HFFFFFF&} RHEINS
+Dialogue: 0,0:01:26.92,0:01:27.21,Sub,,0,0,0,,ENTLANG DES {\c&H0034D4FF&}RHEINS{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.21,0:01:27.60,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BRACHEN{\c&HFFFFFF&} SOLCHE TANZWUT-EPIDEMIEN
+Dialogue: 0,0:01:27.60,0:01:27.81,Sub,,0,0,0,,BRACHEN {\c&H0034D4FF&}SOLCHE{\c&HFFFFFF&} TANZWUT-EPIDEMIEN
+Dialogue: 0,0:01:27.81,0:01:28.94,Sub,,0,0,0,,BRACHEN SOLCHE {\c&H0034D4FF&}TANZWUT-EPIDEMIEN{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.94,0:01:29.26,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IMMER{\c&HFFFFFF&} WIEDER AUS.
+Dialogue: 0,0:01:29.26,0:01:29.53,Sub,,0,0,0,,IMMER {\c&H0034D4FF&}WIEDER{\c&HFFFFFF&} AUS.
+Dialogue: 0,0:01:29.53,0:01:29.98,Sub,,0,0,0,,IMMER WIEDER {\c&H0034D4FF&}AUS.{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.36,0:01:30.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} GLAUBST DU
+Dialogue: 0,0:01:30.53,0:01:30.89,Sub,,0,0,0,,WAS {\c&H0034D4FF&}GLAUBST{\c&HFFFFFF&} DU
+Dialogue: 0,0:01:30.89,0:01:31.19,Sub,,0,0,0,,WAS GLAUBST {\c&H0034D4FF&}DU{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.58,0:01:31.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIE{\c&HFFFFFF&} KANN EINE
+Dialogue: 0,0:01:31.70,0:01:31.89,Sub,,0,0,0,,WIE {\c&H0034D4FF&}KANN{\c&HFFFFFF&} EINE
+Dialogue: 0,0:01:31.89,0:01:32.09,Sub,,0,0,0,,WIE KANN {\c&H0034D4FF&}EINE{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.09,0:01:32.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}GANZE{\c&HFFFFFF&} STADT EINFACH
+Dialogue: 0,0:01:32.36,0:01:32.72,Sub,,0,0,0,,GANZE {\c&H0034D4FF&}STADT{\c&HFFFFFF&} EINFACH
+Dialogue: 0,0:01:32.72,0:01:33.13,Sub,,0,0,0,,GANZE STADT {\c&H0034D4FF&}EINFACH{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.13,0:01:33.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NICHT{\c&HFFFFFF&} AUFHÖREN ZU
+Dialogue: 0,0:01:33.36,0:01:33.79,Sub,,0,0,0,,NICHT {\c&H0034D4FF&}AUFHÖREN{\c&HFFFFFF&} ZU
+Dialogue: 0,0:01:33.79,0:01:33.92,Sub,,0,0,0,,NICHT AUFHÖREN {\c&H0034D4FF&}ZU{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.92,0:01:34.47,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}TANZEN?{\c&HFFFFFF&}

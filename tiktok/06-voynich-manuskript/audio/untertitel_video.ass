@@ -6,111 +6,247 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Sub,Inter ExtraBold,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
-Style: Hook,Inter ExtraBold,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,3,20,0,8,80,80,290,1
-Style: Gelb,Inter ExtraBold,86,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,3,2,80,80,560,1
+Style: Sub,Inter ExtraBold,94,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
+Style: Hook,Inter ExtraBold,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,22,0,8,80,80,300,1
+Style: Akte,Inter ExtraBold,40,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,10,0,8,80,80,236,1
+Style: Gelb,Inter ExtraBold,94,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,2,80,80,560,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:00.66,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES GIBT EIN
-Dialogue: 0,0:00:00.66,0:00:01.03,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BUCH,
-Dialogue: 0,0:00:01.14,0:00:02.18,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS NIEMAND AUF
-Dialogue: 0,0:00:02.18,0:00:02.98,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DER WELT LESEN
-Dialogue: 0,0:00:02.98,0:00:03.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KANN.
-Dialogue: 0,0:00:04.02,0:00:04.60,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT DIE BESTEN
-Dialogue: 0,0:00:04.60,0:00:05.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}CODEKNACKER.
-Dialogue: 0,0:00:05.82,0:00:07.01,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT DIE GEHEIMDIENSTE.
-Dialogue: 0,0:00:07.36,0:00:08.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NICHT EINMAL COMPUTER.
-Dialogue: 0,0:00:08.96,0:00:09.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES HEISST:
-Dialogue: 0,0:00:09.44,0:00:11.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS VOYNICH-MANUSKRIPT.
-Dialogue: 0,0:00:11.88,0:00:13.64,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}RUND 240 SEITEN
-Dialogue: 0,0:00:13.64,0:00:14.55,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUS PERGAMENT.
-Dialogue: 0,0:00:15.02,0:00:15.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VOLL MIT EINER
-Dialogue: 0,0:00:15.76,0:00:16.25,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHRIFT,
-Dialogue: 0,0:00:16.30,0:00:16.76,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE ES SONST
-Dialogue: 0,0:00:16.76,0:00:17.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NIRGENDWO GIBT.
-Dialogue: 0,0:00:18.22,0:00:19.05,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND MIT BILDERN,
-Dialogue: 0,0:00:19.10,0:00:20.08,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE NOCH SELTSAMER
-Dialogue: 0,0:00:20.08,0:00:20.51,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIND.
-Dialogue: 0,0:00:20.98,0:00:21.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}PFLANZEN,
-Dialogue: 0,0:00:21.52,0:00:22.38,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE KEIN BOTANIKER
-Dialogue: 0,0:00:22.38,0:00:22.83,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KENNT.
-Dialogue: 0,0:00:23.28,0:00:24.03,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STERNKARTEN.
-Dialogue: 0,0:00:24.26,0:00:25.87,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UND NACKTE FRAUEN,
-Dialogue: 0,0:00:25.92,0:00:26.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE IN GRÜNEN
-Dialogue: 0,0:00:26.48,0:00:28.26,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BECKEN BADEN VERBUNDEN
-Dialogue: 0,0:00:28.26,0:00:29.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DURCH MERKWÜRDIGE RÖHREN.
-Dialogue: 0,0:00:30.54,0:00:31.70,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}1912 KAUFT EIN
-Dialogue: 0,0:00:31.70,0:00:33.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ANTIQUAR NAMENS WILFRID
-Dialogue: 0,0:00:33.09,0:00:34.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VOYNICH DAS BUCH.
-Dialogue: 0,0:00:34.52,0:00:35.22,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER GLAUBT,
-Dialogue: 0,0:00:35.22,0:00:35.60,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ER HAT EINEN
-Dialogue: 0,0:00:35.60,0:00:36.43,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHATZ GEFUNDEN.
-Dialogue: 0,0:00:36.86,0:00:37.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DOCH NIEMAND KANN
-Dialogue: 0,0:00:37.68,0:00:38.53,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ES ENTZIFFERN.
-Dialogue: 0,0:00:38.94,0:00:39.68,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN ALTER BRIEF
-Dialogue: 0,0:00:39.68,0:00:40.39,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BEHAUPTET:
-Dialogue: 0,0:00:40.68,0:00:41.73,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KAISER RUDOLF DER
-Dialogue: 0,0:00:41.73,0:00:42.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZWEITE SOLL EINMAL
-Dialogue: 0,0:00:42.44,0:00:43.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}600 DUKATEN DAFÜR
-Dialogue: 0,0:00:43.82,0:00:44.69,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BEZAHLT HABEN.
-Dialogue: 0,0:00:44.88,0:00:45.77,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN VERMÖGEN.
-Dialogue: 0,0:00:46.32,0:00:47.06,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AB DEM ZWEITEN
-Dialogue: 0,0:00:47.06,0:00:47.84,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WELTKRIEG VERSUCHEN
-Dialogue: 0,0:00:47.84,0:00:48.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SICH DIE BESTEN
-Dialogue: 0,0:00:48.54,0:00:49.86,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KRYPTOLOGEN AMERIKAS
-Dialogue: 0,0:00:49.86,0:00:50.12,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DARAN.
-Dialogue: 0,0:00:50.12,0:00:51.49,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIESELBEN LEUTE,
-Dialogue: 0,0:00:51.58,0:00:52.44,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE FEINDLICHE CODES
-Dialogue: 0,0:00:52.44,0:00:53.07,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}KNACKTEN.
-Dialogue: 0,0:00:53.48,0:00:54.31,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SIE SCHEITERN.
-Dialogue: 0,0:00:54.94,0:00:56.02,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}2009 DANN EIN
-Dialogue: 0,0:00:56.02,0:00:56.60,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DURCHBRUCH,
-Dialogue: 0,0:00:56.60,0:00:57.87,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZUMINDEST BEIM ALTER:
-Dialogue: 0,0:00:58.30,0:00:59.24,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS PERGAMENT STAMMT
-Dialogue: 0,0:00:59.24,0:00:59.84,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}AUS DEM FRÜHEN
-Dialogue: 0,0:00:59.84,0:01:01.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}15. JAHRHUNDERT.
-Dialogue: 0,0:01:01.36,0:01:02.52,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ÜBER 600 JAHRE
-Dialogue: 0,0:01:02.52,0:01:03.05,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ALT.
-Dialogue: 0,0:01:03.36,0:01:03.96,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ABER WAS STEHT
-Dialogue: 0,0:01:03.96,0:01:04.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DRIN?
-Dialogue: 0,0:01:04.78,0:01:05.89,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE GEHEIMSPRACHE?
-Dialogue: 0,0:01:06.14,0:01:06.90,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EIN VERSCHLÜSSELTES
-Dialogue: 0,0:01:06.90,0:01:07.79,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}MEDIZINBUCH?
-Dialogue: 0,0:01:08.08,0:01:09.54,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ODER EIN GENIALER
-Dialogue: 0,0:01:09.54,0:01:10.17,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SCHWINDEL?
-Dialogue: 0,0:01:10.44,0:01:11.09,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}UNSINN,
-Dialogue: 0,0:01:11.10,0:01:11.89,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SO GUT GEMACHT,
-Dialogue: 0,0:01:11.92,0:01:12.20,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DASS ER WIE
-Dialogue: 0,0:01:12.20,0:01:13.41,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}EINE SPRACHE AUSSIEHT?
-Dialogue: 0,0:01:13.98,0:01:14.81,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DAS SELTSAME:
-Dialogue: 0,0:01:15.06,0:01:16.08,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}STATISTISCH VERHÄLT
-Dialogue: 0,0:01:16.08,0:01:16.72,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SICH DER TEXT
-Dialogue: 0,0:01:16.72,0:01:17.48,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE EINE ECHTE
-Dialogue: 0,0:01:17.48,0:01:18.13,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SPRACHE.
-Dialogue: 0,0:01:18.44,0:01:19.28,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WÖRTER WIEDERHOLEN
-Dialogue: 0,0:01:19.28,0:01:20.11,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SICH IN MUSTERN,
-Dialogue: 0,0:01:20.14,0:01:20.60,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WIE IN JEDER
-Dialogue: 0,0:01:20.60,0:01:21.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}NATÜRLICHEN SPRACHE.
-Dialogue: 0,0:01:22.24,0:01:23.26,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}IMMER WIEDER BEHAUPTET
-Dialogue: 0,0:01:23.26,0:01:23.67,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JEMAND,
-Dialogue: 0,0:01:23.72,0:01:24.46,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DEN CODE GEKNACKT
-Dialogue: 0,0:01:24.46,0:01:24.80,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ZU HABEN.
-Dialogue: 0,0:01:24.80,0:01:26.14,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BEWEISEN KONNTE ES
-Dialogue: 0,0:01:26.14,0:01:27.01,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIS HEUTE NIEMAND.
-Dialogue: 0,0:01:27.52,0:01:28.22,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}HEUTE LIEGT DAS
-Dialogue: 0,0:01:28.22,0:01:28.82,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BUCH IN EINER
-Dialogue: 0,0:01:28.82,0:01:30.30,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}BIBLIOTHEK DER UNIVERSITÄT
-Dialogue: 0,0:01:30.30,0:01:30.73,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}YALE.
-Dialogue: 0,0:01:31.16,0:01:31.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JEDE SEITE IST
-Dialogue: 0,0:01:31.88,0:01:32.33,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}ONLINE.
-Dialogue: 0,0:01:32.70,0:01:33.24,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}JEDER KANN ES
-Dialogue: 0,0:01:33.24,0:01:33.93,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}SICH ANSEHEN.
-Dialogue: 0,0:01:34.38,0:01:35.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}VIELLEICHT BIST DU
-Dialogue: 0,0:01:35.10,0:01:35.60,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE PERSON,
-Dialogue: 0,0:01:35.60,0:01:36.10,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIE ES ENDLICH
-Dialogue: 0,0:01:36.10,0:01:36.75,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}LIEST.
-Dialogue: 0,0:01:37.12,0:01:37.89,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS GLAUBST DU
-Dialogue: 0,0:01:38.24,0:01:38.88,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}WAS STEHT IN
-Dialogue: 0,0:01:38.88,0:01:39.47,Sub,,0,0,0,,{\fscx85\fscy85\t(0,90,\fscx100\fscy100)}DIESEM BUCH?
-Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(150,300)}DIESES BUCH KANN BIS HEUTE NIEMAND LESEN
+Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{\fad(0,300)}AKTE 06
+Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(0,300)\fscx112\fscy112\t(0,160,\fscx100\fscy100)}DIESES BUCH KANN BIS HEUTE NIEMAND LESEN
+Dialogue: 0,0:00:00.00,0:00:00.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} GIBT EIN
+Dialogue: 0,0:00:00.21,0:00:00.42,Sub,,0,0,0,,ES {\c&H0034D4FF&}GIBT{\c&HFFFFFF&} EIN
+Dialogue: 0,0:00:00.42,0:00:00.62,Sub,,0,0,0,,ES GIBT {\c&H0034D4FF&}EIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.62,0:00:00.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BUCH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.08,0:00:01.26,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} AUF
+Dialogue: 0,0:00:01.26,0:00:01.74,Sub,,0,0,0,,DAS {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} AUF
+Dialogue: 0,0:00:01.74,0:00:02.06,Sub,,0,0,0,,DAS {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} {\c&H0034D4FF&}AUF{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.06,0:00:02.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DER{\c&HFFFFFF&} WELT LESEN
+Dialogue: 0,0:00:02.21,0:00:02.40,Sub,,0,0,0,,DER {\c&H0034D4FF&}WELT{\c&HFFFFFF&} LESEN
+Dialogue: 0,0:00:02.40,0:00:02.81,Sub,,0,0,0,,DER WELT {\c&H0034D4FF&}LESEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.81,0:00:03.16,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KANN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.79,0:00:03.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NICHT{\c&HFFFFFF&} DIE BESTEN
+Dialogue: 0,0:00:03.96,0:00:04.13,Sub,,0,0,0,,NICHT {\c&H0034D4FF&}DIE{\c&HFFFFFF&} BESTEN
+Dialogue: 0,0:00:04.13,0:00:04.34,Sub,,0,0,0,,NICHT DIE {\c&H0034D4FF&}BESTEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.34,0:00:05.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}CODEKNACKER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.49,0:00:05.64,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NICHT{\c&HFFFFFF&} DIE GEHEIMDIENSTE.
+Dialogue: 0,0:00:05.64,0:00:05.81,Sub,,0,0,0,,NICHT {\c&H0034D4FF&}DIE{\c&HFFFFFF&} GEHEIMDIENSTE.
+Dialogue: 0,0:00:05.81,0:00:06.62,Sub,,0,0,0,,NICHT DIE {\c&H0034D4FF&}GEHEIMDIENSTE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.94,0:00:07.06,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NICHT{\c&HFFFFFF&} EINMAL COMPUTER.
+Dialogue: 0,0:00:07.06,0:00:07.28,Sub,,0,0,0,,NICHT {\c&H0034D4FF&}EINMAL{\c&HFFFFFF&} COMPUTER.
+Dialogue: 0,0:00:07.28,0:00:07.92,Sub,,0,0,0,,NICHT EINMAL {\c&H0034D4FF&}COMPUTER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.45,0:00:08.60,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} HEISST:
+Dialogue: 0,0:00:08.60,0:00:08.91,Sub,,0,0,0,,ES {\c&H0034D4FF&}HEISST:{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.91,0:00:09.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} VOYNICH-MANUSKRIPT.
+Dialogue: 0,0:00:09.51,0:00:11.21,Sub,,0,0,0,,DAS {\c&H0034D4FF&}VOYNICH-MANUSKRIPT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.21,0:00:11.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}RUND{\c&HFFFFFF&} 240 SEITEN
+Dialogue: 0,0:00:11.40,0:00:12.25,Sub,,0,0,0,,RUND {\c&H0034D4FF&}240{\c&HFFFFFF&} SEITEN
+Dialogue: 0,0:00:12.25,0:00:12.87,Sub,,0,0,0,,RUND 240 {\c&H0034D4FF&}SEITEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.87,0:00:13.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AUS{\c&HFFFFFF&} PERGAMENT.
+Dialogue: 0,0:00:13.11,0:00:13.73,Sub,,0,0,0,,AUS {\c&H0034D4FF&}PERGAMENT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.17,0:00:14.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VOLL{\c&HFFFFFF&} MIT EINER
+Dialogue: 0,0:00:14.49,0:00:14.66,Sub,,0,0,0,,VOLL {\c&H0034D4FF&}MIT{\c&HFFFFFF&} EINER
+Dialogue: 0,0:00:14.66,0:00:14.87,Sub,,0,0,0,,VOLL MIT {\c&H0034D4FF&}EINER{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.87,0:00:15.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SCHRIFT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.38,0:00:15.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} ES SONST
+Dialogue: 0,0:00:15.51,0:00:15.62,Sub,,0,0,0,,DIE {\c&H0034D4FF&}ES{\c&HFFFFFF&} SONST
+Dialogue: 0,0:00:15.62,0:00:15.81,Sub,,0,0,0,,DIE ES {\c&H0034D4FF&}SONST{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.81,0:00:16.42,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NIRGENDWO{\c&HFFFFFF&} GIBT.
+Dialogue: 0,0:00:16.42,0:00:16.81,Sub,,0,0,0,,NIRGENDWO {\c&H0034D4FF&}GIBT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.19,0:00:17.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} MIT BILDERN,
+Dialogue: 0,0:00:17.30,0:00:17.47,Sub,,0,0,0,,UND {\c&H0034D4FF&}MIT{\c&HFFFFFF&} BILDERN,
+Dialogue: 0,0:00:17.47,0:00:17.98,Sub,,0,0,0,,UND MIT {\c&H0034D4FF&}BILDERN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.02,0:00:18.23,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} NOCH SELTSAMER
+Dialogue: 0,0:00:18.23,0:00:18.47,Sub,,0,0,0,,DIE {\c&H0034D4FF&}NOCH{\c&HFFFFFF&} SELTSAMER
+Dialogue: 0,0:00:18.47,0:00:18.94,Sub,,0,0,0,,DIE NOCH {\c&H0034D4FF&}SELTSAMER{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.94,0:00:19.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.79,0:00:20.23,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}PFLANZEN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.30,0:00:20.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} {\c&H3C3CFF&}KEIN{\c&HFFFFFF&} BOTANIKER
+Dialogue: 0,0:00:20.36,0:00:20.58,Sub,,0,0,0,,DIE {\c&H3C3CFF&}KEIN{\c&HFFFFFF&} BOTANIKER
+Dialogue: 0,0:00:20.58,0:00:21.11,Sub,,0,0,0,,DIE {\c&H3C3CFF&}KEIN{\c&HFFFFFF&} {\c&H0034D4FF&}BOTANIKER{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.11,0:00:21.55,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KENNT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.96,0:00:22.68,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}STERNKARTEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.89,0:00:23.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UND{\c&HFFFFFF&} NACKTE FRAUEN,
+Dialogue: 0,0:00:23.36,0:00:23.92,Sub,,0,0,0,,UND {\c&H0034D4FF&}NACKTE{\c&HFFFFFF&} FRAUEN,
+Dialogue: 0,0:00:23.92,0:00:24.41,Sub,,0,0,0,,UND NACKTE {\c&H0034D4FF&}FRAUEN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.45,0:00:24.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} IN GRÜNEN
+Dialogue: 0,0:00:24.51,0:00:24.66,Sub,,0,0,0,,DIE {\c&H0034D4FF&}IN{\c&HFFFFFF&} GRÜNEN
+Dialogue: 0,0:00:24.66,0:00:24.98,Sub,,0,0,0,,DIE IN {\c&H0034D4FF&}GRÜNEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.98,0:00:25.28,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BECKEN{\c&HFFFFFF&} BADEN VERBUNDEN
+Dialogue: 0,0:00:25.28,0:00:25.72,Sub,,0,0,0,,BECKEN {\c&H0034D4FF&}BADEN{\c&HFFFFFF&} VERBUNDEN
+Dialogue: 0,0:00:25.72,0:00:26.66,Sub,,0,0,0,,BECKEN BADEN {\c&H0034D4FF&}VERBUNDEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.66,0:00:26.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DURCH{\c&HFFFFFF&} MERKWÜRDIGE RÖHREN.
+Dialogue: 0,0:00:26.91,0:00:27.53,Sub,,0,0,0,,DURCH {\c&H0034D4FF&}MERKWÜRDIGE{\c&HFFFFFF&} RÖHREN.
+Dialogue: 0,0:00:27.53,0:00:28.13,Sub,,0,0,0,,DURCH MERKWÜRDIGE {\c&H0034D4FF&}RÖHREN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.81,0:00:29.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}1912{\c&HFFFFFF&} KAUFT EIN
+Dialogue: 0,0:00:29.40,0:00:29.74,Sub,,0,0,0,,1912 {\c&H0034D4FF&}KAUFT{\c&HFFFFFF&} EIN
+Dialogue: 0,0:00:29.74,0:00:29.91,Sub,,0,0,0,,1912 KAUFT {\c&H0034D4FF&}EIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.91,0:00:30.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ANTIQUAR{\c&HFFFFFF&} NAMENS WILFRID
+Dialogue: 0,0:00:30.43,0:00:30.79,Sub,,0,0,0,,ANTIQUAR {\c&H0034D4FF&}NAMENS{\c&HFFFFFF&} WILFRID
+Dialogue: 0,0:00:30.79,0:00:31.22,Sub,,0,0,0,,ANTIQUAR NAMENS {\c&H0034D4FF&}WILFRID{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.22,0:00:31.64,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VOYNICH{\c&HFFFFFF&} DAS BUCH.
+Dialogue: 0,0:00:31.64,0:00:31.83,Sub,,0,0,0,,VOYNICH {\c&H0034D4FF&}DAS{\c&HFFFFFF&} BUCH.
+Dialogue: 0,0:00:31.83,0:00:32.21,Sub,,0,0,0,,VOYNICH DAS {\c&H0034D4FF&}BUCH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.57,0:00:32.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ER{\c&HFFFFFF&} GLAUBT,
+Dialogue: 0,0:00:32.70,0:00:33.23,Sub,,0,0,0,,ER {\c&H0034D4FF&}GLAUBT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.23,0:00:33.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ER{\c&HFFFFFF&} HAT EINEN
+Dialogue: 0,0:00:33.30,0:00:33.42,Sub,,0,0,0,,ER {\c&H0034D4FF&}HAT{\c&HFFFFFF&} EINEN
+Dialogue: 0,0:00:33.42,0:00:33.58,Sub,,0,0,0,,ER HAT {\c&H0034D4FF&}EINEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.58,0:00:33.87,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SCHATZ{\c&HFFFFFF&} GEFUNDEN.
+Dialogue: 0,0:00:33.87,0:00:34.38,Sub,,0,0,0,,SCHATZ {\c&H0034D4FF&}GEFUNDEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.77,0:00:34.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DOCH{\c&HFFFFFF&} {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} KANN
+Dialogue: 0,0:00:34.94,0:00:35.28,Sub,,0,0,0,,DOCH {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} KANN
+Dialogue: 0,0:00:35.28,0:00:35.55,Sub,,0,0,0,,DOCH {\c&H3C3CFF&}NIEMAND{\c&HFFFFFF&} {\c&H0034D4FF&}KANN{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.55,0:00:35.70,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ES{\c&HFFFFFF&} ENTZIFFERN.
+Dialogue: 0,0:00:35.70,0:00:36.36,Sub,,0,0,0,,ES {\c&H0034D4FF&}ENTZIFFERN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.74,0:00:36.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} ALTER BRIEF
+Dialogue: 0,0:00:36.96,0:00:37.17,Sub,,0,0,0,,EIN {\c&H0034D4FF&}ALTER{\c&HFFFFFF&} BRIEF
+Dialogue: 0,0:00:37.17,0:00:37.43,Sub,,0,0,0,,EIN ALTER {\c&H0034D4FF&}BRIEF{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.43,0:00:38.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BEHAUPTET:{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.38,0:00:38.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KAISER{\c&HFFFFFF&} RUDOLF DER
+Dialogue: 0,0:00:38.62,0:00:39.02,Sub,,0,0,0,,KAISER {\c&H0034D4FF&}RUDOLF{\c&HFFFFFF&} DER
+Dialogue: 0,0:00:39.02,0:00:39.37,Sub,,0,0,0,,KAISER RUDOLF {\c&H0034D4FF&}DER{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.37,0:00:39.72,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ZWEITE{\c&HFFFFFF&} SOLL EINMAL
+Dialogue: 0,0:00:39.72,0:00:39.77,Sub,,0,0,0,,ZWEITE {\c&H0034D4FF&}SOLL{\c&HFFFFFF&} EINMAL
+Dialogue: 0,0:00:39.77,0:00:40.04,Sub,,0,0,0,,ZWEITE SOLL {\c&H0034D4FF&}EINMAL{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.04,0:00:40.47,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}600{\c&HFFFFFF&} DUKATEN DAFÜR
+Dialogue: 0,0:00:40.47,0:00:41.09,Sub,,0,0,0,,600 {\c&H0034D4FF&}DUKATEN{\c&HFFFFFF&} DAFÜR
+Dialogue: 0,0:00:41.09,0:00:41.34,Sub,,0,0,0,,600 DUKATEN {\c&H0034D4FF&}DAFÜR{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.34,0:00:41.74,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BEZAHLT{\c&HFFFFFF&} HABEN.
+Dialogue: 0,0:00:41.74,0:00:42.17,Sub,,0,0,0,,BEZAHLT {\c&H0034D4FF&}HABEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.34,0:00:42.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} VERMÖGEN.
+Dialogue: 0,0:00:42.49,0:00:43.19,Sub,,0,0,0,,EIN {\c&H0034D4FF&}VERMÖGEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.70,0:00:43.89,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AB{\c&HFFFFFF&} DEM ZWEITEN
+Dialogue: 0,0:00:43.89,0:00:44.02,Sub,,0,0,0,,AB {\c&H0034D4FF&}DEM{\c&HFFFFFF&} ZWEITEN
+Dialogue: 0,0:00:44.02,0:00:44.40,Sub,,0,0,0,,AB DEM {\c&H0034D4FF&}ZWEITEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.40,0:00:44.85,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WELTKRIEG{\c&HFFFFFF&} VERSUCHEN
+Dialogue: 0,0:00:44.85,0:00:45.13,Sub,,0,0,0,,WELTKRIEG {\c&H0034D4FF&}VERSUCHEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.13,0:00:45.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SICH{\c&HFFFFFF&} DIE BESTEN
+Dialogue: 0,0:00:45.36,0:00:45.53,Sub,,0,0,0,,SICH {\c&H0034D4FF&}DIE{\c&HFFFFFF&} BESTEN
+Dialogue: 0,0:00:45.53,0:00:45.79,Sub,,0,0,0,,SICH DIE {\c&H0034D4FF&}BESTEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.79,0:00:46.47,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KRYPTOLOGEN{\c&HFFFFFF&} AMERIKAS
+Dialogue: 0,0:00:46.47,0:00:47.04,Sub,,0,0,0,,KRYPTOLOGEN {\c&H0034D4FF&}AMERIKAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.04,0:00:47.28,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DARAN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.28,0:00:48.15,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIESELBEN{\c&HFFFFFF&} LEUTE,
+Dialogue: 0,0:00:48.15,0:00:48.58,Sub,,0,0,0,,DIESELBEN {\c&H0034D4FF&}LEUTE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.66,0:00:48.74,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} FEINDLICHE CODES
+Dialogue: 0,0:00:48.74,0:00:49.17,Sub,,0,0,0,,DIE {\c&H0034D4FF&}FEINDLICHE{\c&HFFFFFF&} CODES
+Dialogue: 0,0:00:49.17,0:00:49.47,Sub,,0,0,0,,DIE FEINDLICHE {\c&H0034D4FF&}CODES{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.47,0:00:50.07,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}KNACKTEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.45,0:00:50.66,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SIE{\c&HFFFFFF&} SCHEITERN.
+Dialogue: 0,0:00:50.66,0:00:51.24,Sub,,0,0,0,,SIE {\c&H0034D4FF&}SCHEITERN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.83,0:00:52.42,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}2009{\c&HFFFFFF&} DANN EIN
+Dialogue: 0,0:00:52.42,0:00:52.70,Sub,,0,0,0,,2009 {\c&H0034D4FF&}DANN{\c&HFFFFFF&} EIN
+Dialogue: 0,0:00:52.70,0:00:52.85,Sub,,0,0,0,,2009 DANN {\c&H0034D4FF&}EIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.85,0:00:53.40,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DURCHBRUCH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.40,0:00:53.98,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ZUMINDEST{\c&HFFFFFF&} BEIM ALTER:
+Dialogue: 0,0:00:53.98,0:00:54.17,Sub,,0,0,0,,ZUMINDEST {\c&H0034D4FF&}BEIM{\c&HFFFFFF&} ALTER:
+Dialogue: 0,0:00:54.17,0:00:54.60,Sub,,0,0,0,,ZUMINDEST BEIM {\c&H0034D4FF&}ALTER:{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.00,0:00:55.08,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} PERGAMENT STAMMT
+Dialogue: 0,0:00:55.08,0:00:55.49,Sub,,0,0,0,,DAS {\c&H0034D4FF&}PERGAMENT{\c&HFFFFFF&} STAMMT
+Dialogue: 0,0:00:55.49,0:00:55.89,Sub,,0,0,0,,DAS PERGAMENT {\c&H0034D4FF&}STAMMT{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.89,0:00:55.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}AUS{\c&HFFFFFF&} DEM FRÜHEN
+Dialogue: 0,0:00:55.96,0:00:56.09,Sub,,0,0,0,,AUS {\c&H0034D4FF&}DEM{\c&HFFFFFF&} FRÜHEN
+Dialogue: 0,0:00:56.09,0:00:56.45,Sub,,0,0,0,,AUS DEM {\c&H0034D4FF&}FRÜHEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.45,0:00:57.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}15.{\c&HFFFFFF&} JAHRHUNDERT.
+Dialogue: 0,0:00:57.11,0:00:57.68,Sub,,0,0,0,,15. {\c&H0034D4FF&}JAHRHUNDERT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.89,0:00:58.15,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ÜBER{\c&HFFFFFF&} 600 JAHRE
+Dialogue: 0,0:00:58.15,0:00:58.53,Sub,,0,0,0,,ÜBER {\c&H0034D4FF&}600{\c&HFFFFFF&} JAHRE
+Dialogue: 0,0:00:58.53,0:00:58.98,Sub,,0,0,0,,ÜBER 600 {\c&H0034D4FF&}JAHRE{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.98,0:00:59.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ALT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.77,0:00:59.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ABER{\c&HFFFFFF&} WAS STEHT
+Dialogue: 0,0:00:59.94,0:01:00.15,Sub,,0,0,0,,ABER {\c&H0034D4FF&}WAS{\c&HFFFFFF&} STEHT
+Dialogue: 0,0:01:00.15,0:01:00.34,Sub,,0,0,0,,ABER WAS {\c&H0034D4FF&}STEHT{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.34,0:01:00.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DRIN?{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.11,0:01:01.26,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} GEHEIMSPRACHE?
+Dialogue: 0,0:01:01.26,0:01:02.17,Sub,,0,0,0,,EINE {\c&H0034D4FF&}GEHEIMSPRACHE?{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.40,0:01:02.49,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EIN{\c&HFFFFFF&} VERSCHLÜSSELTES
+Dialogue: 0,0:01:02.49,0:01:03.11,Sub,,0,0,0,,EIN {\c&H0034D4FF&}VERSCHLÜSSELTES{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.11,0:01:03.96,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}MEDIZINBUCH?{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.23,0:01:04.51,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ODER{\c&HFFFFFF&} EIN GENIALER
+Dialogue: 0,0:01:04.51,0:01:05.06,Sub,,0,0,0,,ODER {\c&H0034D4FF&}EIN{\c&HFFFFFF&} GENIALER
+Dialogue: 0,0:01:05.06,0:01:05.60,Sub,,0,0,0,,ODER EIN {\c&H0034D4FF&}GENIALER{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.60,0:01:06.21,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SCHWINDEL?{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.45,0:01:07.07,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}UNSINN,{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.08,0:01:07.17,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SO{\c&HFFFFFF&} GUT GEMACHT,
+Dialogue: 0,0:01:07.17,0:01:07.43,Sub,,0,0,0,,SO {\c&H0034D4FF&}GUT{\c&HFFFFFF&} GEMACHT,
+Dialogue: 0,0:01:07.43,0:01:07.83,Sub,,0,0,0,,SO GUT {\c&H0034D4FF&}GEMACHT,{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.85,0:01:07.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DASS{\c&HFFFFFF&} ER WIE
+Dialogue: 0,0:01:07.91,0:01:08.00,Sub,,0,0,0,,DASS {\c&H0034D4FF&}ER{\c&HFFFFFF&} WIE
+Dialogue: 0,0:01:08.00,0:01:08.11,Sub,,0,0,0,,DASS ER {\c&H0034D4FF&}WIE{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.11,0:01:08.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}EINE{\c&HFFFFFF&} SPRACHE AUSSIEHT?
+Dialogue: 0,0:01:08.30,0:01:08.72,Sub,,0,0,0,,EINE {\c&H0034D4FF&}SPRACHE{\c&HFFFFFF&} AUSSIEHT?
+Dialogue: 0,0:01:08.72,0:01:09.26,Sub,,0,0,0,,EINE SPRACHE {\c&H0034D4FF&}AUSSIEHT?{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.79,0:01:09.92,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DAS{\c&HFFFFFF&} SELTSAME:
+Dialogue: 0,0:01:09.92,0:01:10.58,Sub,,0,0,0,,DAS {\c&H0034D4FF&}SELTSAME:{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.81,0:01:11.53,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}STATISTISCH{\c&HFFFFFF&} VERHÄLT
+Dialogue: 0,0:01:11.53,0:01:11.77,Sub,,0,0,0,,STATISTISCH {\c&H0034D4FF&}VERHÄLT{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.77,0:01:11.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SICH{\c&HFFFFFF&} DER TEXT
+Dialogue: 0,0:01:11.94,0:01:12.11,Sub,,0,0,0,,SICH {\c&H0034D4FF&}DER{\c&HFFFFFF&} TEXT
+Dialogue: 0,0:01:12.11,0:01:12.38,Sub,,0,0,0,,SICH DER {\c&H0034D4FF&}TEXT{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.38,0:01:12.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIE{\c&HFFFFFF&} EINE ECHTE
+Dialogue: 0,0:01:12.62,0:01:12.87,Sub,,0,0,0,,WIE {\c&H0034D4FF&}EINE{\c&HFFFFFF&} ECHTE
+Dialogue: 0,0:01:12.87,0:01:13.09,Sub,,0,0,0,,WIE EINE {\c&H0034D4FF&}ECHTE{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.09,0:01:13.72,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SPRACHE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.00,0:01:14.30,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WÖRTER{\c&HFFFFFF&} WIEDERHOLEN
+Dialogue: 0,0:01:14.30,0:01:14.79,Sub,,0,0,0,,WÖRTER {\c&H0034D4FF&}WIEDERHOLEN{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.79,0:01:14.91,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SICH{\c&HFFFFFF&} IN MUSTERN,
+Dialogue: 0,0:01:14.91,0:01:15.06,Sub,,0,0,0,,SICH {\c&H0034D4FF&}IN{\c&HFFFFFF&} MUSTERN,
+Dialogue: 0,0:01:15.06,0:01:15.58,Sub,,0,0,0,,SICH IN {\c&H0034D4FF&}MUSTERN,{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.60,0:01:15.72,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WIE{\c&HFFFFFF&} IN JEDER
+Dialogue: 0,0:01:15.72,0:01:15.85,Sub,,0,0,0,,WIE {\c&H0034D4FF&}IN{\c&HFFFFFF&} JEDER
+Dialogue: 0,0:01:15.85,0:01:16.04,Sub,,0,0,0,,WIE IN {\c&H0034D4FF&}JEDER{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.04,0:01:16.62,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}NATÜRLICHEN{\c&HFFFFFF&} SPRACHE.
+Dialogue: 0,0:01:16.62,0:01:17.13,Sub,,0,0,0,,NATÜRLICHEN {\c&H0034D4FF&}SPRACHE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.58,0:01:17.85,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}IMMER{\c&HFFFFFF&} WIEDER BEHAUPTET
+Dialogue: 0,0:01:17.85,0:01:18.08,Sub,,0,0,0,,IMMER {\c&H0034D4FF&}WIEDER{\c&HFFFFFF&} BEHAUPTET
+Dialogue: 0,0:01:18.08,0:01:18.55,Sub,,0,0,0,,IMMER WIEDER {\c&H0034D4FF&}BEHAUPTET{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.55,0:01:18.94,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}JEMAND,{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.98,0:01:19.00,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DEN{\c&HFFFFFF&} CODE GEKNACKT
+Dialogue: 0,0:01:19.00,0:01:19.23,Sub,,0,0,0,,DEN {\c&H0034D4FF&}CODE{\c&HFFFFFF&} GEKNACKT
+Dialogue: 0,0:01:19.23,0:01:19.68,Sub,,0,0,0,,DEN CODE {\c&H0034D4FF&}GEKNACKT{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.68,0:01:19.79,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ZU{\c&HFFFFFF&} HABEN.
+Dialogue: 0,0:01:19.79,0:01:20.00,Sub,,0,0,0,,ZU {\c&H0034D4FF&}HABEN.{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.00,0:01:20.77,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BEWEISEN{\c&HFFFFFF&} KONNTE ES
+Dialogue: 0,0:01:20.77,0:01:21.09,Sub,,0,0,0,,BEWEISEN {\c&H0034D4FF&}KONNTE{\c&HFFFFFF&} ES
+Dialogue: 0,0:01:21.09,0:01:21.26,Sub,,0,0,0,,BEWEISEN KONNTE {\c&H0034D4FF&}ES{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.26,0:01:21.36,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BIS{\c&HFFFFFF&} HEUTE {\c&H3C3CFF&}NIEMAND.{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.36,0:01:21.66,Sub,,0,0,0,,BIS {\c&H0034D4FF&}HEUTE{\c&HFFFFFF&} {\c&H3C3CFF&}NIEMAND.{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.66,0:01:22.09,Sub,,0,0,0,,BIS HEUTE {\c&H3C3CFF&}NIEMAND.{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.57,0:01:22.81,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}HEUTE{\c&HFFFFFF&} LIEGT DAS
+Dialogue: 0,0:01:22.81,0:01:23.06,Sub,,0,0,0,,HEUTE {\c&H0034D4FF&}LIEGT{\c&HFFFFFF&} DAS
+Dialogue: 0,0:01:23.06,0:01:23.23,Sub,,0,0,0,,HEUTE LIEGT {\c&H0034D4FF&}DAS{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.23,0:01:23.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BUCH{\c&HFFFFFF&} IN EINER
+Dialogue: 0,0:01:23.43,0:01:23.62,Sub,,0,0,0,,BUCH {\c&H0034D4FF&}IN{\c&HFFFFFF&} EINER
+Dialogue: 0,0:01:23.62,0:01:23.79,Sub,,0,0,0,,BUCH IN {\c&H0034D4FF&}EINER{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.79,0:01:24.43,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}BIBLIOTHEK{\c&HFFFFFF&} DER UNIVERSITÄT
+Dialogue: 0,0:01:24.43,0:01:24.53,Sub,,0,0,0,,BIBLIOTHEK {\c&H0034D4FF&}DER{\c&HFFFFFF&} UNIVERSITÄT
+Dialogue: 0,0:01:24.53,0:01:25.19,Sub,,0,0,0,,BIBLIOTHEK DER {\c&H0034D4FF&}UNIVERSITÄT{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.19,0:01:25.60,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}YALE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.00,0:01:26.25,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}JEDE{\c&HFFFFFF&} SEITE IST
+Dialogue: 0,0:01:26.25,0:01:26.45,Sub,,0,0,0,,JEDE {\c&H0034D4FF&}SEITE{\c&HFFFFFF&} IST
+Dialogue: 0,0:01:26.45,0:01:26.68,Sub,,0,0,0,,JEDE SEITE {\c&H0034D4FF&}IST{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.68,0:01:27.11,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}ONLINE.{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.45,0:01:27.60,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}JEDER{\c&HFFFFFF&} KANN ES
+Dialogue: 0,0:01:27.60,0:01:27.85,Sub,,0,0,0,,JEDER {\c&H0034D4FF&}KANN{\c&HFFFFFF&} ES
+Dialogue: 0,0:01:27.85,0:01:27.96,Sub,,0,0,0,,JEDER KANN {\c&H0034D4FF&}ES{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.96,0:01:28.09,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}SICH{\c&HFFFFFF&} ANSEHEN.
+Dialogue: 0,0:01:28.09,0:01:28.62,Sub,,0,0,0,,SICH {\c&H0034D4FF&}ANSEHEN.{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.04,0:01:29.26,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}VIELLEICHT{\c&HFFFFFF&} BIST DU
+Dialogue: 0,0:01:29.26,0:01:29.51,Sub,,0,0,0,,VIELLEICHT {\c&H0034D4FF&}BIST{\c&HFFFFFF&} DU
+Dialogue: 0,0:01:29.51,0:01:29.72,Sub,,0,0,0,,VIELLEICHT BIST {\c&H0034D4FF&}DU{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.72,0:01:29.83,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} PERSON,
+Dialogue: 0,0:01:29.83,0:01:30.19,Sub,,0,0,0,,DIE {\c&H0034D4FF&}PERSON,{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.19,0:01:30.34,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIE{\c&HFFFFFF&} ES ENDLICH
+Dialogue: 0,0:01:30.34,0:01:30.43,Sub,,0,0,0,,DIE {\c&H0034D4FF&}ES{\c&HFFFFFF&} ENDLICH
+Dialogue: 0,0:01:30.43,0:01:30.66,Sub,,0,0,0,,DIE ES {\c&H0034D4FF&}ENDLICH{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.66,0:01:31.28,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}LIEST.{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.62,0:01:31.74,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} GLAUBST DU
+Dialogue: 0,0:01:31.74,0:01:32.06,Sub,,0,0,0,,WAS {\c&H0034D4FF&}GLAUBST{\c&HFFFFFF&} DU
+Dialogue: 0,0:01:32.06,0:01:32.36,Sub,,0,0,0,,WAS GLAUBST {\c&H0034D4FF&}DU{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.68,0:01:32.83,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}WAS{\c&HFFFFFF&} STEHT IN
+Dialogue: 0,0:01:32.83,0:01:33.09,Sub,,0,0,0,,WAS {\c&H0034D4FF&}STEHT{\c&HFFFFFF&} IN
+Dialogue: 0,0:01:33.09,0:01:33.28,Sub,,0,0,0,,WAS STEHT {\c&H0034D4FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.28,0:01:33.45,Sub,,0,0,0,,{\fscx80\fscy80\t(0,100,\fscx100\fscy100)}{\c&H0034D4FF&}DIESEM{\c&HFFFFFF&} BUCH?
+Dialogue: 0,0:01:33.45,0:01:33.85,Sub,,0,0,0,,DIESEM {\c&H0034D4FF&}BUCH?{\c&HFFFFFF&}
