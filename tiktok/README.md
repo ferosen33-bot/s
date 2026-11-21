@@ -15,6 +15,14 @@ Sprache Deutsch · Ziel: Creator Rewards (Videos über 1 Minute) · 1 Video pro 
 | 8 | Roanoke | fertig: `08-roanoke/roanoke_tiktok.mp4` |
 | 9 | Wow!-Signal | Skript + Stimme fertig, Bilder fehlen (ElevenLabs-Credits aufgebraucht) |
 | 10 | Antikythera-Mechanismus | Skript + Stimme fertig, Bilder fehlen (ElevenLabs-Credits aufgebraucht) |
+| 11 | Rattenfänger von Hameln | Skript fertig |
+| 12 | Hinterkaifeck | Skript fertig |
+| 13 | Phantom von Heilbronn | Skript fertig |
+| 14 | Flannan Isles | Skript fertig |
+| 15 | Somerton-Mann | Skript fertig |
+| 16 | Kryptos | Skript fertig |
+| 17 | Göbekli Tepe | Skript fertig |
+| 18 | Himmelsscheibe von Nebra | Skript fertig |
 
 ## Ablauf pro Folge
 1. **Skript** (`skript.md`): Hook → Kontext → Steigerung → Theorien → offenes Ende mit Frage. Fakten prüfen.
