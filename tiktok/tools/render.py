@@ -161,7 +161,7 @@ def main(cfg_path):
     ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y',
                            '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                            '-i', mixwav, '-vf', vf,
-                           '-c:v', 'libx264', '-preset', 'medium', '-crf', '20', '-maxrate', '8M', '-bufsize', '16M', '-profile:v', 'high',
+                           '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-maxrate', '6M', '-bufsize', '12M', '-profile:v', 'high',
                            '-c:a', 'aac', '-b:a', '192k', '-shortest',
                            '-movflags', '+faststart', cfg['ausgabe']], stdin=subprocess.PIPE)
     mask = feather_mask()
