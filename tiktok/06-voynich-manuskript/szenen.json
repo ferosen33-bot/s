@@ -1,6 +1,7 @@
 {
   "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
   "hook": "Dieses Buch kann bis heute niemand lesen",
+  "akte": "08",
   "ausgabe": "voynich_manuskript_tiktok.mp4",
   "szenen": [
     {"ab": "Es gibt",          "bild": "bilder/01_buch_2.png",         "von": [0.50, 0.55, 1.30], "nach": [0.50, 0.50, 1.00]},

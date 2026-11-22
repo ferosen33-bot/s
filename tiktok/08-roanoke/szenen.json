@@ -1,6 +1,7 @@
 {
   "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
   "hook": "Über 100 Menschen verschwinden – zurück bleibt ein Wort",
+  "akte": "06",
   "ausgabe": "roanoke_tiktok.mp4",
   "szenen": [
     {"ab": "1587.",              "bild": "bilder/01_ankunft_2.png",      "von": [0.50, 0.50, 1.00], "nach": [0.50, 0.45, 1.30]},

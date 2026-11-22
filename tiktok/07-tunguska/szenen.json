@@ -1,6 +1,7 @@
 {
   "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
   "hook": "80 Millionen Bäume umgeknickt – aber kein Krater",
+  "akte": "04",
   "ausgabe": "tunguska_tiktok.mp4",
   "szenen": [
     {"ab": "30.",                     "bild": "bilder/01_feuerball_2.png",   "von": [0.50, 0.45, 1.00], "nach": [0.50, 0.40, 1.30]},

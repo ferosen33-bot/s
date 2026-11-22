@@ -3,6 +3,7 @@
   "audio": "audio/take1.mp3",
   "woerter": "audio/take1_words.json",
   "hook": "Sie flohen ohne Schuhe in den Schnee. Warum?",
+  "akte": "01",
   "ausgabe": "djatlow_pass_tiktok.mp4",
   "szenen": [
     {"ab": "Februar 1959.",          "bild": "bilder/01_zelt_2.png",      "von": [0.50, 0.55, 1.00], "nach": [0.42, 0.45, 1.25]},

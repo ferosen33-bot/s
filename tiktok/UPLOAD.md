@@ -16,16 +16,16 @@ Alles, was du zum Posten brauchst: Reihenfolge, Datei, Caption zum Kopieren und 
 
 | Tag | Datum | Folge |
 |---|---|---|
-| 1 | So 22.11. | Akte 02 – Djatlow-Pass |
-| 2 | Mo 23.11. | Akte 01 – Kaspar Hauser |
+| 1 | So 22.11. | Akte 01 – Djatlow-Pass |
+| 2 | Mo 23.11. | Akte 02 – Kaspar Hauser |
 | 3 | Di 24.11. | Akte 03 – Mary Celeste |
-| 4 | Mi 25.11. | Akte 07 – Tunguska |
-| 5 | Do 26.11. | Akte 04 – Tanzwut 1518 |
-| 6 | Fr 27.11. | Akte 08 – Roanoke |
-| 7 | Sa 28.11. | Akte 05 – Bernsteinzimmer |
-| 8 | So 29.11. | Akte 06 – Voynich-Manuskript |
+| 4 | Mi 25.11. | Akte 04 – Tunguska |
+| 5 | Do 26.11. | Akte 05 – Tanzwut 1518 |
+| 6 | Fr 27.11. | Akte 06 – Roanoke |
+| 7 | Sa 28.11. | Akte 07 – Bernsteinzimmer |
+| 8 | So 29.11. | Akte 08 – Voynich-Manuskript |
 
-Die Aktennummer im Video muss nicht zur Reihenfolge passen. Sie ist die Fallnummer im Archiv, nicht die Folge.
+Die Aktennummer im Video entspricht der Posting-Reihenfolge (Akte 01 = erster Post). Die Ordnernamen haben eine andere Nummerierung, das ist egal.
 
 ---
 

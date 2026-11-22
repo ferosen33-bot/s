@@ -151,7 +151,7 @@ def main(cfg_path):
     # Untertitel + Hook
     ass = 'audio/untertitel_video.ass'
     m = re.match(r'(\d+)-', os.path.basename(os.path.abspath('.')))
-    n = ut.karaoke_ass(sw, times, ass, cfg.get('hook'), m.group(1) if m else None, ende=total)
+    n = ut.karaoke_ass(sw, times, ass, cfg.get('hook'), cfg.get('akte') or (m.group(1) if m else None), ende=total)
     print(f'{n} Untertitel -> {ass}')
 
     vf = (f"eq=contrast=1.06:saturation=1.08:gamma=1.03,"

@@ -1,6 +1,7 @@
 {
   "skript": "skript.md", "audio": "audio/take1.mp3", "woerter": "audio/take1_words.json",
   "hook": "Ein Schiff voller Vorräte. Aber niemand an Bord.",
+  "akte": "03",
   "ausgabe": "mary_celeste_tiktok.mp4",
   "szenen": [
     {"ab": "4. Dezember",        "bild": "bilder/01_schiff_2.png",         "von": [0.50, 0.30, 1.30], "nach": [0.50, 0.40, 1.00]},

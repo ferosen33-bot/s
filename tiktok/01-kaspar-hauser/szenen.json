@@ -3,6 +3,7 @@
   "audio": "audio/take1.mp3",
   "woerter": "audio/take1_words.json",
   "hook": "Bis heute weiß niemand, wer dieser Junge war",
+  "akte": "02",
   "ausgabe": "kaspar_hauser_tiktok.mp4",
   "szenen": [
     {"ab": "26.",               "bild": "bilder/nuernberg.png",   "von": [0.35, 0.50, 1.00], "nach": [0.68, 0.55, 1.15]},
