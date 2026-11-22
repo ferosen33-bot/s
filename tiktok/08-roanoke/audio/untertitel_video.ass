@@ -13,7 +13,7 @@ Style: Gelb,Inter ExtraBold,94,&H0034D4FF,&H0034D4FF,&H00000000,&H96000000,-1,0,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{\fad(0,300)}AKTE 08
+Dialogue: 2,0:00:00.00,0:00:03.80,Akte,,0,0,0,,{\fad(0,300)}AKTE 06
 Dialogue: 1,0:00:00.00,0:00:03.80,Hook,,0,0,0,,{\fad(0,300)\fscx112\fscy112\t(0,160,\fscx100\fscy100)}ÜBER 100 MENSCHEN VERSCHWINDEN – ZURÜCK BLEIBT EIN WORT
 Dialogue: 2,0:01:35.16,0:01:37.76,Akte,,0,0,0,,{\fad(200,0)}VERBORGENE AKTEN
 Dialogue: 1,0:01:35.16,0:01:37.76,Hook,,0,0,0,,{\fad(200,0)\fscx90\fscy90\t(0,200,\fscx100\fscy100)}FOLGE FÜR DIE NÄCHSTE AKTE
