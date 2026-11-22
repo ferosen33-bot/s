@@ -1,0 +1,18 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Label,Inter ExtraBold,46,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,12,0,8,80,80,560,1
+Style: Titel,Inter Black,104,&H00E6F0F5,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,2,0,1,6,4,8,60,60,640,1
+Style: Text,Inter ExtraBold,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,20,0,5,90,90,0,1
+Style: Gold,Inter ExtraBold,58,&H005AAFD4,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,2,80,80,520,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:05.00,Label,,0,0,0,,NEUE AKTE
+Dialogue: 2,0:00:00.00,0:00:05.00,Titel,,0,0,0,,AKTE 04
+Dialogue: 1,0:00:00.00,0:00:05.00,Text,,0,0,0,,80 MILLIONEN BÄUME\NUMGEKNICKT –\NABER KEIN KRATER
+Dialogue: 1,0:00:00.00,0:00:05.00,Gold,,0,0,0,,JETZT AUF MEINEM PROFIL
