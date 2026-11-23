@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Label,Inter ExtraBold,46,&H00FFFFFF,&H00FFFFFF,&H002020C8,&H002020C8,-1,0,0,0,100,100,6,0,3,12,0,8,80,80,560,1
+Style: Titel,Inter Black,104,&H00E6F0F5,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,2,0,1,6,4,8,60,60,640,1
+Style: Text,Inter ExtraBold,66,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,3,20,0,5,90,90,0,1
+Style: Gold,Inter ExtraBold,58,&H005AAFD4,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,5,3,2,80,80,520,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:14.30,Label,,0,0,0,,NEUE AKTE
+Dialogue: 2,0:00:00.00,0:00:14.30,Titel,,0,0,0,,{\fscx115\fscy115\t(0,180,\fscx100\fscy100)}AKTE 06
+Dialogue: 1,0:00:00.30,0:00:09.54,Text,,0,0,0,,{\fad(150,150)}ÜBER 100 MENSCHEN\NVERSCHWINDEN –\NZURÜCK BLEIBT EIN WORT
+Dialogue: 1,0:00:09.64,0:00:12.50,Text,,0,0,0,,{\fscx120\fscy120\t(0,150,\fscx100\fscy100)}WOHIN SIND\NSIE ALLE?
+Dialogue: 1,0:00:12.60,0:00:14.30,Text,,0,0,0,,{\fad(150,0)}DIE GANZE AKTE:\NJETZT AUF MEINEM PROFIL
+Dialogue: 1,0:00:00.00,0:00:14.30,Gold,,0,0,0,,ROANOKE · 1587
